@@ -1535,7 +1535,7 @@ movedata MOVE_HYPNOSIS, "Hypnosis"
     pss SPLIT_STATUS
     basepower 0
     type TYPE_PSYCHIC
-    accuracy 60
+    accuracy 65
     pp 20
     effectchance 0
     target RANGE_SINGLE_TARGET
