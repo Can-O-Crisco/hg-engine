@@ -14098,12 +14098,12 @@ levelup SPECIES_JOLTIK
     learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_STRING_SHOT, 1
     learnset MOVE_SPIDER_WEB, 1
-    learnset MOVE_ELECTROWEB, 9
+    learnset MOVE_ELECTROWEB, 7
     learnset MOVE_THUNDER_WAVE, 10
-    learnset MOVE_BUG_BITE, 12
-    learnset MOVE_STRING_SHOT, 12
-    learnset MOVE_FURY_CUTTER, 12
-    learnset MOVE_ELECTRO_BALL, 24
+    learnset MOVE_STRUGGLE_BUG, 13
+    learnset MOVE_STRING_SHOT, 15
+    learnset MOVE_FURY_CUTTER, 18
+    learnset MOVE_ELECTRO_BALL, 22
     learnset MOVE_SCREECH, 24
     learnset MOVE_SLASH, 29
     learnset MOVE_AGILITY, 30
@@ -24426,7 +24426,7 @@ levelup SPECIES_RATTATA_ALOLAN
     learnset MOVE_BITE, 10
     learnset MOVE_PURSUIT, 13
     learnset MOVE_HYPER_FANG, 16
-    learnset MOVE_ASSURANCE, 19
+    learnset MOVE_ASSURANCE, 18
     learnset MOVE_CRUNCH, 22
     learnset MOVE_SUCKER_PUNCH, 25
     learnset MOVE_SUPER_FANG, 28
@@ -24448,7 +24448,7 @@ levelup SPECIES_RATICATE_ALOLAN
     learnset MOVE_BITE, 10
     learnset MOVE_PURSUIT, 13
     learnset MOVE_HYPER_FANG, 16
-    learnset MOVE_ASSURANCE, 19
+    learnset MOVE_ASSURANCE, 18
     learnset MOVE_CRUNCH, 24
     learnset MOVE_SUCKER_PUNCH, 29
     learnset MOVE_SUPER_FANG, 34
