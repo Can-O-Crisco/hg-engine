@@ -17,12 +17,62 @@ EIGHT_BADGES equ 6
 /* General Poké Mart Table */
 .org 0x020FBF22
 
-.halfword ITEM_MASTER_BALL
+.halfword ITEM_LONELY_MINT
 .halfword ZERO_BADGES
+
+.halfword ITEM_GREAT_BALL
+.halfword ONE_BADGE
+
+.halfword ITEM_ULTRA_BALL
+.halfword THREE_BADGES
+
+.halfword ITEM_ADAMANT_MINT
+.halfword ZERO_BADGES
+
+.halfword ITEM_SUPER_POTION
+.halfword ONE_BADGE
+
+.halfword ITEM_HYPER_POTION
+.halfword THREE_BADGES
+
+.halfword ITEM_MAX_POTION
+.halfword SEVEN_BADGES
+
+.halfword ITEM_FULL_RESTORE
+.halfword EIGHT_BADGES
+
+.halfword ITEM_ETHER
+.halfword ZERO_BADGES
+
+.halfword ITEM_MAX_ETHER
+.halfword THREE_BADGES
+
+.halfword ITEM_ELIXIR
+.halfword FIVE_BADGES
+
+.halfword ITEM_MAX_ELIXIR
+.halfword SEVEN_BADGES
+
+.halfword ITEM_REVIVE
+.halfword THREE_BADGES
+
+.halfword ITEM_MAX_REVIVE
+.halfword EIGHT_BADGES
+
+.halfword ITEM_FULL_HEAL
+.halfword ZERO_BADGES
+
+.halfword ITEM_REPEL
+.halfword ZERO_BADGES
+
+.halfword ITEM_SUPER_REPEL
+.halfword THREE_BADGES
 
 .halfword ITEM_MAX_REPEL
-.halfword ZERO_BADGES
+.halfword FIVE_BADGES
 
+.halfword ITEM_POKE_DOLL
+.halfword ZERO_BADGES
 
 /** Special Mart Index - This is not in byte order
 const u16 *_0210FA3C[] = {
@@ -62,37 +112,9 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBA54[] = {ITEM_AIR_MAIL, ITEM_HEAL_BALL, 0xFFFF}; */
 /* Cherrygrove City 2nd Clerk -> Violet City 2nd Clerk */
 .org 0x020FBA54
-.halfword ITEM_ORAN_BERRY
-.halfword ITEM_CHILAN_BERRY
-.halfword ITEM_EVERSTONE
-.halfword ITEM_YACHE_BERRY
-.halfword ITEM_PECHA_BERRY
-.halfword ITEM_TANGA_BERRY
-.halfword ITEM_RAWST_BERRY
-.halfword ITEM_LEPPA_BERRY
-.halfword ITEM_PASSHO_BERRY
-.halfword ITEM_CHARTI_BERRY
-.halfword ITEM_MOON_STONE
-.halfword ITEM_METRONOME
-.halfword ITEM_WACAN_BERRY
-.halfword ITEM_SILVER_POWDER
-.halfword ITEM_SHED_SHELL
-.halfword ITEM_TWISTED_SPOON
-.halfword ITEM_POISON_BARB
-.halfword ITEM_METAL_COAT
-.halfword ITEM_COLBUR_BERRY
-.halfword ITEM_CHERI_BERRY
-.halfword ITEM_QUICK_CLAW
-.halfword ITEM_CHESTO_BERRY
-.halfword ITEM_HARD_STONE
-.halfword ITEM_THICK_CLUB
-.halfword ITEM_HABAN_BERRY
-.halfword ITEM_DRAGON_FANG
-.halfword ITEM_BLACK_SLUDGE
-.halfword ITEM_DEEP_SEA_SCALE
-.halfword ITEM_LAGGING_TAIL
+.halfword ITEM_HEAL_BALL
+.halfword ITEM_NET_BALL
 .halfword 0xFFFF
-
 
 /* const u16 _020FBA5A[] = {ITEM_AIR_MAIL, ITEM_QUICK_BALL, 0xFFFF}; */
 
@@ -111,48 +133,9 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBA78[] = {ITEM_TUNNEL_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
 /* Violet City -> Goldenrod Flower Shop */
 .org 0x020FBA78
-.halfword ITEM_QUICK_BALL
-.halfword ITEM_LEVEL_BALL
-.halfword ITEM_PREMIER_BALL
-.halfword ITEM_NET_BALL
-.halfword ITEM_NEST_BALL
-
-.halfword ITEM_DIVE_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_DREAM_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_DUSK_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_FAST_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_FRIEND_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_HEAL_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_HEAVY_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_LOVE_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_LURE_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_LUXURY_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_MOON_BALL
-.halfword THREE_BADGES
-
-.halfword ITEM_TIMER_BALL
-.halfword THREE_BADGES
-
+.halfword ITEM_POWER_HERB
+.halfword ITEM_MENTAL_HERB
+.halfword ITEM_WHITE_HERB
 .halfword 0xFFFF
 
 /* const u16 _020FBA80[] = {ITEM_AIR_MAIL, ITEM_NET_BALL, ITEM_DUSK_BALL, 0xFFFF}; */

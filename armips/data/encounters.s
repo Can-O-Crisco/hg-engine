@@ -300,14 +300,14 @@ encounter SPECIES_CORPHISH, 5, 10
 // good rod encounters
 encounter SPECIES_KRABBY, 20, 30
 encounter SPECIES_FINNEON, 20, 30
-encounter SPECIES_CORPISH, 20, 30
+encounter SPECIES_CORPHISH, 20, 30
 encounter SPECIES_FINNEON, 20, 30
 encounter SPECIES_KRABBY, 20, 30
 
 // super rod encounters
 encounter SPECIES_LUMINEON, 40, 40
 encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_CRAWDAUNT 40, 40
+encounter SPECIES_CRAWDAUNT, 40, 40
 encounter SPECIES_KINGLER, 40, 40
 encounter SPECIES_LUMINEON, 40, 40
 
@@ -864,8 +864,8 @@ pokemon SPECIES_NINCADA
 pokemon SPECIES_HOPPIP
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_PICHIRISU
-pokemon SPECIES_PICHIRISU
+pokemon SPECIES_PACHIRISU
+pokemon SPECIES_PACHIRISU
 
 // day encounter slots
 pokemon SPECIES_MAREEP
@@ -878,8 +878,8 @@ pokemon SPECIES_NINCADA
 pokemon SPECIES_HOPPIP
 pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_PICHIRISU
-pokemon SPECIES_PICHIRISU
+pokemon SPECIES_PACHIRISU
+pokemon SPECIES_PACHIRISU
 
 // night encounter slots
 pokemon SPECIES_MAREEP
