@@ -17,7 +17,7 @@ EIGHT_BADGES equ 6
 /* General Poké Mart Table */
 .org 0x020FBF22
 
-.halfword ITEM_LONELY_MINT
+.halfword ITEM_MASTER_BALL
 .halfword ZERO_BADGES
 
 .halfword ITEM_GREAT_BALL
@@ -112,8 +112,9 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBA54[] = {ITEM_AIR_MAIL, ITEM_HEAL_BALL, 0xFFFF}; */
 /* Cherrygrove City 2nd Clerk -> Violet City 2nd Clerk */
 .org 0x020FBA54
+.halfword ITEM_ORAN_BERRY
+.halfword ITEM_LUM_BERRY
 .halfword ITEM_HEAL_BALL
-.halfword ITEM_NET_BALL
 .halfword 0xFFFF
 
 /* const u16 _020FBA5A[] = {ITEM_AIR_MAIL, ITEM_QUICK_BALL, 0xFFFF}; */
