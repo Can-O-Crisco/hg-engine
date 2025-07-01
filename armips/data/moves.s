@@ -186,7 +186,7 @@ movedata MOVE_SCRATCH, "Scratch"
     terminatedata
     movedescription MOVE_SCRATCH, "Hard, pointed, and\nsharp claws rake the\nfoe to inflict damage.\n\n"
 
-movedata MOVE_VICE_GRIP, "Vise Grip"
+movedata MOVE_VICE_GRIP, "Vice Grip"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 55
@@ -426,7 +426,7 @@ movedata MOVE_MEGA_KICK, "Mega Kick"
     terminatedata
     movedescription MOVE_MEGA_KICK, "The foe is attacked\nby a kick launched\nwith muscle-packed\npower.\n"
 
-movedata MOVE_JUMP_KICK, "Jump Kick"
+movedata MOVE_JUMP_KICK, "Hi-Jump Kick"
     battleeffect MOVE_EFFECT_CRASH_ON_MISS
     pss SPLIT_PHYSICAL
     basepower 100

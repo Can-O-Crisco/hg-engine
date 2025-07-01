@@ -1788,7 +1788,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels  14, 14, 14, 14, 15, 15, 15, 15, 16, 16, 16
+walklevels  14, 14, 14, 14, 15, 15, 15, 15, 16, 16, 16, 16
             
 // morning encounter slots
 pokemon SPECIES_CROAGUNK
@@ -2209,9 +2209,9 @@ walklevels 10, 11, 10, 11, 12, 12, 5, 10, 13, 10, 13, 10
 // morning encounter slots
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_GULPIN
-pokemon SPECIES_ELEKTRIKE
+pokemon SPECIES_ELECTRIKE
 pokemon SPECIES_BONSLY
-pokemon SPECIES_MIME_JR
+pokemon SPECIES_MIMEJR
 pokemon SPECIES_ABRA
 pokemon SPECIES_DITTO
 pokemon SPECIES_SNUBBULL
@@ -2223,9 +2223,9 @@ pokemon SPECIES_KADABRA
 // day encounter slots
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_GULPIN
-pokemon SPECIES_ELEKTRIKE
+pokemon SPECIES_ELECTRIKE
 pokemon SPECIES_BONSLY
-pokemon SPECIES_MIME_JR
+pokemon SPECIES_MIMEJR
 pokemon SPECIES_ABRA
 pokemon SPECIES_DITTO
 pokemon SPECIES_SNUBBULL
@@ -2237,9 +2237,9 @@ pokemon SPECIES_KADABRA
 // night encounter slots
 pokemon SPECIES_DROWZEE
 pokemon SPECIES_GULPIN
-pokemon SPECIES_ELEKTRIKE
+pokemon SPECIES_ELECTRIKE
 pokemon SPECIES_BONSLY
-pokemon SPECIES_MIME_JR
+pokemon SPECIES_MIMEJR
 pokemon SPECIES_ABRA
 pokemon SPECIES_DITTO
 pokemon SPECIES_SNUBBULL
