@@ -7,6 +7,17 @@
 
 // Each encounter data has been labeled with the area it gets used.
 // Some are labeled ???, these are most likely not used.
+// Need to adjust level cap and Pokemons levels n grass and water together.
+// Done encounters up to route Violet City.
+// Grass Encounter Percentages work like 20, 20, 10, 10, 10, 10, 5, 5, 4, 1, 4, 1
+// Fishing Encounter Percentages work like 40, 30, 15, 4, 1
+// Surfing Encounter Percentages work like 60, 30, 5, 4, 1
+// The Above Is Default Encounter Percentages Outve DSPRE/HGSS
+
+// Below is the Encounter Percentages Revised from Drayano using HG-Engine
+// Grass Encounter Percentages work like 10, 10, 10, 10, 10, 10, 10, 10, 5, 5, 5, 5
+// Fishing Encounter Percentages work like 40, 20, 20, 10, 10
+// Surfing Encounter Percentages work like 40, 20, 20, 10, 10
 
 // Grass Encounter Percentages work like 20, 20, 10, 10, 10, 10, 5, 5, 4, 1, 4, 1
 // Fishing Encounter Percentages work like 40, 30, 15, 4, 1
@@ -243,6 +254,7 @@ pokemon SPECIES_HOPPIP
 pokemon SPECIES_LOTAD
 pokemon SPECIES_PETILIL
 pokemon SPECIES_DEERLING
+pokemon SPECIES_CHERUBI
 pokemon SPECIES_PUMPKABOO
 pokemon SPECIES_EXEGGCUTE
 pokemon SPECIES_FERROSEED
@@ -14784,6 +14796,7 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_MAGIKARP
 
 .close
+
 
 encounterdata 142   // Azalea Town
 

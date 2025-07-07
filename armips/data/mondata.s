@@ -11966,7 +11966,7 @@ mondata SPECIES_MUSHARNA, "Musharna"
 
 mondata SPECIES_PIDOVE, "Pidove"
     basestats 50, 35, 50, 50, 65, 35
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FLYING, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_FLYING
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 0
@@ -11987,7 +11987,7 @@ mondata SPECIES_PIDOVE, "Pidove"
 
 mondata SPECIES_TRANQUILL, "Tranquill"
     basestats 65, 50, 65, 65, 85, 45
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FLYING, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_FLYING
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 0
@@ -12008,7 +12008,7 @@ mondata SPECIES_TRANQUILL, "Tranquill"
 
 mondata SPECIES_UNFEZANT, "Unfezant"
     basestats 85, 65, 80, 100, 115, 60
-    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_FLYING
+    types TYPE_FLYING, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 0

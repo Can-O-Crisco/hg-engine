@@ -115,6 +115,7 @@ trainerdata 4, "Wade"
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
+
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
@@ -9012,14 +9013,21 @@ trainerdata 249, "Don"
         // mon 0
         ivs 0
         abilityslot 0
+<<<<<<< HEAD
         level 11
         pokemon SPECIES_SURSKIT
         item ITEM_ORAN_BERRY
+=======
+        level 8
+        pokemon SPECIES_SURSKIT
+        item ITEM_NONE
+>>>>>>> main
         move MOVE_BUBBLE
         move MOVE_QUICK_ATTACK
         move MOVE_STRUGGLE_BUG
         move MOVE_NONE
         ability ABILITY_SWIFT_SWIM
+<<<<<<< HEAD
         setivs 15, 15, 15, 15, 15, 15
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_TIMID
@@ -9029,6 +9037,7 @@ trainerdata 249, "Don"
         // mon 1
         ivs 0
         abilityslot 0
+<<<<<<< HEAD
         level 11
         pokemon SPECIES_KAKUNA
         item ITEM_POISON_BARB
@@ -9046,11 +9055,13 @@ trainerdata 249, "Don"
         // mon 2
         ivs 0
         abilityslot 0
+<<<<<<< HEAD
         level 11
         pokemon SPECIES_PARAS
         item ITEM_ORAN_BERRY
         move MOVE_BUG_BITE
         move MOVE_LEECH_SEED
+<<<<<<< HEAD
         move MOVE_SHADOW_SNEAK
         move MOVE_STUN_SPORE
         ability ABILITY_EFFECT_SPORE
@@ -11187,6 +11198,7 @@ trainerdata 290, "Li"
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
+<<<<<<< HEAD
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry

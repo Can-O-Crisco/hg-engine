@@ -6,8 +6,7 @@
 .include "asm/include/moves.inc"
 .include "asm/include/species.inc"
 
-// the level up moves for each pokemon
-// 
+// the level up moves for each pokemon 
 
 
 levelup SPECIES_NONE
@@ -1030,7 +1029,7 @@ levelup SPECIES_VILEPLUME
     terminatelearnset
 
 
-levelup SPECIES_PARAS
+levelup SPECIES_PARAS // Added New Moves
     learnset MOVE_SCRATCH, 1
     learnset MOVE_ASTONISH, 1
     learnset MOVE_BUG_BITE, 1
@@ -9256,7 +9255,7 @@ levelup SPECIES_BIBAREL
     terminatelearnset
 
 
-levelup SPECIES_KRICKETOT
+levelup SPECIES_KRICKETOT // Update Moveset
     learnset MOVE_GROWL, 1
     learnset MOVE_ECHOED_VOICE, 1
     learnset MOVE_STRUGGLE_BUG, 6
@@ -9269,7 +9268,7 @@ levelup SPECIES_KRICKETOT
     terminatelearnset
 
 
-levelup SPECIES_KRICKETUNE
+levelup SPECIES_KRICKETUNE // Update Moveset
     learnset MOVE_FURY_CUTTER, 0
     learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_GROWL, 1
@@ -12319,7 +12318,7 @@ levelup SPECIES_MUSHARNA
 levelup SPECIES_PIDOVE
     learnset MOVE_GUST, 1
     learnset MOVE_GROWL, 1
-	learnset MOVE_LEER, 4
+    learnset MOVE_LEER, 4
     learnset MOVE_QUICK_ATTACK, 8
     learnset MOVE_TAUNT, 12
     learnset MOVE_FAIRY_WIND, 15
