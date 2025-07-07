@@ -9,7 +9,6 @@
 _0000: // Trainer 0
        // Trainer 2
        // Trainer 3       
-<<<<<<< HEAD
        // Trainer 40
        // Trainer 63
        // Trainer 87

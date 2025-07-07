@@ -260,7 +260,7 @@ pokemon SPECIES_EXEGGCUTE
 pokemon SPECIES_FERROSEED
 pokemon SPECIES_GOSSIFLEUR
 pokemon SPECIES_SHROOMISH
-pokemon SPECIES_SNIVY
+pokemon SPECIES_CAPSAKID
 
 // day encounter slots
 pokemon SPECIES_SUNKERN
@@ -274,7 +274,7 @@ pokemon SPECIES_EXEGGCUTE
 pokemon SPECIES_FERROSEED
 pokemon SPECIES_GOSSIFLEUR
 pokemon SPECIES_SHROOMISH
-pokemon SPECIES_SNIVY
+pokemon SPECIES_CAPSAKID
 
 // night encounter slots
 pokemon SPECIES_PARAS
@@ -288,7 +288,7 @@ pokemon SPECIES_COTTONEE
 pokemon SPECIES_FOONGUS
 pokemon SPECIES_TANGELA
 pokemon SPECIES_SHROOMISH
-pokemon SPECIES_ROWLET
+pokemon SPECIES_CAPSAKID
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
