@@ -79,6 +79,9 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
     u8 randomorder_flag = pokecount & 0x80;
     pokecount &= 0x7f;
 
+    //goal: create custom trainer's pokemon level's to scale depending on the player's party's pokemon level and/or hardcap level.
+
+    
     // goal:  get rid of massive switch statement with each individual byte.  make the trainer type a bitfield
     u32 id;
     u16 species = 0, item = 0, ability = 0, level = 0, ball = 0, hp = 0, atk = 0, def = 0, speed = 0, spatk = 0, spdef = 0;
