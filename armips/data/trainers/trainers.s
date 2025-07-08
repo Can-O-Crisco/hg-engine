@@ -4308,10 +4308,10 @@ trainerdata 101, "Grunt"
         level 20
         pokemon SPECIES_HAUNTER
         item ITEM_EVIOLITE
-        move MOVE_DESTINY_BOND
         move MOVE_HEX
         move MOVE_HYPNOSIS
         move MOVE_ACID_SPRAY
+        move MOVE_NONE
         ability ABILITY_LEVITATE
         setivs 20, 20, 20, 20, 20, 20
         setevs 0, 0, 0, 0, 0, 0

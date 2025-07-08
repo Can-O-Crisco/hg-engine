@@ -2112,55 +2112,55 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata  20   // Ilex Forest
 
-walkrate 5
+walkrate 10
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 5, 6, 5, 6, 6, 6, 5, 5, 5, 6, 5, 6
+walklevels 10, 12, 14, 10, 12, 14, 10, 12, 14, 10, 12, 14
 
 // morning encounter slots
-pokemon SPECIES_CATERPIE
 pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_EXEGGCUTE
+pokemon SPECIES_STARLY
+pokemon SPECIES_BURMY
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_TAILLOW
+pokemon SPECIES_FOONGUS
 pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
+pokemon SPECIES_NYMBLE
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_ROOKIDEE
+pokemon SPECIES_SIZZLIPEDE
 
 // day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
 pokemon SPECIES_METAPOD
+pokemon SPECIES_EXEGGCUTE
+pokemon SPECIES_STARLY
+pokemon SPECIES_BURMY
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_TAILLOW
+pokemon SPECIES_FOONGUS
 pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
+pokemon SPECIES_NYMBLE
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_ROOKIDEE
+pokemon SPECIES_SIZZLIPEDE
 
 // night encounter slots
+pokemon SPECIES_KAKUNA
 pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
+pokemon SPECIES_PIDOVE
+pokemon SPECIES_VENIPEDE
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_MORELULL
+pokemon SPECIES_KAKUNA
+pokemon SPECIES_NYMBLE
+pokemon SPECIES_FLETCHLING
+pokemon SPECIES_ROOKIDEE
+pokemon SPECIES_SIZZLIPEDE
 
 // hoenn encounter slots
 pokemon SPECIES_SPOINK
@@ -2171,39 +2171,39 @@ pokemon SPECIES_BUDEW
 pokemon SPECIES_CARNIVINE
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 10, 20
 encounter SPECIES_PSYDUCK, 5, 15
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
+encounter SPECIES_CHEWTLE, 10, 20
+encounter SPECIES_LOMBRE, 10, 20
+encounter SPECIES_POLIWHIRL, 25, 30
+encounter SPECIES_GOLDUCK, 35, 40
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_POLIWAG, 13, 15
+encounter SPECIES_LOTAD, 13, 15
+encounter SPECIES_MARILL, 13, 15
+encounter SPECIES_TYMPOLE, 13, 15
+encounter SPECIES_SURSKIT, 13, 15
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 22, 24
+encounter SPECIES_LOMBRE, 22, 24
+encounter SPECIES_AZUMARILL, 22, 24
+encounter SPECIES_TYMPOLE, 22, 24
+encounter SPECIES_MASQUERAIN, 22, 24
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_POLIWHIRL, 38, 40
+encounter SPECIES_LOMBRE, 38, 40
+encounter SPECIES_AZUMARILL, 38, 40
+encounter SPECIES_SEISMITOAD, 38, 40
+encounter SPECIES_MASQUERAIN, 38, 40
 
 // swarm grass
-pokemon SPECIES_CATERPIE
+pokemon SPECIES_METAPOD
 // swarm surf
 pokemon SPECIES_PSYDUCK
 // swarm good rod

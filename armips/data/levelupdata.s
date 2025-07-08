@@ -277,9 +277,9 @@ levelup SPECIES_BEEDRILL
     learnset MOVE_TWINEEDLE, 1
     learnset MOVE_FURY_ATTACK, 1
     learnset MOVE_BUG_BITE, 1
-    learnset MOVE_FURY_CUTTER, 11
-    learnset MOVE_CUT, 14
-    learnset MOVE_POISON_STING, 17
+    learnset MOVE_POISON_STING, 1
+    learnset MOVE_FURY_CUTTER, 14
+    learnset MOVE_CUT, 17
     learnset MOVE_BUG_BITE, 20
     learnset MOVE_VENOSHOCK, 24
     learnset MOVE_ASSURANCE, 27
