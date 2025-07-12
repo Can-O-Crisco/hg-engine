@@ -9,7 +9,6 @@
 _0000: // Trainer 0
        // Trainer 2
        // Trainer 3       
-       // Trainer 40
        // Trainer 63
        // Trainer 87
        // Trainer 88
@@ -111,7 +110,13 @@ _000C: // Trainer 496
     trainertextentry 496, TEXT_LAST_MON_SENT_OUT, "...Humph!\nYou’re doing OK for someone weak.\n"
     trainertextentry 496, TEXT_DEFEATED_IN_BATTLE, "...Humph!\nAre you happy you won?\n"
     trainertextentry 496, TEXT_PLAYER_LOSES, "...Humph!\nThat was a waste of time.\n"
-
+	
+_0017: // Trainer 40
+	trainertextentry 40, TEXT_NOTICE_IN_OVERWORLD, "I ran the battle sim... Let's go!\n"
+	trainertextentry 40, TEXT_DEFEATED_IN_BATTLE, "Algorithm... failed me...\n"
+	trainertextentry 40, TEXT_DEFEATED_IN_OVERWORLD, "Back to debugging...\n"
+	trainertextentry 40, TEXT_PLAYER_LOSES, "Science wins stats never lie!\n"
+	
 _0018: // Trainer 497
     trainertextentry 497, TEXT_LAST_MON_SENT_OUT, "...Humph!\nYou’re doing OK for someone weak.\n"
     trainertextentry 497, TEXT_DEFEATED_IN_BATTLE, "...Humph!\nAre you happy you won?\n"
@@ -3156,7 +3161,7 @@ _1AD0: // Trainer 630
 /* Trainer  37 */ .halfword _1254
 /* Trainer  38 */ .halfword _0830
 /* Trainer  39 */ .halfword _0C68
-/* Trainer  40 */ .halfword _0000
+/* Trainer  40 */ .halfword _0017
 /* Trainer  41 */ .halfword _0FB4
 /* Trainer  42 */ .halfword _1170
 /* Trainer  43 */ .halfword _1008

@@ -129,7 +129,7 @@ movedata MOVE_FIRE_PUNCH, "Fire Punch"
     type TYPE_FIRE
     accuracy 100
     pp 15
-    effectchance 20
+    effectchance 15
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -145,7 +145,7 @@ movedata MOVE_ICE_PUNCH, "Ice Punch"
     type TYPE_ICE
     accuracy 100
     pp 15
-    effectchance 20
+    effectchance 15
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -161,7 +161,7 @@ movedata MOVE_THUNDER_PUNCH, "Thunder Punch"
     type TYPE_ELECTRIC
     accuracy 100
     pp 15
-    effectchance 20
+    effectchance 15
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -6769,7 +6769,7 @@ movedata MOVE_THUNDER_FANG, "Thunder Fang"
     type TYPE_ELECTRIC
     accuracy 95
     pp 15
-    effectchance 20
+    effectchance 15
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -6785,7 +6785,7 @@ movedata MOVE_ICE_FANG, "Ice Fang"
     type TYPE_ICE
     accuracy 95
     pp 15
-    effectchance 20
+    effectchance 15
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -6801,7 +6801,7 @@ movedata MOVE_FIRE_FANG, "Fire Fang"
     type TYPE_FIRE
     accuracy 95
     pp 15
-    effectchance 20
+    effectchance 15
     target RANGE_SINGLE_TARGET
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT

@@ -34,7 +34,7 @@ encounterdata   0   // New Bark Town
 walkrate 25
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 4, 5, 6, 4, 5, 6, 4, 5, 6, 4, 5, 6
@@ -101,11 +101,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_BARBOACH, 5, 7
-encounter SPECIES_KRABBY, 5, 7
-encounter SPECIES_CHINCHOU, 5, 7
-encounter SPECIES_MAREANIE, 5, 7
-encounter SPECIES_SHELLDER, 5, 7
+encounter SPECIES_BARBOACH, 10, 10
+encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_CHINCHOU, 10, 10
+encounter SPECIES_MAREANIE, 10, 10
+encounter SPECIES_SHELLDER, 10, 10
 
 // good rod encounters
 encounter SPECIES_BARBOACH, 20, 20
@@ -239,10 +239,10 @@ pokemon SPECIES_NONE
 
 encounterdata   2   // Cherrygrove City
 
-walkrate 25
+walkrate 15
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 4, 5, 6, 4, 5, 6, 4, 5, 6, 4, 5, 6
@@ -257,10 +257,9 @@ pokemon SPECIES_DEERLING
 pokemon SPECIES_CHERUBI
 pokemon SPECIES_PUMPKABOO
 pokemon SPECIES_EXEGGCUTE
-pokemon SPECIES_FERROSEED
 pokemon SPECIES_GOSSIFLEUR
 pokemon SPECIES_SHROOMISH
-pokemon SPECIES_CAPSAKID
+pokemon SPECIES_SUNKERN
 
 // day encounter slots
 pokemon SPECIES_SUNKERN
@@ -269,12 +268,12 @@ pokemon SPECIES_HOPPIP
 pokemon SPECIES_LOTAD
 pokemon SPECIES_PETILIL
 pokemon SPECIES_DEERLING
+pokemon SPECIES_CHERUBI
 pokemon SPECIES_PUMPKABOO
 pokemon SPECIES_EXEGGCUTE
-pokemon SPECIES_FERROSEED
 pokemon SPECIES_GOSSIFLEUR
 pokemon SPECIES_SHROOMISH
-pokemon SPECIES_CAPSAKID
+pokemon SPECIES_SUNKERN
 
 // night encounter slots
 pokemon SPECIES_PARAS
@@ -288,7 +287,7 @@ pokemon SPECIES_COTTONEE
 pokemon SPECIES_FOONGUS
 pokemon SPECIES_TANGELA
 pokemon SPECIES_SHROOMISH
-pokemon SPECIES_CAPSAKID
+pokemon SPECIES_PARAS
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -300,35 +299,35 @@ pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 15, 25
+encounter SPECIES_BUIZEL, 10, 20
 encounter SPECIES_MANTYKE, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_MANTINE, 15, 25
-encounter SPECIES_PELIPPER, 15, 25
+encounter SPECIES_FINNEON, 15, 25
+encounter SPECIES_CHINCHOU, 15, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_KRABBY, 5, 7
-encounter SPECIES_CHINCHOU, 5, 7
-encounter SPECIES_CORPHISH, 5, 7
-encounter SPECIES_BARBOACH, 5, 7
-encounter SPECIES_BUIZEL, 5, 7
+encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_CHINCHOU, 10, 10
+encounter SPECIES_CORPHISH, 10, 10
+encounter SPECIES_BARBOACH, 10, 10
+encounter SPECIES_BUIZEL, 10, 10
 
 // good rod encounters
-encounter SPECIES_TYMPOLE, 20, 20
-encounter SPECIES_MANTYKE, 20, 20
-encounter SPECIES_SHELLOS, 20, 20
-encounter SPECIES_ARROKUDA, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_BUIZEL, 20, 20
+encounter SPECIES_BARBOACH, 20, 20
+encounter SPECIES_CORPHISH, 20, 20
+encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_KRABBY, 20, 20
 
 // super rod encounters
 encounter SPECIES_KINGLER, 40, 40
 encounter SPECIES_LANTURN, 40, 40
 encounter SPECIES_CRAWDAUNT, 40, 40
 encounter SPECIES_WHISCASH, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
+encounter SPECIES_FLOATZEL, 40, 40
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -347,7 +346,7 @@ encounterdata   3   // Route 30
 walkrate 25
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 4, 5, 6, 4, 5, 6, 4, 5, 6, 4, 5, 6
@@ -403,22 +402,22 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_PALPITOAD, 15, 25
-encounter SPECIES_MANTYKE, 10, 20
+encounter SPECIES_TYMPOLE, 15, 25
+encounter SPECIES_MARILL, 10, 20
 encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWRATH, 32, 32
+encounter SPECIES_LOTAD, 15, 25
+encounter SPECIES_CHEWTLE, 15, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_TYMPOLE, 5, 7
-encounter SPECIES_POLIWAG, 5, 7
-encounter SPECIES_MARILL, 5, 7
-encounter SPECIES_SURSKIT, 5, 7
-encounter SPECIES_LOTAD, 5, 7
+encounter SPECIES_TYMPOLE, 10, 10
+encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MARILL, 10, 10
+encounter SPECIES_SURSKIT, 10, 10
+encounter SPECIES_LOTAD, 10, 10
 
 // good rod encounters
 encounter SPECIES_PALPITOAD, 20, 20
@@ -451,7 +450,7 @@ encounterdata   4   // Route 31
 walkrate 25
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 5, 6, 7, 5, 6, 7, 5, 6, 7, 5, 6, 7
@@ -507,22 +506,22 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 15, 25
-encounter SPECIES_GYARADOS, 10, 25
+encounter SPECIES_TYMPOLE, 15, 25
+encounter SPECIES_MARILL, 10, 20
 encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWRATH, 32, 32
+encounter SPECIES_LOTAD, 15, 25
+encounter SPECIES_CHEWTLE, 15, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_TYMPOLE, 5, 7
-encounter SPECIES_POLIWAG, 5, 7
-encounter SPECIES_MARILL, 5, 7
-encounter SPECIES_SURSKIT, 5, 7
-encounter SPECIES_LOTAD, 5, 7
+encounter SPECIES_TYMPOLE, 10, 10
+encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MARILL, 10, 10
+encounter SPECIES_SURSKIT, 10, 10
+encounter SPECIES_LOTAD, 10, 10
 
 // good rod encounters
 encounter SPECIES_PALPITOAD, 20, 20
@@ -555,7 +554,7 @@ encounterdata   5   // Violet City
 walkrate 25
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 8, 9, 10, 8, 9, 10, 8, 9, 10, 8, 9, 10
@@ -611,11 +610,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_CHINCHOU, 15, 25
-encounter SPECIES_LANTURN, 10, 25
+encounter SPECIES_CHEWTLE, 15, 25
+encounter SPECIES_LOTAD, 10, 20
 encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWRATH, 15, 25
+encounter SPECIES_MARILL, 15, 25
+encounter SPECIES_TYMPOLE, 15, 25
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -867,7 +866,7 @@ encounterdata   8   // Route 32
 walkrate 25
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 9, 10, 9, 10, 9, 10, 9, 10, 9, 10, 9, 10
@@ -971,7 +970,7 @@ encounterdata   9   // Ruins of Alph (Outside)
 walkrate 25
 surfrate 15
 rocksmashrate 20
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 16, 18, 20, 16, 18, 20, 16, 18, 20, 16, 18, 20
@@ -1491,7 +1490,7 @@ encounterdata  14   // Union Cave 1F
 walkrate 10
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 11, 13, 15, 11, 13, 15, 11, 13, 15, 11, 13, 15
@@ -1595,7 +1594,7 @@ encounterdata  15   // Union Cave B1F
 walkrate 10
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 11, 13, 15, 11, 13, 15, 11, 13, 15, 11, 13, 15
@@ -1699,7 +1698,7 @@ encounterdata  16   // Union Cave B2F
 walkrate 15
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 25, 27, 29, 25, 27, 29, 25, 27, 29, 25, 27, 29
@@ -1907,7 +1906,7 @@ encounterdata  18   // Slowpoke Well 1F
 walkrate 15
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 10, 12, 14, 10, 12, 14, 10, 12, 14, 10, 12, 14
@@ -2011,7 +2010,7 @@ encounterdata  19   // Slowpoke Well B2F
 walkrate 15
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 22, 23, 24, 22, 23, 24, 22, 23, 24, 22, 23, 24
@@ -2115,7 +2114,7 @@ encounterdata  20   // Ilex Forest
 walkrate 10
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 10, 12, 14, 10, 12, 14, 10, 12, 14, 10, 12, 14
@@ -2219,52 +2218,52 @@ encounterdata  21   // Route 34
 walkrate 25
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
-walklevels 10, 11, 10, 11, 12, 12, 10, 10, 13, 10, 13, 10
+walklevels 11, 13, 15, 11, 13, 15, 11, 13, 15, 11, 13, 15
 
 // morning encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
 pokemon SPECIES_ABRA
+pokemon SPECIES_BIDOOF
+pokemon SPECIES_DUCKLETT
+pokemon SPECIES_GOTHITA
+pokemon SPECIES_CLOBBOPUS
+pokemon SPECIES_ESPURR
+pokemon SPECIES_MUNNA
+pokemon SPECIES_BLIPBUG
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_MEDITITE
+pokemon SPECIES_RALTS
 pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
 
 // day encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
 pokemon SPECIES_ABRA
+pokemon SPECIES_BIDOOF
+pokemon SPECIES_DUCKLETT
+pokemon SPECIES_GOTHITA
+pokemon SPECIES_CLOBBOPUS
+pokemon SPECIES_ESPURR
+pokemon SPECIES_MUNNA
+pokemon SPECIES_BLIPBUG
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_WOOPER
+pokemon SPECIES_RALTS
 pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
 
 // night encounter slots
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
+pokemon SPECIES_PATRAT
+pokemon SPECIES_WINGULL
+pokemon SPECIES_GOTHITA
+pokemon SPECIES_CRABRAWLER
+pokemon SPECIES_ESPURR
+pokemon SPECIES_MUNNA
+pokemon SPECIES_INKAY
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_SHELLOS
+pokemon SPECIES_RALTS
 pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -2275,36 +2274,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 29, 29
+encounter SPECIES_BUIZEL, 15, 25
+encounter SPECIES_FRILLISH, 10, 20
+encounter SPECIES_MANTYKE, 15, 25
+encounter SPECIES_MANTINE, 25, 25
+encounter SPECIES_FLOATZEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_CARVANHA, 10, 10
 encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_DUCKLETT, 10, 10
+encounter SPECIES_WINGULL, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_CARVANHA, 20, 20
 encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_TENTACOOL, 20, 20
+encounter SPECIES_DUCKLETT, 20, 20
+encounter SPECIES_WINGULL, 20, 20
 
 // super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_SHARPEDO, 40, 40
 encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+encounter SPECIES_TENTACRUEL, 40, 40
+encounter SPECIES_SWANNA, 40, 40
+encounter SPECIES_PELIPPER, 40, 40
 
 // swarm grass
 pokemon SPECIES_RALTS
@@ -2323,51 +2322,51 @@ encounterdata  22   // Route 35
 walkrate 25
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
-walklevels 12, 12, 12, 12, 14, 14, 10, 10, 14, 10, 14, 12
+walklevels 11, 13, 15, 11, 13, 15, 11, 13, 15, 11, 13, 15
 
 // morning encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_BUDEW
+pokemon SPECIES_SNUBBULL
+pokemon SPECIES_SKIDDO
+pokemon SPECIES_EKANS
+pokemon SPECIES_GULPIN
+pokemon SPECIES_TIMBURR
 pokemon SPECIES_ABRA
 pokemon SPECIES_ABRA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_DITTO
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_NIDORAN_M
+pokemon SPECIES_NIDORAN_F
 pokemon SPECIES_YANMA
 
 // day encounter slots
-pokemon SPECIES_NIDORAN_M
+pokemon SPECIES_PIDGEY
+pokemon SPECIES_BUDEW
+pokemon SPECIES_SNUBBULL
+pokemon SPECIES_SKIDDO
+pokemon SPECIES_EKANS
+pokemon SPECIES_GULPIN
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_ABRA
 pokemon SPECIES_NIDORAN_F
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_DITTO
-pokemon SPECIES_PIDGEY
 pokemon SPECIES_YANMA
 
 // night encounter slots
+pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_VENONAT
+pokemon SPECIES_CROAGUNK
+pokemon SPECIES_SKIDDO
+pokemon SPECIES_EKANS
+pokemon SPECIES_GULPIN
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_DROWZEE
+pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_DITTO
-pokemon SPECIES_HOOTHOOT
 pokemon SPECIES_YANMA
 
 // hoenn encounter slots
@@ -2379,36 +2378,36 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 15, 25
+encounter SPECIES_GOLDEEN, 15, 25
 encounter SPECIES_PSYDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 15, 25
-encounter SPECIES_GOLDUCK, 15, 25
-encounter SPECIES_GOLDUCK, 31, 31
+encounter SPECIES_TYMPOLE, 15, 20
+encounter SPECIES_SEAKING, 35, 35
+encounter SPECIES_GOLDUCK, 35, 35
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_PSYDUCK, 10, 10
 encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_DEWPIDER, 10, 10
+encounter SPECIES_LOTAD, 10, 10
+encounter SPECIES_CHEWTLE, 10, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_PSYDUCK, 20, 20
 encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_DEWPIDER, 20, 20
+encounter SPECIES_LOTAD, 20, 20
+encounter SPECIES_CHEWTLE, 20, 20
 
 // super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+encounter SPECIES_GOLDUCK, 40, 40
+encounter SPECIES_POLIWHIRL, 40, 40
+encounter SPECIES_ARAQUANID, 40, 40
+encounter SPECIES_LOMBRE, 40, 40
+encounter SPECIES_DREDNAW, 40, 40
 
 // swarm grass
 pokemon SPECIES_YANMA
@@ -2430,48 +2429,48 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 10, 10, 10, 10, 12, 12, 12, 12, 10, 14, 10, 14
+walklevels 11, 13, 15, 11, 13, 15, 11, 13, 15, 11, 13, 15
 
 // morning encounter slots
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_SUNKERN
 pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_LITLEO
+pokemon SPECIES_GOSSIFLEUR
+pokemon SPECIES_SHROOMISH
+pokemon SPECIES_ILLUMISE
+pokemon SPECIES_PHANPY
+pokemon SPECIES_SIZZLIPEDE
+pokemon SPECIES_BOMBIRDIER
+pokemon SPECIES_HOPPIP
 
 // day encounter slots
+pokemon SPECIES_SUNKERN
+pokemon SPECIES_SUNKERN
 pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_LITLEO
+pokemon SPECIES_GOSSIFLEUR
+pokemon SPECIES_SHROOMISH
+pokemon SPECIES_ILLUMISE
+pokemon SPECIES_PHANPY
+pokemon SPECIES_SIZZLIPEDE
+pokemon SPECIES_BOMBIRDIER
+pokemon SPECIES_HOPPIP
 
 // night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_SEEDOT
+pokemon SPECIES_SEEDOT
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_PIDOVE
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_PETILIL
+pokemon SPECIES_MAKUHITA
+pokemon SPECIES_VOLBEAT
+pokemon SPECIES_PHANPY
+pokemon SPECIES_SIZZLIPEDE
+pokemon SPECIES_BOMBIRDIER
 pokemon SPECIES_HOOTHOOT
 
 // hoenn encounter slots
@@ -2638,49 +2637,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 12, 12, 12, 12, 13, 13, 13, 13, 13, 15, 13, 15
+walklevels 12, 14, 16, 12, 14, 16, 12, 14, 16, 12, 14, 16
 
 // morning encounter slots
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
+pokemon SPECIES_MACHOP
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_BLITZLE
+pokemon SPECIES_MUDBRAY
+pokemon SPECIES_STUNKY
+pokemon SPECIES_GIRAFARIG
+monwithform SPECIES_MEOWTH, 2
+pokemon SPECIES_VULPIX
 pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
+pokemon SPECIES_GROWLITHE
 
 // day encounter slots
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_STANTLER
-pokemon SPECIES_GROWLITHE
+pokemon SPECIES_MACHOP
+pokemon SPECIES_SPEAROW
+pokemon SPECIES_BLITZLE
+pokemon SPECIES_MUDBRAY
+pokemon SPECIES_STUNKY
+pokemon SPECIES_GIRAFARIG
+monwithform SPECIES_MEOWTH, 2
+pokemon SPECIES_VULPIX
 pokemon SPECIES_STANTLER
 pokemon SPECIES_GROWLITHE
 
 // night encounter slots
 pokemon SPECIES_NIDORAN_M
 pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
+pokemon SPECIES_MANKEY
 pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
+pokemon SPECIES_BLITZLE
+pokemon SPECIES_SILICOBRA
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_GIRAFARIG
+monwithform SPECIES_MEOWTH, 2
+pokemon SPECIES_VULPIX
 pokemon SPECIES_STANTLER
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_STANTLER
-pokemon SPECIES_HOOTHOOT
+pokemon SPECIES_GROWLITHE
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -2843,7 +2842,7 @@ encounterdata  27   // Ecruteak City
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -4195,7 +4194,7 @@ encounterdata  40   // Olivine City
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -4299,7 +4298,7 @@ encounterdata  41   // Route 40
 walkrate 0
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -4403,7 +4402,7 @@ encounterdata  42   // Route 41
 walkrate 0
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -4507,7 +4506,7 @@ encounterdata  43   // Whirl Islands 1F
 walkrate 5
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
@@ -4819,7 +4818,7 @@ encounterdata  46   // Whirl Islands B2F
 walkrate 5
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
@@ -5339,7 +5338,7 @@ encounterdata  51   // Cianwood City
 walkrate 0
 surfrate 15
 rocksmashrate 30
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -5443,7 +5442,7 @@ encounterdata  52   // Route 42
 walkrate 25
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 15, 13, 15, 13, 14, 14, 16, 16, 15, 17, 15, 17
@@ -5547,7 +5546,7 @@ encounterdata  53   // Mt. Mortar (Waterfall room)
 walkrate 10
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 13, 15, 13, 15, 14, 14, 14, 14, 14, 16, 14, 15
@@ -5755,7 +5754,7 @@ encounterdata  55   // Mt. Mortar (Room above waterfall)
 walkrate 10
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 31, 32, 31, 32, 31, 31, 30, 30, 28, 30, 28, 30
@@ -5859,7 +5858,7 @@ encounterdata  56   // Mt. Mortar B1F
 walkrate 10
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 15, 17, 15, 17, 16, 16, 16, 16, 16, 16, 16, 16
@@ -5963,7 +5962,7 @@ encounterdata  57   // Route 43
 walkrate 20
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 15, 15, 15, 15, 17, 17, 15, 15, 16, 17, 16, 17
@@ -6067,7 +6066,7 @@ encounterdata  58   // Lake of Rage
 walkrate 0
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -6171,7 +6170,7 @@ encounterdata  59   // Route 44
 walkrate 25
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 23, 22, 23, 22, 22, 22, 24, 24, 24, 26, 24, 26
@@ -6795,7 +6794,7 @@ encounterdata  65   // Blackthorn City
 walkrate 0
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -6899,7 +6898,7 @@ encounterdata  66   // Dragons Den
 walkrate 0
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -7003,7 +7002,7 @@ encounterdata  67   // Route 45
 walkrate 25
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 23, 23, 23, 23, 24, 24, 20, 20, 25, 27, 25, 27
@@ -7211,7 +7210,7 @@ encounterdata  69   // Dark Cave (Route 31 entrance)
 walkrate 20
 surfrate 10
 rocksmashrate 50
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 7, 6, 7, 6, 6, 7, 7, 7, 6, 7, 6, 7
@@ -7315,7 +7314,7 @@ encounterdata  70   // Dark Cave (Route 45 entrance)
 walkrate 10
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 23, 23, 23, 23, 25, 25, 20, 20, 25, 23, 25, 23
@@ -7419,7 +7418,7 @@ encounterdata  71   // Route 47
 walkrate 25
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 35, 35, 34, 33, 32, 31, 32, 31, 34, 31, 33, 40
@@ -7523,7 +7522,7 @@ encounterdata  72   // Mt. Moon (Outside area)
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -7627,7 +7626,7 @@ encounterdata  73   // Mt. Moon (Outside area when Clefairy are active)
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -8147,7 +8146,7 @@ encounterdata  78   // Seafoam Islands B4F
 walkrate 10
 surfrate 5
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 37, 40, 34, 34, 38, 38, 39, 38, 37, 38, 40, 40
@@ -8251,7 +8250,7 @@ encounterdata  79   // Mt. Silver (Moltres room)
 walkrate 5
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 45, 48, 45, 48, 48, 47, 45, 45, 48, 20, 48, 15
@@ -8355,7 +8354,7 @@ encounterdata  80   // Mt. Silver 3F
 walkrate 10
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 45, 48, 46, 48, 48, 50, 45, 45, 48, 20, 48, 15
@@ -8459,7 +8458,7 @@ encounterdata  81   // Mt. Silver 4F
 walkrate 10
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 50, 48, 45, 48, 47, 47, 45, 45, 48, 20, 48, 15
@@ -8563,7 +8562,7 @@ encounterdata  82   // Cliff Edge Gate
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -8875,7 +8874,7 @@ encounterdata  85   // Mt. Silver (Outside area with Pokemon Center)
 walkrate 25
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 41, 42, 41, 42, 42, 42, 44, 44, 41, 43, 41, 43
@@ -8979,7 +8978,7 @@ encounterdata  86   // Mt. Silver 1F
 walkrate 10
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 42, 44, 42, 44, 43, 43, 42, 41, 45, 20, 45, 15
@@ -9291,7 +9290,7 @@ encounterdata  89   // Mt. Silver (Top, snowy area)
 walkrate 20
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 45, 48, 45, 48, 47, 47, 30, 45, 48, 20, 48, 15
@@ -9603,7 +9602,7 @@ encounterdata  92   // Route 12
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -9707,7 +9706,7 @@ encounterdata  93   // Route 19
 walkrate 0
 surfrate 10
 rocksmashrate 30
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -9811,7 +9810,7 @@ encounterdata  94   // Route 20
 walkrate 0
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -9915,7 +9914,7 @@ encounterdata  95   // Pallet Town
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -10019,7 +10018,7 @@ encounterdata  96   // Viridian City
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -10123,7 +10122,7 @@ encounterdata  97   // Cerulean City
 walkrate 0
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -10227,7 +10226,7 @@ encounterdata  98   // Vermilion City
 walkrate 0
 surfrate 15
 rocksmashrate 40
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -10435,7 +10434,7 @@ encounterdata 100   // Fuchsia City
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -10539,7 +10538,7 @@ encounterdata 101   // Cinnabar Island
 walkrate 0
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
@@ -10747,7 +10746,7 @@ encounterdata 103   // Route 26
 walkrate 25
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 28, 28, 28, 28, 32, 32, 30, 30, 30, 30, 30, 30
@@ -10851,7 +10850,7 @@ encounterdata 104   // Route 27
 walkrate 25
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 28, 28, 28, 28, 30, 30, 30, 30, 32, 30, 32, 30
@@ -10955,7 +10954,7 @@ encounterdata 105   // Route 28
 walkrate 25
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 39, 40, 39, 40, 40, 40, 42, 42, 41, 43, 41, 43
@@ -11891,7 +11890,7 @@ encounterdata 114   // Route 4
 walkrate 20
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 5, 5, 5, 5, 8, 8, 6, 6, 10, 8, 10, 8
@@ -12099,7 +12098,7 @@ encounterdata 116   // Route 6
 walkrate 20
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 13, 13, 13, 13, 14, 14, 15, 15, 12, 14, 12, 14
@@ -12411,7 +12410,7 @@ encounterdata 119   // Route 9
 walkrate 20
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 13, 15, 13, 15, 13, 13, 15, 15, 15, 15, 15, 15
@@ -12515,7 +12514,7 @@ encounterdata 120   // Route 10
 walkrate 20
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 16, 17, 16, 17, 16, 16, 18, 18, 18, 15, 18, 15
@@ -12723,7 +12722,7 @@ encounterdata 122   // Route 13
 walkrate 20
 surfrate 15
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 23, 23, 23, 23, 25, 25, 22, 22, 24, 24, 24, 25
@@ -13347,7 +13346,7 @@ encounterdata 128   // Route 21
 walkrate 20
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 30, 25, 30, 25, 35, 35, 20, 20, 30, 28, 30, 28
@@ -13451,7 +13450,7 @@ encounterdata 129   // Route 22
 walkrate 20
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 3, 3, 3, 3, 5, 5, 4, 4, 6, 7, 6, 7
@@ -13555,7 +13554,7 @@ encounterdata 130   // Route 24
 walkrate 20
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 8, 10, 8, 10, 9, 9, 12, 12, 8, 14, 8, 14
@@ -13659,7 +13658,7 @@ encounterdata 131   // Route 25
 walkrate 20
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 8, 10, 8, 10, 8, 8, 9, 9, 10, 14, 10, 14
@@ -13763,7 +13762,7 @@ encounterdata 132   // Tohjo Falls
 walkrate 15
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 22, 22, 22, 22, 22, 22, 21, 21, 20, 23, 20, 23
@@ -14491,7 +14490,7 @@ encounterdata 139   // Cerulean Cave 1F
 walkrate 10
 surfrate 10
 rocksmashrate 5
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 39, 38, 38, 38, 40, 39, 40, 37, 39, 40, 39, 40
@@ -14595,7 +14594,7 @@ encounterdata 140   // Cerulean Cave B1F
 walkrate 10
 surfrate 10
 rocksmashrate 0
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 42, 40, 41, 39, 41, 42, 41, 42, 41, 42, 41, 42
@@ -14699,7 +14698,7 @@ encounterdata 141   // Cerulean Cave B2F
 walkrate 10
 surfrate 10
 rocksmashrate 5
-oldrodrate 25
+oldrodrate 35
 goodrodrate 50
 superrodrate 75
 walklevels 46, 45, 47, 45, 45, 45, 46, 47, 47, 49, 47, 49

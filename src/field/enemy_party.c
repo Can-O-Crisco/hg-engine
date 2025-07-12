@@ -79,9 +79,6 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
     u8 randomorder_flag = pokecount & 0x80;
     pokecount &= 0x7f;
 
-    //goal: create custom trainer's pokemon level's to scale depending on the player's party's pokemon level and/or hardcap level.
-
-    
     // goal:  get rid of massive switch statement with each individual byte.  make the trainer type a bitfield
     u32 id;
     u16 species = 0, adjustedSpecies = 0, item = 0, ability = 0, level = 0, ball = 0, hp = 0, atk = 0, def = 0, speed = 0, spatk = 0, spdef = 0;
@@ -305,9 +302,22 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
             rnd = gf_rand();
         }
         rnd = (rnd << 8) + rnd_tmp;
-        pow = pow * 31 / 255;
-        PokeParaSet(mons[i], species, level, pow, 1, rnd, 2, 0);
-        SetMonData(mons[i], MON_DATA_FORM, &form_no);
+		
+        //goal: create custom trainer's pokemon level's to scale depending on the player's party's pokemon level and/or hardcap level.
+		pow = pow * 31 /255;
+		#ifdef IMPLEMENT_LEVEL_CAP
+		u32 levelCap = 0;
+		if (bp->trainer_id[1] == 506 || bp->trainer_id[1] == 1 || bp->trainer_id[1] == 266 || bp->trainer_id[1] == 269) // trainer numbers and add "|| bp->trainer_id[1] == trainer#ID" and for doubles this example >> "bp->trainer[2] == lance#ID"
+		{
+			levelCap = GetScriptVar(LEVEL_CAP_VARIABLE); level = levelCap -1;
+		} else if (bp->trainer_id[1] == 508) // trainer numbers and add "|| bp->trainer_id[1] == trainer#ID"
+		{
+			levelCap = GetScriptVar(LEVEL_CAP_VARIABLE); level = levelCap;
+		}
+		debug_printf("level %d, num %d, var %d\n", level, num, GetScriptVar(LEVEL_CAP_VARIABLE));
+		#endif // IMPLEMENT_LEVEL_CAP
+		PokeParaSet(mons[i], species, level, pow, 1, rnd, 2, 0);
+		SetMonData(mons[i], MON_DATA_FORM, &form_no);
 
         //set default abilities
         adjustedSpecies = PokeOtherFormMonsNoGet(species, form_no);
