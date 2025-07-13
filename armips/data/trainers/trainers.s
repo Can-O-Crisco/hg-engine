@@ -15528,9 +15528,7 @@ trainerdata 409, "Brandon"
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_LONELY
-        additionalflags
-		TRAINER_DATA_EXTRA_TYPE_STATUS
-		status 16
+        additionalflags 0
         ballseal 0
 
         // mon 1
