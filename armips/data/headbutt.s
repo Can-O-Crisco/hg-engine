@@ -949,8 +949,8 @@ headbuttheader  36,  35,   0   // Route 32
 headbuttheader  37,   4,   0   // Route 33
     // normal slots
     headbuttencounter SPECIES_SPEAROW, 3, 5
-    headbuttencounter SPECIES_HERACROSS, 3, 5
-    headbuttencounter SPECIES_HERACROSS, 3, 5
+    headbuttencounter SPECIES_BURMY, 3, 5
+    headbuttencounter SPECIES_PINECO, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5
@@ -1849,8 +1849,8 @@ headbuttheader  73,  27,   0   // Violet City
 headbuttheader  74,  15,   0   // Azalea Town
     // normal slots
     headbuttencounter SPECIES_SPEAROW, 3, 5
-    headbuttencounter SPECIES_HERACROSS, 3, 5
-    headbuttencounter SPECIES_HERACROSS, 3, 5
+    headbuttencounter SPECIES_BURMY, 3, 5
+    headbuttencounter SPECIES_PINECO, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5
     headbuttencounter SPECIES_AIPOM, 3, 5

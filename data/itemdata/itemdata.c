@@ -143,7 +143,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ULTRA_BALL] =
 {
-    .price = 1200,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -208,7 +208,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GREAT_BALL] =
 {
-    .price = 600,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -273,7 +273,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POKE_BALL] =
 {
-    .price = 200,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -533,7 +533,7 @@ const ITEMDATA __data[] =
 
 [ITEM_NEST_BALL] =
 {
-    .price = 1000,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -2678,7 +2678,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_ELIXIR] =
 {
-    .price = 4500,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 255,
     .pluckEffect = 0,
@@ -5018,7 +5018,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_REPEL] =
 {
-    .price = 700,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 250,
     .pluckEffect = 0,
@@ -5083,7 +5083,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ESCAPE_ROPE] =
 {
-    .price = 550,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -8658,7 +8658,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ORAN_BERRY - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 20,
+    .price = 10,
     .holdEffect = HOLD_EFFECT_HP_RESTORE,
     .holdEffectParam = 10,
     .pluckEffect = 7,
@@ -30563,7 +30563,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LEVEL_BALL - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 300,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -50513,6 +50513,71 @@ const ITEMDATA __data[] =
         .friendship_mod_lo_param =  0,
         .friendship_mod_med_param = 0,
         .friendship_mod_hi_param =  0,
+    },
+},
+
+[ITEM_INFINITE_CANDY - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+{
+    .price = 0,
+    .holdEffect = 0,
+    .holdEffectParam = 0,
+    .pluckEffect = 0,
+    .flingEffect = 0,
+    .flingPower = 30,
+    .naturalGiftPower = 0,
+    .naturalGiftType = 31,
+    .prevent_toss = TRUE,
+    .selectable = FALSE,
+    .fieldPocket = POCKET_KEY_ITEMS,
+    .battlePocket = BATTLE_POCKET_NONE,
+    .fieldUseFunc = 1,
+    .battleUseFunc = 0,
+    .partyUse = 1,
+    .partyUseParam = {
+        .slp_heal = FALSE,
+        .psn_heal = FALSE,
+        .brn_heal = FALSE,
+        .frz_heal = FALSE,
+        .prz_heal = FALSE,
+        .cfs_heal = FALSE,
+        .inf_heal = FALSE,
+        .guard_spec = FALSE,
+        .revive = TRUE,
+        .revive_all = FALSE,
+        .level_up = TRUE,
+        .evolve = FALSE,
+        .atk_stages = 0,
+        .def_stages = 0,
+        .spatk_stages = 0,
+        .spdef_stages = 0,
+        .speed_stages = 0,
+        .accuracy_stages = 0,
+        .critrate_stages = 0,
+        .pp_up = FALSE,
+        .pp_max = FALSE,
+        .pp_restore = FALSE,
+        .pp_restore_all = FALSE,
+        .hp_restore = FALSE,
+        .hp_ev_up = FALSE,
+        .atk_ev_up = FALSE,
+        .def_ev_up = FALSE,
+        .speed_ev_up = FALSE,
+        .spatk_ev_up = FALSE,
+        .spdef_ev_up = FALSE,
+        .friendship_mod_lo = TRUE,
+        .friendship_mod_med = TRUE,
+        .friendship_mod_hi = TRUE,
+        .hp_ev_up_param = 0,
+        .atk_ev_up_param = 0,
+        .def_ev_up_param = 0,
+        .speed_ev_up_param = 0,
+        .spatk_ev_up_param = 0,
+        .spdef_ev_up_param = 0,
+        .hp_restore_param = 0,
+        .pp_restore_param = 0,
+        .friendship_mod_lo_param = 5,
+        .friendship_mod_med_param = 3,
+        .friendship_mod_hi_param = 2,
     },
 },
 

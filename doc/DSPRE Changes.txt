@@ -1,0 +1,1155 @@
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
+														DSPRE CHANGES
+														
+														
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+CURRENTLY WORKING ON:
+
+TRYING TO FIX OLD ROD "USE" MENU BUG CRASHING GAME COMPLETELY.
+
+ADD TRAINER TEXT TO FIGHTS trainerdata 63, 87 And 88. FINALIZE/TEAMBUILD THERE TEAMS ALSO.
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+ADDED HARD LEVEL CAPS
+
+1) Level 10 @ Moms House
+
+2) Level 12 @ First Rival Fight
+
+3) Level 14 @ Lyra Interaction Before Violet City
+
+4) Level 18 @ Beating Elder Li
+
+5) Level 21 @ Beating Falkner Gym Leader
+
+6) Level 24 @ Bugsy Gym Leader
+
+7) Level 27 @
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+ADDED INFINITE CANDY
+
+CODE:
+
+// in item.c
+
+void ItemMenuUseFunc_InfiniteCandy(struct ItemMenuUseData* data, const struct ItemCheckUseData* dat2 UNUSED)
+{
+    FieldSystem* fieldSystem = data->taskManager->fieldSystem; // TaskManager_GetFieldSystem(data->taskManager);
+    struct BagViewAppWork* env = data->taskManager->env; //TaskManager_GetEnvironment(data->taskManager);
+    env->atexit_TaskEnv = sub_0203FAE8(fieldSystem, HEAPID_WORLD, ITEM_INFINITE_CANDY);
+    sub_0203C8F0(env, 0x0203CA9C | 1);
+}
+
+ADDED PORTABLE PC
+
+ADJUSTED POKEMART ITEMS
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+SCRIPTING CHANGES
+
+LYRA TUTORIAL DELETE (WORKING)
+
+OVERWORLD TAB:
+ID NUMBER = 6 & 7, ENTRY 102 & 1032, FLAG 420 & 421, SCRIPT = 0 FOR BOTH, OW ENTRY ID = 102 & 1032
+
+TRIGGER SCRIPT:
+TRIGGER WIDTH = 1 TILE, TRIGGER LENGTH = 7 TILES
+0: RUN SCRIPT 2 WHEN VAR 16523 IS 1
+SCRIPT TO TRIGGER = 2, EXPECTED VALUE = 1, VARIABLE WATCHED 16523
+
+SCRIPTS:
+
+Script 2:
+	MecScript 
+	LockAll 
+	PlayCry 183 0
+	WaitCry 
+	Movement Overworld.7 Action#1
+	WaitMovement 
+	Movement Overworld.6 Action#2
+	WaitMovement 
+	CommonScript 2029
+	GenderMessage 17 18
+	CloseMessage 
+	GetPlayerPosition 0x4000 0x4001
+	Release Overworld.7
+	CompareVarValue 0x4001 396
+	JumpIf DIFFERENT Function#2
+	Movement Overworld.6 Action#3
+	Movement Overworld.7 Action#4
+Jump Function#3
+
+FUNCTIONS:
+
+Function 2:
+	CompareVarValue 0x4001 397
+	JumpIf DIFFERENT Function#14
+	Movement Overworld.6 Action#5
+	Movement Overworld.7 Action#6
+Jump Function#3
+
+Function 3:
+	WaitMovement 
+	Lock Overworld.7
+	TextPlayerName 0
+	GenderMessage 0 1
+	CloseMessage 
+	GetPlayerPosition 0x4000 0x4001
+	CheckPlayerGender 0x4002
+	LockFollowingPoke 0
+	WaitFollowingPoke 
+	SetFollowingPokeMovement 55
+	CompareVarValue 0x4001 396
+	JumpIf DIFFERENT Function#15
+	Movement Overworld.6 Action#7
+	Movement Overworld.7 Action#8
+	CompareVarValue 0x4002 0
+	JumpIf DIFFERENT Function#16
+	Movement Player Action#9
+Jump Function#17
+
+Function 14:
+	CompareVarValue 0x4001 398
+	JumpIf DIFFERENT Function#21
+	Movement Overworld.6 Action#10
+	Movement Overworld.7 Action#11
+Jump Function#3
+
+Function 15:
+	CompareVarValue 0x4001 397
+	JumpIf DIFFERENT Function#22
+	Movement Overworld.6 Action#12
+	Movement Overworld.7 Action#13
+	CompareVarValue 0x4002 0
+	JumpIf DIFFERENT Function#23
+	Movement Player Action#14
+Jump Function#24
+
+Function 16:
+	Movement Player Action#15
+Jump Function#25
+
+Function 17:
+Jump Function#25
+
+Function 21:
+	CompareVarValue 0x4001 399
+	JumpIf DIFFERENT Function#27
+	Movement Overworld.6 Action#16
+	Movement Overworld.7 Action#17
+Jump Function#3
+
+Function 22:
+	CompareVarValue 0x4001 398
+	JumpIf DIFFERENT Function#28
+	Movement Overworld.6 Action#18
+	Movement Overworld.7 Action#19
+	CompareVarValue 0x4002 0
+	JumpIf DIFFERENT Function#29
+	Movement Player Action#20
+Jump Function#30
+
+Function 23:
+	Movement Player Action#21
+Jump Function#25
+
+Function 24:
+Jump Function#25
+
+Function 25:
+	WaitMovement 
+	WaitFollowingPoke 
+	LockFollowingPoke 1
+	SetFollowingPokeMovement 48
+	CompareVarValue 0x4002 0
+	CallIf EQUAL Function#31
+	GenderMessage 3 4
+	SetVar 0x8004 155
+	SetVar 0x8005 15
+	CommonScript 2033
+	GenderMessage 7 8
+	CloseMessage 
+	Movement Overworld.6 Action#22
+	Movement Overworld.7 Action#23
+	WaitMovement 
+	RemoveOW Overworld.6
+	RemoveOW Overworld.7
+	SetFlag 420
+	SetFlag 421
+	SetVar 0x408B 0
+	SetFlag 154
+	CommonScript 2030
+	ReleaseAll 
+End 
+
+Function 27:
+	CompareVarValue 0x4001 400
+	JumpIf DIFFERENT Function#32
+	Movement Overworld.6 Action#24
+	Movement Overworld.7 Action#25
+Jump Function#3
+
+Function 28:
+	CompareVarValue 0x4001 399
+	JumpIf DIFFERENT Function#33
+	Movement Overworld.6 Action#26
+	Movement Overworld.7 Action#27
+	CompareVarValue 0x4002 0
+	JumpIf DIFFERENT Function#34
+	Movement Player Action#28
+Jump Function#35
+
+Function 30:
+Jump Function#25
+
+Function 32:
+	CompareVarValue 0x4001 401
+	JumpIf DIFFERENT Function#36
+	Movement Overworld.6 Action#35
+	Movement Overworld.7 Action#36
+Jump Function#3
+
+Function 33:
+	CompareVarValue 0x4001 400
+	JumpIf DIFFERENT Function#37
+	Movement Overworld.6 Action#37
+	Movement Overworld.7 Action#38
+	CompareVarValue 0x4002 0
+	JumpIf DIFFERENT Function#38
+	Movement Player Action#39
+Jump Function#39
+
+Function 34:
+	Movement Player Action#40
+Jump Function#25
+
+Function 35:
+Jump Function#25
+
+Function 36:
+	CompareVarValue 0x4001 402
+	JumpIf DIFFERENT Function#3
+	Movement Overworld.6 Action#41
+	Movement Overworld.7 Action#42
+	WaitMovement 
+	Lock Overworld.7
+	TextPlayerName 0
+	GenderMessage 0 1
+	CloseMessage 
+	GetPlayerPosition 0x4000 0x4001
+	CheckPlayerGender 0x4002
+	LockFollowingPoke 0
+	WaitFollowingPoke 
+	SetFollowingPokeMovement 55
+	CompareVarValue 0x4001 396
+	JumpIf DIFFERENT Function#15
+	Movement Overworld.6 Action#7
+	Movement Overworld.7 Action#8
+	CompareVarValue 0x4002 0
+	JumpIf DIFFERENT Function#16
+	Movement Player Action#9
+Jump Function#17
+
+Function 37:
+	CompareVarValue 0x4001 401
+	JumpIf DIFFERENT Function#40
+	Movement Overworld.6 Action#43
+	Movement Overworld.7 Action#44
+	CompareVarValue 0x4002 0
+	JumpIf DIFFERENT Function#41
+	Movement Player Action#45
+Jump Function#42
+
+Function 38:
+	Movement Player Action#46
+Jump Function#25
+
+Function 39:
+Jump Function#25
+
+Function 40:
+	CompareVarValue 0x4001 402
+	JumpIf DIFFERENT Function#25
+	Movement Overworld.6 Action#47
+	Movement Overworld.7 Action#48
+	CompareVarValue 0x4002 0
+	JumpIf DIFFERENT Function#43
+	Movement Player Action#49
+Jump Function#25
+
+Function 41:
+	Movement Player Action#50
+Jump Function#25
+
+Function 42:
+Jump Function#25
+
+Function 43:
+	Movement Player Action#51
+	WaitMovement 
+	WaitFollowingPoke 
+	LockFollowingPoke 1
+	SetFollowingPokeMovement 48
+	CompareVarValue 0x4002 0
+	CallIf EQUAL Function#31
+	GenderMessage 3 4
+	SetVar 0x8004 155
+	SetVar 0x8005 15
+	CommonScript 2033
+	GenderMessage 7 8
+	CloseMessage 
+	Movement Overworld.6 Action#22
+	Movement Overworld.7 Action#23
+	WaitMovement 
+	RemoveOW Overworld.6
+	RemoveOW Overworld.7
+	SetFlag 420
+	SetFlag 421
+	SetVar 0x408B 0
+	SetFlag 154
+    CommonScript 2030
+	ReleaseAll 
+End
+
+ACTIONS:
+
+Action 1:
+	WalkDownVeryFast 0x1
+	WalkRightVeryFast 0x2
+	WalkUpVeryFast 0x1
+	JumpLeftSite 0x2
+End
+
+Action 2:
+	WalkRightFastSite 0x1
+	Exclamation 0x1
+End
+
+Action 3:
+	WalkUpVeryFast 0x4
+	WalkRightVeryFast 0x2
+	WalkDownVeryFast 0x2
+	WalkLeftVeryFast 0x2
+	WalkUpVeryFast 0x2
+	WalkRightVeryFast 0x4
+End
+
+Action 4:
+	WalkLeftVeryFast 0x1
+	WalkUpVeryFast 0x4
+	WalkRightVeryFast 0x2
+	WalkDownVeryFast 0x2
+	WalkLeftVeryFast 0x2
+	WalkUpVeryFast 0x2
+	WalkRightVeryFast 0x3
+End
+
+Action 5:
+	WalkRightFast 0x2
+	WalkUpFast 0x3
+	WalkRightFast 0x2
+End
+
+Action 6:
+	WalkLeftFast 0x1
+	WalkRightFast 0x2
+	WalkUpFast 0x3
+	WalkRightFast 0x1
+End
+
+Action 7:
+	WalkDownFast 0x6
+	WalkLeftFast 0x9
+End
+
+Action 8:
+	WalkRightFast 0x1
+	WalkDownFast 0x6
+	WalkLeftFast 0x8
+End
+
+Action 9:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x6
+	WalkLeftFast 0x5
+End
+
+Action 10:
+	WalkRightFast 0x2
+	WalkUpFast 0x2
+	WalkRightFast 0x2
+End
+
+Action 11:
+	WalkLeftFast 0x1
+	WalkRightFast 0x2
+	WalkUpFast 0x2
+	WalkRightFast 0x1
+End
+
+Action 12:
+	WalkDownFast 0x5
+	WalkLeftFast 0x9
+End
+
+Action 13:
+	WalkRightFast 0x1
+	WalkDownFast 0x5
+	WalkLeftFast 0x8
+End
+
+Action 14:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x5
+	WalkLeftFast 0x5
+End
+
+Action 15:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x6
+	WalkLeftFast 0x7
+End
+
+Action 16:
+	WalkRightFast 0x2
+	WalkUpFast 0x1
+	WalkRightFast 0x2
+End
+
+Action 17:
+	WalkLeftFast 0x1
+	WalkRightFast 0x2
+	WalkUpFast 0x1
+	WalkRightFast 0x1
+End
+
+Action 18:
+	WalkDownFast 0x4
+	WalkLeftFast 0x9
+End
+
+Action 19:
+	WalkRightFast 0x1
+	WalkDownFast 0x4
+	WalkLeftFast 0x8
+End
+
+Action 20:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x4
+	WalkLeftFast 0x5
+End
+
+Action 21:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x5
+	WalkLeftFast 0x7
+End
+
+Action 22:
+	WalkDownFast 0x2
+	WalkLeftFast 0x4
+	WalkDownFast 0x4
+	WalkLeftFast 0x3
+End
+
+Action 23:
+	WalkRightFast 0x1
+	WalkDownFast 0x2
+	WalkLeftFast 0x4
+	WalkDownFast 0x4
+	WalkLeftFast 0x2
+End
+
+Action 24:
+	WalkRightFast 0x4
+End
+
+Action 25:
+	WalkLeftFast 0x1
+	WalkRightFast 0x3
+End
+
+Action 26:
+	WalkDownFast 0x3
+	WalkLeftFast 0x9
+End
+
+Action 27:
+	WalkRightFast 0x1
+	WalkDownFast 0x3
+	WalkLeftFast 0x8
+End
+
+Action 28:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x3
+	WalkLeftFast 0x5
+End
+
+Action 35:
+	WalkRightFast 0x2
+	WalkDownFast 0x1
+	WalkRightFast 0x2
+End
+
+Action 36:
+	WalkLeftFast 0x1
+	WalkRightFast 0x2
+	WalkDownFast 0x1
+	WalkRightFast 0x1
+End
+
+Action 37:
+	WalkDownFast 0x2
+	WalkLeftFast 0x9
+End
+
+Action 38:
+	WalkRightFast 0x1
+	WalkDownFast 0x2
+	WalkLeftFast 0x8
+End
+
+Action 39:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x2
+	WalkLeftFast 0x5
+End
+
+Action 40:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x3
+	WalkLeftFast 0x7
+End
+
+Action 41:
+	WalkRightFast 0x2
+	WalkDownFast 0x2
+	WalkRightFast 0x2
+End
+
+Action 42:
+	WalkLeftFast 0x1
+	WalkRightFast 0x2
+	WalkDownFast 0x2
+	WalkRightFast 0x1
+End
+
+Action 43:
+	WalkDownFast 0x1
+	WalkLeftFast 0x9
+End
+
+Action 44:
+	WalkRightFast 0x1
+	WalkDownFast 0x1
+	WalkLeftFast 0x8
+End
+
+Action 45:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x1
+	WalkLeftFast 0x5
+End
+
+Action 46:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x2
+	WalkLeftFast 0x7
+End
+
+Action 47:
+	WalkLeftFast 0x9
+End
+
+Action 48:
+	WalkRightFast 0x1
+	WalkLeftFast 0x8
+End
+
+Action 49:
+	Freeze8 0x1
+	WalkLeftFast 0x6
+End
+
+Action 50:
+	Freeze8 0x1
+	WalkLeftFast 0x1
+	WalkDownFast 0x1
+	WalkLeftFast 0x7
+End
+
+Action 51:
+	Freeze8 0x1
+	WalkLeftFast 0x8
+End
+
+MESSAGES:
+
+Message 0: Lyra: \v0103ぁ\x0000\x0000!\nYou can catch wild Pokémon\fwith Poké Balls.\rFollow me!\r
+Message 1: Ethan: \v0103ぁ\x0000\x0000!\nYou can catch wild Pokémon\fwith Poké Balls.\rFollow me!\r
+Message 2: ...Just like that!\r...\nHuh?\nWhat you trying to say…?\rYou’ve already got Poké Balls…?\r
+Message 3: Oh well…!\n… …\rI guess you can just have these for\nyour adventure…!\rGood luck!\r
+Message 4: Oh well…!\n… …\rI guess you can just have these for\nyour adventure…!\rGood luck!\r
+Message 7: Lyra: See you!\r
+Message 8: Ethan: See ya!\r
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+GENT GUIDE TUTORIAL DELETE (WORKING)
+
+OVERWORLD TAB:
+ID NUMBER = 0, ENTRY 330, FLAG 408, SCRIPT = 1, OW ENTRY ID = 330
+
+TRIGGER SCRIPT:
+TRIGGER WIDTH = 3 TILE, TRIGGER LENGTH = 6 TILES
+0: RUN SCRIPT 2 WHEN VAR 16499 IS 0
+SCRIPT TO TRIGGER = 2, EXPECTED VALUE = 0, VARIABLE WATCHED 16499
+
+SCRIPTS:
+
+Script 2:
+	Lock Overworld.0
+	Movement Overworld.0 Action#1
+	WaitMovement 
+	CommonScript 2037
+	GetPlayerPosition 0x4000 0x4001
+	CompareVarValue 0x4001 397
+	JumpIf DIFFERENT Function#1
+	Movement Overworld.0 Action#2
+Jump Function#2
+
+FUNCTIONS:
+
+Function 1:
+	Movement Overworld.0 Action#2
+	CompareVarValue 0x4001 398
+	JumpIf DIFFERENT Function#14
+	Movement Overworld.0 Action#8
+Jump Function#2
+
+Function 2:
+	Movement Player Action#9
+	WaitMovement 
+	Message 0
+	WaitButton 
+	CloseMessage 
+	Message 1
+	WaitButton 
+	CloseMessage 
+Jump Function#15
+
+Function 14:
+	Movement Overworld.0 Action#2
+	CompareVarValue 0x4001 399
+	JumpIf DIFFERENT Function#26
+	Movement Overworld.0 Action#14
+Jump Function#2
+
+Function 15:
+	Message 6
+	WaitButton 
+	CloseMessage 
+	GiveShoes 
+	TextPlayerName 0
+	Message 7
+	PlaySound 1185
+	WaitSound 
+	Message 8
+	WaitButton 
+	CloseMessage 
+	GetPlayerPosition 0x4000 0x4001
+	CompareVarValue 0x4001 397
+	JumpIf DIFFERENT Function#27
+	Movement Overworld.0 Action#15
+	WaitMovement 
+	DoorAnimation 17 12 14 17 77
+	OpenDoor 77
+	WaitDoor 77
+	Movement Overworld.0 Action#16
+	WaitMovement 
+	Release Overworld.0
+	Release Following
+	PlayFanfare 1538
+	RemoveOW Overworld.0
+	WaitFanfare 1538
+	SetFlag 408
+	CloseDoor 77
+	WaitDoor 77
+	FreeDoor 77
+	CommonScript 2038
+	SetVar 0x4073 1
+End
+
+Function 26:
+	Movement Overworld.0 Action#2
+	CompareVarValue 0x4001 400
+	JumpIf DIFFERENT Function#32
+	Movement Overworld.0 Action#22
+Jump Function#2
+
+Function 27:
+	GetPlayerPosition 0x4000 0x4001
+	CompareVarValue 0x4001 398
+	JumpIf DIFFERENT Function#33
+	Movement Overworld.0 Action#23
+	WaitMovement 
+	DoorAnimation 17 12 14 17 77
+	OpenDoor 77
+	WaitDoor 77
+	Movement Overworld.0 Action#16
+	WaitMovement 
+	Release Overworld.0
+	Release Following
+	PlayFanfare 1538
+	RemoveOW Overworld.0
+	WaitFanfare 1538
+	SetFlag 408
+	CloseDoor 77
+	WaitDoor 77
+	FreeDoor 77
+	CommonScript 2038
+	SetVar 0x4073 1
+End
+
+Function 32:
+	Movement Overworld.0 Action#2
+	Movement Overworld.0 Action#29
+Jump Function#2
+
+Function 33:
+	GetPlayerPosition 0x4000 0x4001
+	CompareVarValue 0x4001 399
+	JumpIf DIFFERENT Function#36
+	Movement Overworld.0 Action#30
+	WaitMovement 
+	DoorAnimation 17 12 14 17 77
+	OpenDoor 77
+	WaitDoor 77
+	Movement Overworld.0 Action#16
+	WaitMovement 
+	Release Overworld.0
+	Release Following
+	PlayFanfare 1538
+	RemoveOW Overworld.0
+	WaitFanfare 1538
+	SetFlag 408
+	CloseDoor 77
+	WaitDoor 77
+	FreeDoor 77
+	CommonScript 2038
+	SetVar 0x4073 1
+End
+
+Function 36:
+	GetPlayerPosition 0x4000 0x4001
+	CompareVarValue 0x4001 400
+	JumpIf DIFFERENT Function#37
+	Movement Overworld.0 Action#32
+	WaitMovement 
+	DoorAnimation 17 12 14 17 77
+	OpenDoor 77
+	WaitDoor 77
+	Movement Overworld.0 Action#16
+	WaitMovement 
+	Release Overworld.0
+	Release Following
+	PlayFanfare 1538
+	RemoveOW Overworld.0
+	WaitFanfare 1538
+	SetFlag 408
+	CloseDoor 77
+	WaitDoor 77
+	FreeDoor 77
+	CommonScript 2038
+	SetVar 0x4073 1
+End 
+
+Function 37:
+	Movement Overworld.0 Action#33
+	WaitMovement 
+	DoorAnimation 17 12 14 17 77
+	OpenDoor 77
+	WaitDoor 77
+	Movement Overworld.0 Action#16
+	WaitMovement 
+	Release Overworld.0
+	Release Following
+	PlayFanfare 1538
+	RemoveOW Overworld.0
+	WaitFanfare 1538
+	SetFlag 408
+	CloseDoor 77
+	WaitDoor 77
+	FreeDoor 77
+	CommonScript 2038
+	SetVar 0x4073 1
+End
+
+ACTIONS:
+
+Action 1:
+	Exclamation 0x1
+End
+
+Action 2:
+	Freeze4 0x1
+End
+
+Action 8:
+	WalkDownFast 0x1
+End
+
+Action 9:
+	WalkUpFastSite 0x1
+End
+
+Action 14:
+	WalkDownFast 0x2
+End
+
+Action 15:
+	WalkLeftFast 0x3
+	WalkDownFast 0x8
+	WalkLeftFast 0x5
+	WalkUpFast 0x3
+End
+
+Action 16:
+	WalkUpFast 0x2
+End
+
+Action 22:
+	WalkDownFast 0x3
+End
+
+Action 23:
+	WalkLeftFast 0x3
+	WalkDownFast 0x7
+	WalkLeftFast 0x5
+	WalkUpFast 0x3
+End
+
+Action 29:
+	WalkDownFast 0x4
+End
+
+Action 30:
+	WalkLeftFast 0x3
+	WalkDownFast 0x6
+	WalkLeftFast 0x5
+	WalkUpFast 0x3
+End
+
+Action 32:
+	WalkLeftFast 0x3
+	WalkDownFast 0x5
+	WalkLeftFast 0x5
+	WalkUpFast 0x3
+End
+
+Action 33:
+	WalkLeftFast 0x3
+	WalkDownFast 0x4
+	WalkLeftFast 0x5
+	WalkUpFast 0x3
+End
+
+MESSAGES:
+
+Message 0: You’re a rookie Trainer, aren’t you?\nI can tell!\rThat’s OK! Everyone is a rookie\nat some point!\rIf you’d like, I can teach you a\nfew things?
+Message 1: Ohh… I’m sorry…\nI forgot that i’m old now and can’t run\rlike i used to…
+Message 6: Here…\rFor your effort listening to this old\nsoul, I’ll give you my Running Shoes!\rThey’re still warm!\r...\n...\rMuahaha… Got you, didn’t I?!
+Message 7: \v0103ぁ\x0000\x0000 received\nthe Running Shoes from the Guide Gent!
+Message 8: I’m sure you know how to use\nrunning shoes right…?\rAnywhoo… I must be off, I’m\nsure we’ll bump heads again…!
+
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+BROCK DARK CAVE INTERACTION/BATTLE (WORKING)
+
+OVERWORLD TAB:
+ID NUMBER = 10, ENTRY 373, FLAG 2551, SCRIPT = 0, OW ENTRY ID = 373
+
+TRIGGER SCRIPT:
+TRIGGER WIDTH = 3 TILES, TRIGGER LENGTH = 1 TILE
+0: RUN SCRIPT 1 WHEN VAR 16473 IS 0
+SCRIPT TO TRIGGER = 1, EXPECTED VALUE = 0, VARIABLE WATCHED 16473
+
+SCRIPTS:
+
+Script 1:
+	FadeOutMusic 0 30
+	LockAll 
+	GetPlayerPosition 0x8004 0x8005
+	CompareVarValue 0x8004 4
+	JumpIf EQUAL Function#1
+	CompareVarValue 0x8004 5
+	JumpIf EQUAL Function#2
+Jump Function#3
+
+FUNCTIONS:
+
+Function 1:
+	Movement Overworld.10 Action#1
+	WaitMovement 
+	PlayFanfare 1500
+	Message 0
+	WaitButton 
+	CloseMessage 
+	Message 1
+	WaitButton 
+	CloseMessage 
+	Message 2
+	WaitButton 
+	CloseMessage 
+	TrainerBattle 504 0 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#4
+	SetVar 0x8004 266
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#5
+	Message 4
+	WaitButton 
+	CloseMessage 
+	CommonScript 2008
+	WaitButton 
+	CloseMessage 
+	Movement Overworld.10 Action#2
+	WaitMovement 
+	PlayFanfare 1538
+	RemoveOW Overworld.10
+	SetVar 0x4059 1
+	SetFlag 2550
+	ReleaseAll 
+End 
+
+Function 2:
+	Movement Overworld.10 Action#3
+	WaitMovement 
+	PlayFanfare 1500
+	Message 0
+	WaitButton 
+	CloseMessage 
+	Message 1
+	WaitButton 
+	CloseMessage 
+	Message 2
+	WaitButton 
+	CloseMessage 
+	TrainerBattle 504 0 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#4
+	SetVar 0x8004 266
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#5
+	Message 4
+	WaitButton 
+	CloseMessage 
+	CommonScript 2008
+	WaitButton 
+	CloseMessage 
+	Movement Player Action#4
+	Movement Following Action#5
+	WaitMovement 
+	Movement Overworld.10 Action#6
+	WaitMovement 
+	PlayFanfare 1538
+	RemoveOW Overworld.10
+	SetVar 0x4059 1
+	SetFlag 2550
+	ReleaseAll 
+End 
+
+Function 3:
+	Movement Overworld.10 Action#7
+	WaitMovement 
+	PlayFanfare 1500
+	Message 0
+	WaitButton 
+	CloseMessage 
+	Message 1
+	WaitButton 
+	CloseMessage 
+	Message 2
+	WaitButton 
+	CloseMessage 
+	TrainerBattle 504 0 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#4
+	SetVar 0x8004 266
+	SetVar 0x8005 1
+	CheckItemSpace 0x8004 0x8005 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#5
+	Message 4
+	WaitButton 
+	CloseMessage 
+	CommonScript 2008
+	WaitButton 
+	CloseMessage 
+	Movement Overworld.10 Action#8
+	WaitMovement 
+	PlayFanfare 1538
+	RemoveOW Overworld.10
+	SetVar 0x4059 1
+	SetFlag 2550
+	ReleaseAll 
+End 
+
+Function 4:
+	LostBattle 
+	ReleaseAll 
+End 
+
+Function 5:
+	Message 3
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End
+
+ACTIONS:
+
+Action 1:
+	WalkLeft 0x1
+	WalkDown 0x3
+End
+
+Action 2:
+	WalkRight 0x1
+	WalkDown 0x3
+End
+
+Action 3:
+	WalkDown 0x3
+End
+
+Action 4:
+	WalkRightFast 0x1
+	LookLeft 0x1
+End
+
+Action 5:
+	WalkRightFast 0x1
+	LookLeft 0x1
+End
+
+Action 6:
+	WalkDown 0x3
+End
+
+Action 7:
+	WalkDown 0x1
+	WalkRight 0x1
+	WalkDown 0x2
+End
+
+Action 8:
+	WalkLeft 0x1
+	WalkDown 0x3
+End
+
+MESSAGES:
+
+Message 0: You’ve hit a wall, huh?\nDark Cave’s no stroll, but it’s safer\fthan the chaos outside.
+Message 1: Those wild Pokémon are clashing hard,\nhuh…?\fAre you somewhat seeking my help…?
+Message 2: Fine… if you’re gonna push forward\nshow me you’re built to take a hit…!
+Message 3: Your inventory is full…!\nPlease make space…!
+Message 4: Hmph…\nGuess even stone can shatter.\fTake the Muscle Band.\nNot like I’m using it now.
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+MISTY ROUTE 33 INTERACTION/BATTLE (WORKING)
+
+OVERWORLD TAB:
+ID NUMBER = 4, ENTRY 370, FLAG 2552, SCRIPT = 3, OW ENTRY ID = 370
+
+SCRIPTS:
+
+Script 3:
+	PlayFanfare 1500
+	LockAll 
+	Message 2
+	WaitButton 
+	CloseMessage 
+	Message 3
+	WaitButton 
+	CloseMessage 
+	OpenTouchScreen 
+	YesNoTouchScreen 0x800C
+	CloseTouchScreen 
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#1
+	Message 5
+	WaitButton 
+	CloseMessage 
+	TrainerBattle 506 0 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#2
+	SetVar 0x8004 268
+	SetVar 0x8005 1
+	Message 6
+	WaitButton 
+	CloseMessage 
+	CommonScript 2008
+	Message 7
+	WaitButton 
+	CloseMessage 
+	FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	RemoveOW Overworld.4
+	PlayFanfare 1538
+	WaitTime 30 0x800C
+	FadeScreen 6 1 1 0
+	WaitFadeScreen 
+	SetFlag 2552
+	ReleaseAll 
+End
+
+Function 1:
+	Message 4
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End
+
+Function 2:
+	LostBattle 
+	ReleaseAll 
+End
+
+Message 2: Oh hey you made it!\rI’ve been hearing some buzz about you.\fReady to prove you’re not just talk…?
+Message 3: Let’s make this interesting…\nBattle me and I’ll see if you’re really\fworth my time.\rWin, and maybe I’ll have\nsomething cool for you…
+Message 4: Not ready to make waves, huh?\nFigured…\rCome back when you’ve got the guts\nto dive in!
+Message 5: Haha, didn’t think you’d back down!\rAlright, bring it on!\nLet’s see what you’ve got…
+Message 6: Wow… okay, color me impressed.\nYou really held your own.\rFine! Take this Expert Belt.\nYou earned it…
+Message 7: Not bad, newbie.\nThat was kinda fun!\rCatch you later, maybe next time I\nwon’t go easy on you…!
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
