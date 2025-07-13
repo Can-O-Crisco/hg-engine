@@ -30,107 +30,20 @@ struct PACKED sDamageCalc
     u8 type2;
 };
 
-
-
-static const u8 HeldItemPowerUpTable[][2]={
-    {HOLD_EFFECT_STRENGTHEN_BUG, TYPE_BUG},
-    {HOLD_EFFECT_STRENGTHEN_STEEL, TYPE_STEEL},
-    {HOLD_EFFECT_STRENGTHEN_GROUND, TYPE_GROUND},
-    {HOLD_EFFECT_STRENGTHEN_ROCK, TYPE_ROCK},
-    {HOLD_EFFECT_STRENGTHEN_GRASS, TYPE_GRASS},
-    {HOLD_EFFECT_STRENGTHEN_DARK, TYPE_DARK},
-    {HOLD_EFFECT_STRENGTHEN_FIGHT, TYPE_FIGHTING},
-    {HOLD_EFFECT_STRENGTHEN_ELECTRIC, TYPE_ELECTRIC},
-    {HOLD_EFFECT_STRENGTHEN_WATER, TYPE_WATER},
-    {HOLD_EFFECT_STRENGTHEN_FLYING, TYPE_FLYING},
-    {HOLD_EFFECT_STRENGTHEN_POISON, TYPE_POISON},
-    {HOLD_EFFECT_STRENGTHEN_ICE, TYPE_ICE},
-    {HOLD_EFFECT_STRENGTHEN_GHOST, TYPE_GHOST},
-    {HOLD_EFFECT_STRENGTHEN_PSYCHIC, TYPE_PSYCHIC},
-    {HOLD_EFFECT_STRENGTHEN_FIRE, TYPE_FIRE},
-    {HOLD_EFFECT_STRENGTHEN_DRAGON, TYPE_DRAGON},
-    {HOLD_EFFECT_STRENGTHEN_NORMAL, TYPE_NORMAL},
-    {HOLD_EFFECT_ARCEUS_FIRE, TYPE_FIRE},
-    {HOLD_EFFECT_ARCEUS_WATER, TYPE_WATER},
-    {HOLD_EFFECT_ARCEUS_ELECTRIC, TYPE_ELECTRIC},
-    {HOLD_EFFECT_ARCEUS_GRASS, TYPE_GRASS},
-    {HOLD_EFFECT_ARCEUS_ICE, TYPE_ICE},
-    {HOLD_EFFECT_ARCEUS_FIGHTING, TYPE_FIGHTING},
-    {HOLD_EFFECT_ARCEUS_POISON, TYPE_POISON},
-    {HOLD_EFFECT_ARCEUS_GROUND, TYPE_GROUND},
-    {HOLD_EFFECT_ARCEUS_FLYING, TYPE_FLYING},
-    {HOLD_EFFECT_ARCEUS_PSYCHIC, TYPE_PSYCHIC},
-    {HOLD_EFFECT_ARCEUS_BUG, TYPE_BUG},
-    {HOLD_EFFECT_ARCEUS_ROCK, TYPE_ROCK},
-    {HOLD_EFFECT_ARCEUS_GHOST, TYPE_GHOST},
-    {HOLD_EFFECT_ARCEUS_DRAGON, TYPE_DRAGON},
-    {HOLD_EFFECT_ARCEUS_DARK, TYPE_DARK},
-    {HOLD_EFFECT_ARCEUS_STEEL, TYPE_STEEL},
-    {HOLD_EFFECT_ARCEUS_NORMAL, TYPE_NORMAL},
-#if FAIRY_TYPE_IMPLEMENTED == 1
-    {HOLD_EFFECT_STRENGTHEN_FAIRY, TYPE_FAIRY},
-    {HOLD_EFFECT_ARCEUS_FAIRY, TYPE_FAIRY},
-#endif
-};
+extern const u8 HeldItemPowerUpTable[36][2];
 
 // this has been moved to src/battle/other_battle_calculators.c so it can be used in
 extern const u16 PunchingMovesTable[24];
 
-static const u16 StrongJawMovesTable[] = {
-    MOVE_BITE,
-    MOVE_CRUNCH,
-    MOVE_FIRE_FANG,
-    MOVE_FISHIOUS_REND,
-    MOVE_HYPER_FANG,
-    MOVE_ICE_FANG,
-    MOVE_JAW_LOCK,
-    MOVE_POISON_FANG,
-    MOVE_PSYCHIC_FANGS,
-    MOVE_THUNDER_FANG,
-};
+extern const u16 StrongJawMovesTable[10];
 
-static const u16 MegaLauncherMovesTable[] = {
-    MOVE_AURA_SPHERE,
-    MOVE_DARK_PULSE,
-    MOVE_DRAGON_PULSE,
-    MOVE_HEAL_PULSE,
-    MOVE_ORIGIN_PULSE,
-    MOVE_TERRAIN_PULSE,
-    MOVE_WATER_PULSE,
-};
+extern const u16 MegaLauncherMovesTable[7];
 
-static const u16 SharpnessMovesTable[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_AIR_CUTTER,
-    MOVE_AIR_SLASH,
-    MOVE_AQUA_CUTTER,
-    MOVE_BEHEMOTH_BLADE,
-    MOVE_BITTER_BLADE,
-    MOVE_CEASELESS_EDGE,
-    MOVE_CROSS_POISON,
-    MOVE_CUT,
-    MOVE_FURY_CUTTER,
-    MOVE_KOWTOW_CLEAVE,
-    MOVE_LEAF_BLADE,
-    MOVE_NIGHT_SLASH,
-    MOVE_POPULATION_BOMB,
-    MOVE_PSYBLADE,
-    MOVE_PSYCHO_CUT,
-    MOVE_RAZOR_SHELL,
-    MOVE_RAZOR_LEAF,
-    MOVE_SACRED_SWORD,
-    MOVE_SECRET_SWORD,
-    MOVE_SLASH,
-    MOVE_SOLAR_BLADE,
-    MOVE_STONE_AXE,
-    MOVE_X_SCISSOR,
-};
-
-
+extern const u16 SharpnessMovesTable[24];
 
 
 int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
-                   u32 field_cond, u16 pow, u8 type UNUSED, u8 attacker, u8 defender, u8 critical)
+                   u32 field_cond, u16 pow, u8 type, u8 attacker, u8 defender, u8 critical)
 {
     u32 i;
     s32 damage = 0;
@@ -1055,6 +968,42 @@ int UNUSED CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 sid
             break;
         }
     }
+    damage = damage + 2;
 
-    return damage + 2;
+    BOOL attackerHasMoldBreaker = (AttackingMon.ability == ABILITY_MOLD_BREAKER || AttackingMon.ability == ABILITY_TERAVOLT || AttackingMon.ability == ABILITY_TURBOBLAZE);
+
+    if (!attackerHasMoldBreaker)
+    {
+        switch (DefendingMon.ability)
+        {
+        case ABILITY_FLASH_FIRE:
+        case ABILITY_WELL_BAKED_BODY:
+            if (type == TYPE_FIRE)
+                damage = 0;
+            break;
+        case ABILITY_LIGHTNING_ROD:
+        case ABILITY_VOLT_ABSORB:
+        case ABILITY_MOTOR_DRIVE:
+            if (type == TYPE_ELECTRIC)
+                damage = 0;
+            break;
+        case ABILITY_WATER_ABSORB:
+        case ABILITY_STORM_DRAIN:
+        case ABILITY_DRY_SKIN:
+            if (movetype == TYPE_WATER)
+                damage = 0;
+            break;
+        case ABILITY_SAP_SIPPER:
+            if (type == TYPE_GRASS)
+                damage = 0;
+            break;
+        case ABILITY_EARTH_EATER:
+            if (type == TYPE_GROUND)
+                damage = 0;
+            break;
+        default:
+            break;
+        }
+    }
+    return damage;
 }

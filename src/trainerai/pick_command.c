@@ -9,10 +9,13 @@
 #include "../../include/constants/battle_script_constants.h"
 #include "../../include/constants/battle_message_constants.h"
 
+
+//int LONG_CALL BattleAI_PostKOSwitchIn(struct BattleSystem *battleSys, int battler);
 BOOL TrainerAI_ShouldSwitch(struct BattleSystem *battleSys, int battler);
 
 int TrainerAI_PickCommand(struct BattleSystem *battleSys, int battler)
 {
+    debug_printf("TrainerAI_PickCommand:\n");
     if (TrainerAI_ShouldSwitch(battleSys, battler))
         return PLAYER_INPUT_PARTY;
     return PLAYER_INPUT_FIGHT;
@@ -20,6 +23,13 @@ int TrainerAI_PickCommand(struct BattleSystem *battleSys, int battler)
 
 BOOL TrainerAI_ShouldSwitch(struct BattleSystem *battleSys, int battler)
 {
+    debug_printf("TrainerAI_ShouldSwitch: always FALSE\n");
+    return FALSE;
+
+
+
+    /*
+    *     
     int i;
     u32 battler1, battler2, maxHP = 0;
     u32 battleType;
@@ -61,5 +71,6 @@ BOOL TrainerAI_ShouldSwitch(struct BattleSystem *battleSys, int battler)
         }
     }
     return FALSE;
+    */
 }
 
