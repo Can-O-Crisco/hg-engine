@@ -12,8 +12,6 @@ _0000: // Trainer 0
        // Trainer 63
        // Trainer 87
        // Trainer 88
-       // Trainer 105
-       // Trainer 106
        // Trainer 107
        // Trainer 138
        // Trainer 141
@@ -115,7 +113,7 @@ _0017: // Trainer 40
 	trainertextentry 40, TEXT_NOTICE_IN_OVERWORLD, "I ran the battle sim... Let's go!\n"
 	trainertextentry 40, TEXT_DEFEATED_IN_BATTLE, "Algorithm... failed me...\n"
 	trainertextentry 40, TEXT_DEFEATED_IN_OVERWORLD, "Back to debugging...\n"
-	trainertextentry 40, TEXT_PLAYER_LOSES, "Science wins stats never lie!\n"
+	trainertextentry 40, TEXT_PLAYER_LOSES, "Science wins... stats never lie!\n"
 	
 _0018: // Trainer 497
     trainertextentry 497, TEXT_LAST_MON_SENT_OUT, "...Humph!\nYou’re doing OK for someone weak.\n"
@@ -140,6 +138,20 @@ _0021: // Trainer 504
     trainertextentry 504, TEXT_LAST_MON_SENT_OUT, "Like bedrock beneath the surface…\nMy strongest doesn’t crumble easy.\n"
     trainertextentry 504, TEXT_DEFEATED_IN_BATTLE, "You held steady.\nI see strength beneath the surface.\n"
     trainertextentry 504, TEXT_PLAYER_LOSES, "Even granite cracks under pressure.\nCome back when your resolve’s reforged.\n"
+
+_0022: // Trainer 105
+    trainertextentry 105, TEXT_NOTICE_IN_OVERWORLD, "Hold up! The forest's got rhythm,\nand you're about to feel the beat!\n"
+    trainertextentry 105, TEXT_LAST_MON_SENT_OUT, "This next track? A real shocker.\nHope you're tuned in!\n"
+    trainertextentry 105, TEXT_DEFEATED_IN_BATTLE, "No way… Was I off key?\nGuess your tempo was tighter.\n"
+    trainertextentry 105, TEXT_DEFEATED_IN_OVERWORLD, "The silence after the battle…\nEven louder than my guitar.\n"
+    trainertextentry 105, TEXT_PLAYER_LOSES, "Haha! The crowd goes wild!\nEncore? Not until you rehearse!\n"
+
+_0023: // Trainer 106
+    trainertextentry 106, TEXT_NOTICE_IN_OVERWORLD, "Your aura… it's restless\nLets align our energies and see what unfolds.\n"
+    trainertextentry 106, TEXT_LAST_MON_SENT_OUT, "My mind is clear.\nThis will be your final test.\n"
+    trainertextentry 106, TEXT_DEFEATED_IN_BATTLE, "Intriguing…\nYour thoughts were sharper than mine today.\n"
+    trainertextentry 106, TEXT_DEFEATED_IN_OVERWORLD, "The forest speaks softly now.\nIts wisdom favors you.\n"
+    trainertextentry 106, TEXT_PLAYER_LOSES, "I saw this outcome in a vision.\nStill, the clarity is humbling.\n"
 
 _0024: // Trainer 1
     trainertextentry   1, TEXT_LAST_MON_CRITICAL, "Say, you’ve got a lot of nerve,\ncoming here...\n"
@@ -3226,8 +3238,8 @@ _1AD0: // Trainer 630
 /* Trainer 102 */ .halfword _0980
 /* Trainer 103 */ .halfword _09D4
 /* Trainer 104 */ .halfword _09E0
-/* Trainer 105 */ .halfword _0000
-/* Trainer 106 */ .halfword _0000
+/* Trainer 105 */ .halfword _0022
+/* Trainer 106 */ .halfword _0023
 /* Trainer 107 */ .halfword _0000
 /* Trainer 108 */ .halfword _0DFC
 /* Trainer 109 */ .halfword _0E8C

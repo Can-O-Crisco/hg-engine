@@ -4343,7 +4343,7 @@ mondata SPECIES_FORRETRESS, "Forretress"
 
 mondata SPECIES_DUNSPARCE, "Dunsparce"
     basestats 100, 70, 70, 45, 65, 65
-    types TYPE_NORMAL, TYPE_NORMAL
+    types TYPE_NORMAL, TYPE_GROUND
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 0
