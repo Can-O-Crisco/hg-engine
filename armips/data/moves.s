@@ -12729,7 +12729,7 @@ movedata MOVE_LIFE_DEW, "Life Dew"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_LIFE_DEW, "---"
+    movedescription MOVE_LIFE_DEW, "Heals the Hit Points\nof the user and ally by 25%"
 
 movedata MOVE_OBSTRUCT, "Obstruct"
     battleeffect MOVE_EFFECT_HIT
