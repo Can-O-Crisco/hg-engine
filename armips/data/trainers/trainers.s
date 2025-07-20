@@ -273,65 +273,149 @@ trainerdata 5, "Victoria"
     endparty
 
 trainerdata 6, "Keith"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_POLICEMAN
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 6
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 17
-        pokemon SPECIES_GROWLITHE
+        level 25
+        pokemon SPECIES_MIGHTYENA
+        item ITEM_FOCUS_SASH
+        move MOVE_THUNDER_FANG
+        move MOVE_PSYCHIC_FANGS
+        move MOVE_SUCKER_PUNCH
+        move MOVE_FIRE_FANG
+        ability ABILITY_INTIMIDATE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_JOLLY
+        additionalflags 0
+        ballseal 0
+
+        // mon 1
+        ivs 186
+        abilityslot 0
+        level 25
+        pokemon SPECIES_HYPNO
+        item ITEM_SITRUS_BERRY
+        move MOVE_SNARL
+        move MOVE_ENCORE
+        move MOVE_PSYBEAM
+        move MOVE_HYPNOSIS
+        ability ABILITY_PRANKSTER
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_RELAXED
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 25
+        pokemon SPECIES_MAGNETON
+        item ITEM_AIR_BALLOON
+        move MOVE_FLASH_CANNON
+        move MOVE_VOLT_SWITCH
+        move MOVE_CHARGE_BEAM
+        move MOVE_TRI_ATTACK
+        ability ABILITY_STURDY
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_MILD
+        additionalflags 0
         ballseal 0
     endparty
 
 trainerdata 7, "Irwin"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_JUGGLER
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 7
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 2
-        pokemon SPECIES_VOLTORB
+        level 28
+        pokemon SPECIES_HELIOLISK
+        item ITEM_FOCUS_SASH
+        move MOVE_RAIN_DANCE
+        move MOVE_PARABOLIC_CHARGE
+        move MOVE_WEATHER_BALL
+        move MOVE_VOLT_SWITCH
+        ability ABILITY_DRY_SKIN
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_MODEST
+        additionalflags 0
         ballseal 0
 
         // mon 1
-        ivs 0
-        abilityslot 32
-        level 6
-        pokemon SPECIES_VOLTORB
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_SHIFTRY
+        item ITEM_EXPERT_BELT
+        move MOVE_FAKE_OUT
+        move MOVE_GIGA_DRAIN
+        move MOVE_AIR_CUTTER
+        move MOVE_SUCKER_PUNCH
+        ability ABILITY_WIND_RIDER
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        additionalflags 0
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 10
-        pokemon SPECIES_VOLTORB
+        level 28
+        pokemon SPECIES_KLEFKI
+        item ITEM_AIR_BALLOON
+        move MOVE_REFLECT
+        move MOVE_DRAINING_KISS
+        move MOVE_FLASH_CANNON
+        move MOVE_THUNDER_WAVE
+        ability ABILITY_PRANKSTER
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_RELAXED
+        additionalflags 0
         ballseal 0
 
         // mon 3
-        ivs 0
-        abilityslot 32
-        level 14
-        pokemon SPECIES_VOLTORB
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_SEISMITOAD
+        item ITEM_CHESTO_BERRY
+        move MOVE_DRAIN_PUNCH
+        move MOVE_BUBBLE_BEAM
+        move MOVE_STOMPING_TANTRUM
+        move MOVE_REST
+        ability ABILITY_SWIFT_SWIM
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BRAVE
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -351,7 +435,7 @@ trainerdata 8, "Joey"
         // mon 0
         ivs 0
         abilityslot 0
-        level 9
+        level 10
         pokemon SPECIES_RATTATA
         item ITEM_ORAN_BERRY
         move MOVE_TACKLE
@@ -368,7 +452,7 @@ trainerdata 8, "Joey"
         // mon 1
         ivs 0
         abilityslot 0
-        level 10
+        level 11
         pokemon SPECIES_PIDGEY
         item ITEM_ORAN_BERRY
         move MOVE_GUST
@@ -456,7 +540,7 @@ trainerdata 10, "Amy & Mimi"
         abilityslot 0
         level 23
         pokemon SPECIES_ILLUMISE
-        item ITEM_BRIGHT_POWDER
+        item ITEM_COVERT_CLOAK
         move MOVE_DRAINING_KISS
         move MOVE_MOONLIGHT
         move MOVE_THUNDER_WAVE
@@ -538,7 +622,7 @@ trainerdata 11, "Monique"
         abilityslot 0
         level 19
         pokemon SPECIES_TOGEDEMARU
-        item ITEM_FOCUS_SASH
+        item ITEM_SHUCA_BERRY
         move MOVE_GYRO_BALL
         move MOVE_GRASS_KNOT
         move MOVE_SPARK
@@ -898,7 +982,7 @@ trainerdata 19, "Frank"
         // mon 0
         ivs 0
         abilityslot 0
-        level 10
+        level 11
         pokemon SPECIES_STARLY
         item ITEM_ORAN_BERRY
         move MOVE_TACKLE
@@ -915,7 +999,7 @@ trainerdata 19, "Frank"
         // mon 1
         ivs 0
         abilityslot 0
-        level 10
+        level 11
         pokemon SPECIES_PIDGEY
         item ITEM_ORAN_BERRY
         move MOVE_GUST
@@ -1063,16 +1147,16 @@ trainerdata 21, "Bugsy"
         ivs 120
         abilityslot 0
         level 23
-        pokemon SPECIES_GALVANTULA
-        item ITEM_FOCUS_SASH
+        pokemon SPECIES_ARAQUANID
+        item ITEM_ROCKY_HELMET
         move MOVE_STICKY_WEB
-        move MOVE_ELECTROWEB
-        move MOVE_U_TURN
-        move MOVE_BUG_BUZZ
-        ability ABILITY_COMPOUND_EYES
+        move MOVE_LEECH_LIFE
+        move MOVE_BUBBLE_BEAM
+        move MOVE_CRUNCH
+        ability ABILITY_WATER_BUBBLE
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_NAIVE
+        nature NATURE_CAREFUL
         additionalflags 0
         ballseal 0
 
@@ -1097,16 +1181,16 @@ trainerdata 21, "Bugsy"
         ivs 120
         abilityslot 0
         level 23
-        pokemon SPECIES_ARAQUANID
-        item ITEM_ROCKY_HELMET
-        move MOVE_AQUA_JET
-        move MOVE_LEECH_LIFE
-        move MOVE_BUBBLE_BEAM
-        move MOVE_CRUNCH
-        ability ABILITY_WATER_BUBBLE
+        pokemon SPECIES_GALVANTULA
+        item ITEM_FOCUS_SASH
+        move MOVE_THUNDER_WAVE
+        move MOVE_ELECTROWEB
+        move MOVE_U_TURN
+        move MOVE_BUG_BUZZ
+        ability ABILITY_COMPOUND_EYES
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_CAREFUL
+        nature NATURE_NAIVE
         additionalflags 0
         ballseal 0
 
@@ -1253,23 +1337,67 @@ trainerdata 23, "Larry"
     endparty
 
 trainerdata 24, "Alan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_SCHOOL_KID_M
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | F_EXPERT_ATTACKS | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 24
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 17
+        level 28
+        pokemon SPECIES_PELIPPER
+        item ITEM_WACAN_BERRY
+        move MOVE_AIR_SLASH
+        move MOVE_ICY_WIND
+        move MOVE_WATER_PULSE
+        move MOVE_ROOST
+        ability ABILITY_DRIZZLE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CALM
+        additionalflags 0
+        ballseal 0
+
+        // mon 1
+        ivs 186
+        abilityslot 0
+        level 28
         pokemon SPECIES_TANGELA
+        item ITEM_EVIOLITE
+        move MOVE_ANCIENT_POWER
+        move MOVE_KNOCK_OFF
+        move MOVE_GIGA_DRAIN
+        move MOVE_SLEEP_POWDER
+        ability ABILITY_REGENERATOR
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CAREFUL
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_DREDNAW
+        item ITEM_RINDO_BERRY
+        move MOVE_JAW_LOCK
+        move MOVE_ICE_FANG
+        move MOVE_RAZOR_SHELL
+        move MOVE_ROCK_TOMB
+        ability ABILITY_SWIFT_SWIM
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BRAVE
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -1291,7 +1419,7 @@ trainerdata 25, "Russel"
         abilityslot 0
         level 20
         pokemon SPECIES_ARCHEN
-        item ITEM_FOCUS_SASH
+        item ITEM_MUSCLE_BAND
         move MOVE_WING_ATTACK
         move MOVE_ROCK_TOMB
         move MOVE_U_TURN
@@ -1373,7 +1501,7 @@ trainerdata 26, "Roland"
         abilityslot 0
         level 19
         pokemon SPECIES_DIGGERSBY
-        item ITEM_FOCUS_SASH
+        item ITEM_POWER_HERB
         move MOVE_BULLDOZE
         move MOVE_QUICK_ATTACK
         move MOVE_BOUNCE
@@ -2110,9 +2238,9 @@ trainerdata 43, "Chow"
         pokemon SPECIES_DUSKULL
         item ITEM_ORAN_BERRY
         move MOVE_SHADOW_PUNCH
-        move MOVE_SHADOW_SNEAK
-        move MOVE_DISABLE
-        move MOVE_NONE
+        move MOVE_NIGHT_SHADE
+        move MOVE_CONFUSE_RAY
+        move MOVE_WILL_O_WISP
         ability ABILITY_PRESSURE
         setivs 15, 15, 15, 15, 15, 15
         setevs 0, 0, 0, 0, 0, 0
@@ -2126,8 +2254,8 @@ trainerdata 43, "Chow"
         level 12
         pokemon SPECIES_MISDREAVUS
         item ITEM_WISE_GLASSES
-        move MOVE_PSYWAVE
-        move MOVE_DISARMING_VOICE
+        move MOVE_PSYBEAM
+        move MOVE_FAIRY_WIND
         move MOVE_NIGHT_SHADE
         move MOVE_NONE
         ability ABILITY_MAGIC_GUARD
@@ -2771,16 +2899,16 @@ trainerdata 56, "Gordon"
         ivs 90
         abilityslot 0
         level 20
-        monwithform SPECIES_GROWLITHE, 1
-        item ITEM_FOCUS_BAND
-        move MOVE_ACCELEROCK
-        move MOVE_BITE
-        move MOVE_FLAME_WHEEL
-        move MOVE_MORNING_SUN
-        ability ABILITY_INTIMIDATE
+        pokemon SPECIES_DUNSPARCE
+        item ITEM_RAZOR_CLAW
+        move MOVE_YAWN
+        move MOVE_SLAM
+        move MOVE_DRILL_RUN
+        move MOVE_ROOST
+        ability ABILITY_SERENE_GRACE
         setivs 15, 15, 15, 15, 15, 15
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_JOLLY
+        nature NATURE_SASSY
         additionalflags 0
         ballseal 0
 
@@ -3122,7 +3250,7 @@ trainerdata 62, "Samuel"
         abilityslot 0
         level 26
         pokemon SPECIES_MEOWSTIC
-        item ITEM_BRIGHT_POWDER
+        item ITEM_SITRUS_BERRY
         move MOVE_HELPING_HAND
         move MOVE_PSYBEAM
         move MOVE_YAWN
@@ -3151,17 +3279,17 @@ trainerdata 63, "Randolph"
         // mon 0
         ivs 186
         abilityslot 0
-        level 26
-        pokemon SPECIES_MEDITITE
+        level 25
+        pokemon SPECIES_HARIYAMA
         item ITEM_SITRUS_BERRY
+        move MOVE_KNOCK_OFF
         move MOVE_FAKE_OUT
-        move MOVE_REFLECT
-        move MOVE_FORCE_PALM
-        move MOVE_ICE_PUNCH
-        ability ABILITY_PURE_POWER
+        move MOVE_DRAIN_PUNCH
+        move MOVE_ROCK_TOMB
+        ability ABILITY_SHEER_FORCE
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_NAUGHTY
+        nature NATURE_CAREFUL
         additionalflags 0
         ballseal 0
 		
@@ -3178,7 +3306,7 @@ trainerdata 63, "Randolph"
         ability ABILITY_STURDY
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_CAREFUL
+        nature NATURE_BRAVE
         additionalflags 0
         ballseal 0
 		
@@ -3201,38 +3329,67 @@ trainerdata 63, "Randolph"
     endparty
 
 trainerdata 64, "Ian"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_YOUNGSTER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | F_RISKY_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 64
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 10
-        pokemon SPECIES_MANKEY
-        move MOVE_FOCUS_ENERGY
-        move MOVE_SCRATCH
-        move MOVE_LOW_KICK
-        move MOVE_LEER
+        level 26
+        pokemon SPECIES_PRIMEAPE
+        item ITEM_PUNCHING_GLOVE
+        move MOVE_RAGE_FIST
+        move MOVE_BULK_UP
+        move MOVE_DRAIN_PUNCH
+        move MOVE_ACROBATICS
+        ability ABILITY_DEFIANT
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LONELY
+        additionalflags 0
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 12
-        pokemon SPECIES_DIGLETT
-        move MOVE_ASTONISH
-        move MOVE_GROWL
-        move MOVE_SCRATCH
-        move MOVE_SAND_ATTACK
+        level 26
+        monwithform SPECIES_DUGTRIO, 1
+        item ITEM_FOCUS_SASH
+        move MOVE_IRON_HEAD
+        move MOVE_BULLDOZE
+        move MOVE_SUCKER_PUNCH
+        move MOVE_ROCK_TOMB
+        ability ABILITY_TANGLING_HAIR
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_IMPISH
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 26
+        pokemon SPECIES_CRAWDAUNT
+        item ITEM_SITRUS_BERRY
+        move MOVE_RAZOR_SHELL
+        move MOVE_KNOCK_OFF
+        move MOVE_METAL_CLAW
+        move MOVE_AQUA_JET
+        ability ABILITY_SHELL_ARMOR
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CAREFUL
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -3319,23 +3476,84 @@ trainerdata 65, "Gina"
     endparty
 
 trainerdata 66, "Todd"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_CAMPER
-    nummons 1
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | F_RISKY_ATTACKS | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 66
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 14
-        pokemon SPECIES_PSYDUCK
+        level 25
+        pokemon SPECIES_RAICHU
+        item ITEM_FOCUS_SASH
+        move MOVE_FAKE_OUT
+        move MOVE_THUNDER_PUNCH
+        move MOVE_BRICK_BREAK
+        move MOVE_VOLT_SWITCH
+        ability ABILITY_LIGHTNING_ROD
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_JOLLY
+        additionalflags 0
+        ballseal 0
+
+        // mon 1
+        ivs 186
+        abilityslot 0
+        level 25
+        pokemon SPECIES_SLIGGOO
+        item ITEM_LEFTOVERS
+        move MOVE_RAIN_DANCE
+        move MOVE_ACID_SPRAY
+        move MOVE_DRAGON_BREATH
+        move MOVE_WATER_PULSE
+        ability ABILITY_GOOEY
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_QUIET
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 25
+        pokemon SPECIES_GOLDUCK
+        item ITEM_SITRUS_BERRY
+        move MOVE_ICY_WIND
+        move MOVE_MUD_SHOT
+        move MOVE_WATER_PULSE
+        move MOVE_PSYBEAM
+        ability ABILITY_SWIFT_SWIM
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_TIMID
+        additionalflags 0
+        ballseal 0
+
+        // mon 3
+        ivs 186
+        abilityslot 0
+        level 25
+        pokemon SPECIES_PILOSWINE
+        item ITEM_EVIOLITE
+        move MOVE_BULLDOZE
+        move MOVE_ICE_SHARD
+        move MOVE_AVALANCHE
+        move MOVE_ROCK_SLIDE
+        ability ABILITY_THICK_FAT
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BRAVE
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -3572,30 +3790,67 @@ trainerdata 71, "Cathy"
     endparty
 
 trainerdata 72, "Bryan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_BIRD_KEEPER_GS
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 72
         // mon 0
-        ivs 50
+        ivs 186
         abilityslot 0
-        level 12
-        pokemon SPECIES_PIDGEY
+        level 28
+        pokemon SPECIES_SIRFETCHD
+        item ITEM_MUSCLE_BAND
+        move MOVE_FIRST_IMPRESSION
+        move MOVE_KNOCK_OFF
+        move MOVE_ROCK_SMASH
+        move MOVE_DETECT
+        ability ABILITY_SCRAPPY
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_JOLLY
+        additionalflags 0
         ballseal 0
 
         // mon 1
-        ivs 50
+        ivs 186
         abilityslot 0
-        level 14
-        pokemon SPECIES_PIDGEOTTO
+        level 28
+        pokemon SPECIES_GLIGAR
+        item ITEM_TOXIC_ORB
+        move MOVE_BULLDOZE
+        move MOVE_U_TURN
+        move MOVE_ACROBATICS
+        move MOVE_KNOCK_OFF
+        ability ABILITY_STURDY
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_GENTLE
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_SKARMORY
+        item ITEM_ROCKY_HELMET
+        move MOVE_BODY_PRESS
+        move MOVE_IRON_DEFENSE
+        move MOVE_STEEL_WING
+        move MOVE_ROOST
+        ability ABILITY_STURDY
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_IMPISH
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -3649,132 +3904,361 @@ trainerdata 73, "Theo"
     endparty
 
 trainerdata 74, "Ivan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
+    trainerclass TRAINERCLASS_CAMPER
+    nummons 4
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 74
+        // mon 0
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_GOLBAT
+        item ITEM_EVIOLITE
+        move MOVE_AIR_CUTTER
+        move MOVE_U_TURN
+        move MOVE_VENOSHOCK
+        move MOVE_TOXIC
+        ability ABILITY_INNER_FOCUS
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_GENTLE
+        additionalflags 0
+        ballseal 0
+
+        // mon 1
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_DUGTRIO
+        item ITEM_FOCUS_SASH
+        move MOVE_SUCKER_PUNCH
+        move MOVE_ROCK_TOMB
+        move MOVE_BULLDOZE
+        move MOVE_FINAL_GAMBIT
+        ability ABILITY_ARENA_TRAP
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LONELY
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_HEATMOR
+        item ITEM_IAPAPA_BERRY
+        move MOVE_FIRE_LASH
+        move MOVE_WILL_O_WISP
+        move MOVE_DRAIN_PUNCH
+        move MOVE_THUNDER_PUNCH
+        ability ABILITY_GLUTTONY
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_IMPISH
+        additionalflags 0
+        ballseal 0
+
+        // mon 3
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_KINGLER
+        item ITEM_LUM_BERRY
+        move MOVE_CRABHAMMER
+        move MOVE_SWORDS_DANCE
+        move MOVE_IRON_HEAD
+        move MOVE_HIGH_HORSEPOWER
+        ability ABILITY_SHELL_ARMOR
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_JOLLY
+        additionalflags 0
+        ballseal 0
+    endparty
+
+trainerdata 75, "Elliot"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_CAMPER
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 74
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 10
-        pokemon SPECIES_DIGLETT
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 10
-        pokemon SPECIES_ZUBAT
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 14
-        pokemon SPECIES_DIGLETT
-        ballseal 0
-    endparty
-
-trainerdata 75, "Elliot"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_CAMPER
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 75
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 13
-        pokemon SPECIES_SANDSHREW
+        level 28
+        pokemon SPECIES_STANTLER
+        item ITEM_EVIOLITE
+        move MOVE_PSYSHIELD_BASH
+        move MOVE_CONFUSE_RAY
+        move MOVE_STOMP
+        move MOVE_BULLDOZE
+        ability ABILITY_INTIMIDATE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_HASTY
+        additionalflags 0
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 15
-        pokemon SPECIES_MARILL
+        level 28
+        pokemon SPECIES_AZUMARILL
+        item ITEM_SITRUS_BERRY
+        move MOVE_PLAY_ROUGH
+        move MOVE_BOUNCE
+        move MOVE_AQUA_JET
+        move MOVE_BELLY_DRUM
+        ability ABILITY_
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_QUIRKY
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        monwithform SPECIES_SANDSLASH, 1
+        item ITEM_EXPERT_BELT
+        move MOVE_KNOCK_OFF
+        move MOVE_FURY_CUTTER
+        move MOVE_ICE_PUNCH
+        move MOVE_METAL_CLAW
+        ability ABILITY_TOUGH_CLAWS
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CAREFUL
+        additionalflags 0
         ballseal 0
     endparty
 
 trainerdata 76, "Brooke"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 76
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 16
-        pokemon SPECIES_PIKACHU
-        move MOVE_THUNDER_SHOCK
-        move MOVE_GROWL
-        move MOVE_QUICK_ATTACK
-        move MOVE_DOUBLE_TEAM
+        level 28
+        monwithform SPECIES_RAICHU, 1
+        item ITEM_FOCUS_SASH
+        move MOVE_FAKE_OUT
+        move MOVE_VOLT_SWITCH
+        move MOVE_SURF
+        move MOVE_LIGHT_SCREEN
+        ability ABILITY_LEVITATE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_MODEST
+        additionalflags 0
+        ballseal 0
+
+        // mon 1
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_BISHARP
+        item ITEM_AIR_BALLOON
+        move MOVE_IRON_HEAD
+        move MOVE_GRASS_KNOT
+        move MOVE_SUCKER_PUNCH
+        move MOVE_AERIAL_ACE
+        ability ABILITY_DEFIANT
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LONELY
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_APPLETUN
+        item ITEM_SITRUS_BERRY
+        move MOVE_APPLE_ACID
+        move MOVE_PROTECT
+        move MOVE_RECYCLE
+        move MOVE_DRAGON_PULSE
+        ability ABILITY_THICK_FAT
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CALM
+        additionalflags 0
         ballseal 0
     endparty
 
 trainerdata 77, "Kim"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
-    nummons 1
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 77
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 15
-        pokemon SPECIES_VULPIX
+        level 28
+        pokemon SPECIES_NINETALES
+        item ITEM_SITRUS_BERRY
+        move MOVE_WILL_O_WISP
+        move MOVE_ENERGY_BALL
+        move MOVE_INCINERATE
+        move MOVE_HEX
+        ability ABILITY_DROUGHT
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        additionalflags 0
+        ballseal 0
+
+        // mon 1
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_SUNFLORA
+        item ITEM_BIG_ROOT
+        move MOVE_INCINERATE
+        move MOVE_LEECH_SEED
+        move MOVE_GIGA_DRAIN
+        move MOVE_MORNING_SUN
+        ability ABILITY_SOLAR_POWER
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_RELAXED
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_SOLROCK
+        item ITEM_LEFTOVERS
+        move MOVE_ROCK_SLIDE
+        move MOVE_MORNING_SUN
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_FLAME_WHEEL
+        ability ABILITY_LEVITATE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAUGHTY
+        additionalflags 0
         ballseal 0
     endparty
 
 trainerdata 78, "Arnie"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_BUG_CATCHER
-    nummons 1
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 78
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 15
-        pokemon SPECIES_VENONAT
+        level 28
+        pokemon SPECIES_VENOMOTH
+        item ITEM_BLACK_SLUDGE
+        move MOVE_TOXIC
+        move MOVE_VENOSHOCK
+        move MOVE_BUG_BUZZ
+        move MOVE_PROTECT
+        ability ABILITY_SHIELD_DUST
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_QUIET
+        additionalflags 0
+        ballseal 0
+
+        // mon 1
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_KABUTOPS
+        item ITEM_RINDO_BERRY
+        move MOVE_FLIP_TURN
+        move MOVE_LEECH_LIFE
+        move MOVE_AQUA_JET
+        move MOVE_ROCK_SLIDE
+        ability ABILITY_BATTLE_ARMOR
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CAREFUL
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_LEDIAN
+        item ITEM_FOCUS_SASH
+        move MOVE_POWER_UP_PUNCH
+        move MOVE_U_TURN
+        move MOVE_ICE_PUNCH
+        move MOVE_FAKE_OUT
+        ability ABILITY_IRON_FIST
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_JOLLY
+        additionalflags 0
+        ballseal 0
+
+        // mon 3
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_LEAVANNY
+        item ITEM_SITRUS_BERRY
+        move MOVE_LUNGE
+        move MOVE_SWORDS_DANCE
+        move MOVE_KNOCK_OFF
+        move MOVE_THUNDER_PUNCH
+        ability ABILITY_OVERCOAT
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_IMPISH
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -3807,30 +4291,67 @@ trainerdata 79, "Ken"
     endparty
 
 trainerdata 80, "Dirk"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_POLICEMAN
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 80
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 14
-        pokemon SPECIES_GROWLITHE
+        level 28
+        pokemon SPECIES_WHIMSICOTT
+        item ITEM_FOCUS_SASH
+        move MOVE_TAILWIND
+        move MOVE_U_TURN
+        move MOVE_GIGA_DRAIN
+        move MOVE_MOONBLAST
+        ability ABILITY_PRANKSTER
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        additionalflags 0
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 14
-        pokemon SPECIES_GROWLITHE
+        level 28
+        pokemon SPECIES_VIGOROTH
+        item ITEM_FIGY_BERRY
+        move MOVE_SLACK_OFF
+        move MOVE_AERIAL_ACE
+        move MOVE_SLASH
+        move MOVE_YAWN
+        ability ABILITY_GLUTTONY
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAUGHTY
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_BRAIXEN
+        item ITEM_EVIOLITE
+        move MOVE_PSYBEAM
+        move MOVE_FIRE_PLEDGE
+        move MOVE_WILL_O_WISP
+        move MOVE_ENCORE
+        ability ABILITY_MAGICIAN
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_TIMID
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -4038,17 +4559,17 @@ trainerdata 87, "Mickey"
         // mon 0
         ivs 186
         abilityslot 0
-        level 25
-        pokemon SPECIES_RIBOMBEE
-        item ITEM_NONE
-        move MOVE_BUG_BUZZ
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
-        ability ABILITY_SHIELD_DUST
+        level 26
+        pokemon SPECIES_QWILFISH
+        item ITEM_FOCUS_SASH
+        move MOVE_TOXIC_SPIKES
+        move MOVE_FELL_STINGER
+        move MOVE_BARB_BARRAGE
+        move MOVE_AQUA_JET
+        ability ABILITY_INTIMIDATE
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_DOCILE
+        nature NATURE_BRAVE
         additionalflags 0
         ballseal 0
 		
@@ -4056,16 +4577,16 @@ trainerdata 87, "Mickey"
         ivs 186
         abilityslot 0
         level 25
-        pokemon SPECIES_RIBOMBEE
-        item ITEM_NONE
-        move MOVE_BUG_BUZZ
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
-        ability ABILITY_SHIELD_DUST
+        pokemon SPECIES_DURANT
+        item ITEM_EXPERT_BELT
+        move MOVE_BUG_BITE
+        move MOVE_ROCK_TOMB
+        move MOVE_BITE
+        move MOVE_METAL_CLAW
+        ability ABILITY_SWARM
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_DOCILE
+        nature NATURE_GENTLE
         additionalflags 0
         ballseal 0
 		
@@ -4073,38 +4594,38 @@ trainerdata 87, "Mickey"
         ivs 186
         abilityslot 0
         level 25
-        pokemon SPECIES_RIBOMBEE
-        item ITEM_NONE
-        move MOVE_BUG_BUZZ
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
-        ability ABILITY_SHIELD_DUST
+        pokemon SPECIES_OCTILLERY
+        item ITEM_QUICK_CLAW
+        move MOVE_OCTAZOOKA
+        move MOVE_PSYBEAM
+        move MOVE_AURORA_BEAM
+        move MOVE_INCINERATE
+        ability ABILITY_SNIPER
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_DOCILE
+        nature NATURE_QUIET
         additionalflags 0
         ballseal 0
 		
 		// mon 3
         ivs 186
         abilityslot 0
-        level 25
-        pokemon SPECIES_RIBOMBEE
-        item ITEM_NONE
-        move MOVE_BUG_BUZZ
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
-        ability ABILITY_SHIELD_DUST
+        level 26
+        pokemon SPECIES_KLANG
+        item ITEM_EVIOLITE
+        move MOVE_CHARGE_BEAM
+        move MOVE_THUNDER_WAVE
+        move MOVE_SHIFT_GEAR
+        move MOVE_GEAR_GRIND
+        ability ABILITY_CLEAR_BODY
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_DOCILE
+        nature NATURE_HASTY
         additionalflags 0
         ballseal 0
     endparty
 
-trainerdata 88, "Mickey"
+trainerdata 88, "Georgia"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_PICNICKER
     nummons 4
@@ -4122,11 +4643,11 @@ trainerdata 88, "Mickey"
         abilityslot 0
         level 25
         pokemon SPECIES_RIBOMBEE
-        item ITEM_NONE
-        move MOVE_BUG_BUZZ
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        item ITEM_FOCUS_SASH
+        move MOVE_STRUGGLE_BUG
+        move MOVE_MAGICAL_LEAF
+        move MOVE_DRAINING_KISS
+        move MOVE_U_TURN
         ability ABILITY_SHIELD_DUST
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
@@ -4139,15 +4660,15 @@ trainerdata 88, "Mickey"
         abilityslot 0
         level 26
         pokemon SPECIES_CARKOL
-        item ITEM_NONE
+        item ITEM_EVIOLITE
         move MOVE_FLAME_CHARGE
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        move MOVE_GYRO_BALL
+        move MOVE_ROCK_TOMB
+        move MOVE_ROCK_POLISH
         ability ABILITY_STEAM_ENGINE
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_DOCILE
+        nature NATURE_SASSY
         additionalflags 0
         ballseal 0
 		
@@ -4164,7 +4685,7 @@ trainerdata 88, "Mickey"
         ability ABILITY_WATER_ABSORB
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_DOCILE
+        nature NATURE_QUIET
         additionalflags 0
         ballseal 0
 		
@@ -4173,15 +4694,15 @@ trainerdata 88, "Mickey"
         abilityslot 0
         level 25
         pokemon SPECIES_MAGMAR
-        item ITEM_NONE
-        move MOVE_CLEAR_SMOG
-        move MOVE_NONE
-        move MOVE_NONE
-        move MOVE_NONE
+        item ITEM_PUNCHING_GLOVE
+        move MOVE_LOW_SWEEP
+        move MOVE_MACH_PUNCH
+        move MOVE_FIRE_PUNCH
+        move MOVE_THUNDER_PUNCH
         ability ABILITY_FLAME_BODY
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_DOCILE
+        nature NATURE_BRAVE
         additionalflags 0
         ballseal 0
     endparty
@@ -4755,73 +5276,167 @@ trainerdata 104, "Brian"
         ballseal 0
     endparty
 
-trainerdata 105, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 3
+trainerdata 105, "Axel"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
+    trainerclass TRAINERCLASS_GUITARIST
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | F_RISKY_ATTACKS | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 105
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 10
-        pokemon SPECIES_BULBASAUR
+        level 25
+        pokemon SPECIES_MANECTRIC
+        item ITEM_AIR_BALLOON
+        move MOVE_FLAME_BURST
+        move MOVE_VOLT_SWITCH
+        move MOVE_DISCHARGE
+        move MOVE_SNARL
+        ability ABILITY_INTIMIDATE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAIVE
+        additionalflags 0
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 10
-        pokemon SPECIES_CHARMANDER
+        level 25
+        pokemon SPECIES_DOTTLER
+        item ITEM_EVIOLITE
+        move MOVE_ALLY_SWITCH
+        move MOVE_STRUGGLE_BUG
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        ability ABILITY_TELEPATHY
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_SASSY
+        additionalflags 0
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 10
-        pokemon SPECIES_SQUIRTLE
+        level 25
+        pokemon SPECIES_STUNFISK
+        item ITEM_LEFTOVERS
+        move MOVE_MUDDY_WATER
+        move MOVE_YAWN
+        move MOVE_DISCHARGE
+        move MOVE_MUD_SHOT
+        ability ABILITY_STATIC
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_RELAXED
+        additionalflags 0
+        ballseal 0
+
+        // mon 3
+        ivs 186
+        abilityslot 0
+        level 25
+        pokemon SPECIES_SEAKING
+        item ITEM_MUSCLE_BAND
+        move MOVE_FLIP_TURN
+        move MOVE_WATERFALL
+        move MOVE_PROTECT
+        move MOVE_POISON_JAB
+        ability ABILITY_LIGHTNING_ROD
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CAREFUL
+        additionalflags 0
         ballseal 0
     endparty
 
-trainerdata 106, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
-    nummons 3
+trainerdata 106, "Lucien"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
+    trainerclass TRAINERCLASS_PSYCHIC_M
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | F_RISKY_ATTACKS | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 106
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 10
-        pokemon SPECIES_BULBASAUR
+        level 26
+        pokemon SPECIES_TOGETIC
+        item ITEM_EVIOLITE
+        move MOVE_LIFE_DEW
+        move MOVE_DRAINING_KISS
+        move MOVE_FOLLOW_ME
+        move MOVE_ANCIENT_POWER
+        ability ABILITY_SERENE_GRACE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_LAX
+        additionalflags 0
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 10
-        pokemon SPECIES_CHARMANDER
+        level 25
+        pokemon SPECIES_MEDICHAM
+        item ITEM_FOCUS_SASH
+        move MOVE_FAKE_OUT
+        move MOVE_ZEN_HEADBUTT
+        move MOVE_FORCE_PALM
+        move MOVE_FIRE_PUNCH
+        ability ABILITY_PURE_POWER
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAIVE
+        additionalflags 0
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 10
-        pokemon SPECIES_SQUIRTLE
+        level 25
+        pokemon SPECIES_JYNX
+        item ITEM_WISE_GLASSES
+        move MOVE_ICY_WIND
+        move MOVE_ENCORE
+        move MOVE_PSYBEAM
+        move MOVE_HELPING_HAND
+        ability ABILITY_OBLIVIOUS
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        additionalflags 0
+        ballseal 0
+
+        // mon 3
+        ivs 186
+        abilityslot 0
+        level 25
+        pokemon SPECIES_CLAYDOL
+        item ITEM_LEFTOVERS
+        move MOVE_ALLY_SWITCH
+        move MOVE_ANCIENT_POWER
+        move MOVE_EARTH_POWER
+        move MOVE_PSYBEAM
+        ability ABILITY_LEVITATE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_QUIET
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -7070,23 +7685,84 @@ trainerdata 181, "William"
     endparty
 
 trainerdata 182, "Beverly"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_POKEFAN
-    nummons 1
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | F_PRIORITIZE_DAMAGE | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 182
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 16
-        pokemon SPECIES_SNUBBULL
+        level 28
+        pokemon SPECIES_ROSELIA
+        item ITEM_EVIOLITE
+        move MOVE_TOXIC_SPIKES
+        move MOVE_VENOSHOCK
+        move MOVE_GIGA_DRAIN
+        move MOVE_LEECH_SEED
+        ability ABILITY_POISON_POINT
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        additionalflags 0
+        ballseal 0
+
+        // mon 1
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_GRANBULL
+        item ITEM_EXPERT_BELT
+        move MOVE_THUNDER_FANG
+        move MOVE_JAW_LOCK
+        move MOVE_BRICK_BREAK
+        move MOVE_PLAY_ROUGH
+        ability ABILITY_STRONG_JAW
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CAREFUL
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_SCOLIPEDE
+        item ITEM_SITRUS_BERRY
+        move MOVE_POISON_TAIL
+        move MOVE_ROCK_TOMB
+        move MOVE_BATON_PASS
+        move MOVE_X_SCISSOR
+        ability ABILITY_SPEED_BOOST
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
+        ballseal 0
+
+        // mon 3
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_LUNATONE
+        item ITEM_LEFTOVERS
+        move MOVE_PROTECT
+        move MOVE_POWER_GEM
+        move MOVE_COSMIC_POWER
+        move MOVE_PSYSHOCK
+        ability ABILITY_LEVITATE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_HARDY
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -14580,8 +15256,25 @@ trainerdata 383, "Peter"
         ivs 90
         abilityslot 0
         level 20
-        pokemon SPECIES_SPEAROW
-        item ITEM_SHARP_BEAK
+        pokemon SPECIES_FLETCHINDER
+        item ITEM_EVIOLITE
+        move MOVE_FLAME_CHARGE
+        move MOVE_DUAL_WINGBEAT
+        move MOVE_QUICK_ATTACK
+        move MOVE_TAILWIND
+        ability ABILITY_GALE_WINGS
+        setivs 15, 15, 15, 15, 15, 15
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_NAUGHTY
+        additionalflags 0
+        ballseal 0
+
+        // mon 1
+        ivs 90
+        abilityslot 0
+        level 19
+        pokemon SPECIES_FEAROW
+        item ITEM_FOCUS_SASH
         move MOVE_PURSUIT
         move MOVE_ASSURANCE
         move MOVE_FURY_ATTACK
@@ -14593,34 +15286,17 @@ trainerdata 383, "Peter"
         additionalflags 0
         ballseal 0
 
-        // mon 1
-        ivs 90
-        abilityslot 0
-        level 19
-        pokemon SPECIES_FLETCHINDER
-        item ITEM_MUSCLE_BAND
-        move MOVE_FLAME_CHARGE
-        move MOVE_AERIAL_ACE
-        move MOVE_QUICK_ATTACK
-        move MOVE_AGILITY
-        ability ABILITY_GALE_WINGS
-        setivs 15, 15, 15, 15, 15, 15
-        setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_NAUGHTY
-        additionalflags 0
-        ballseal 0
-
         // mon 2
         ivs 90
         abilityslot 0
-        level 19
-        pokemon SPECIES_VULLABY
+        level 20
+        pokemon SPECIES_DARTRIX
         item ITEM_LEFTOVERS
         move MOVE_PLUCK
-        move MOVE_ROOST
-        move MOVE_FLATTER
         move MOVE_KNOCK_OFF
-        ability ABILITY_OVERCOAT
+        move MOVE_RAZOR_LEAF
+        move MOVE_ROOST
+        ability ABILITY_LONG_REACH
         setivs 15, 15, 15, 15, 15, 15
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_RELAXED
@@ -14678,9 +15354,9 @@ trainerdata 384, "Daniel"
         // mon 2
         ivs 90
         abilityslot 0
-        level 20
+        level 19
         pokemon SPECIES_SUDOWOODO
-        item ITEM_HARD_STONE
+        item ITEM_LUM_BERRY
         move MOVE_TRAILBLAZE
         move MOVE_LOW_SWEEP
         move MOVE_ROCK_TOMB
@@ -14688,7 +15364,7 @@ trainerdata 384, "Daniel"
         ability ABILITY_ROCK_HEAD
         setivs 20, 20, 20, 20, 20, 20
         setevs 0, 0, 0, 0, 0, 0
-        nature NATURE_BRAVE
+        nature NATURE_CAREFUL
         additionalflags 0
         ballseal 0
     endparty
@@ -14775,30 +15451,67 @@ trainerdata 387, "Amy & Mimi"
     endparty
 
 trainerdata 388, "Walt"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_FIREBREATHER
-    nummons 2
+    nummons 3
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | F_EXPERT_ATTACKS | F_RISKY_ATTACKS | F_EVALUATE_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
     party 388
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 11
-        pokemon SPECIES_MAGMAR
+        level 28
+        monwithform SPECIES_MUK, 1
+        item ITEM_AIR_BALLOON
+        move MOVE_BODY_SLAM
+        move MOVE_KNOCK_OFF
+        move MOVE_POISON_JAB
+        move MOVE_SHADOW_SNEAK
+        ability ABILITY_POISON_TOUCH
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_CAREFUL
+        additionalflags 0
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 16
-        pokemon SPECIES_MAGMAR
+        level 28
+        pokemon SPECIES_PALOSSAND
+        item ITEM_LEFTOVERS
+        move MOVE_PROTECT
+        move MOVE_AMNESIA
+        move MOVE_SCORCHING_SANDS
+        move MOVE_GIGA_DRAIN
+        ability ABILITY_WATER_COMPACTION
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_SASSY
+        additionalflags 0
+        ballseal 0
+
+        // mon 2
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_HOUNDOOM
+        item ITEM_FOCUS_SASH
+        move MOVE_SUCKER_PUNCH
+        move MOVE_PSYCHIC_FANGS
+        move MOVE_FIRE_FANG
+        move MOVE_THUNDER_FANG
+        ability ABILITY_FLASH_FIRE
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_ADAMANT
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -15034,49 +15747,84 @@ trainerdata 394, "Mickey"
     endparty
 
 trainerdata 395, "Mark"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass TRAINERCLASS_PSYCHIC_M
-    nummons 3
+    nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | F_EXPERT_ATTACKS | F_EVALUATE_ATTACKS | 0
+    battletype DOUBLE_BATTLE
     endentry
 
     party 395
         // mon 0
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 14
-        pokemon SPECIES_ABRA
-        move MOVE_TELEPORT
-        move MOVE_FLASH
-        move MOVE_NONE
-        move MOVE_NONE
+        level 28
+        pokemon SPECIES_GIRAFARIG
+        item ITEM_SITRUS_BERRY
+        move MOVE_BATON_PASS
+        move MOVE_NASTY_PLOT
+        move MOVE_TWIN_BEAM
+        move MOVE_SWIFT
+        ability ABILITY_INNER_FOCUS
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_BOLD
+        additionalflags 0
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 14
-        pokemon SPECIES_ABRA
-        move MOVE_TELEPORT
-        move MOVE_FLASH
-        move MOVE_NONE
-        move MOVE_NONE
+        level 28
+        monwithform SPECIES_SNEASEL, 1
+        item ITEM_RAZOR_CLAW
+        move MOVE_FAKE_OUT
+        move MOVE_ROCK_SMASH
+        move MOVE_NIGHT_SLASH
+        move MOVE_POISON_JAB
+        ability ABILITY_INNER_FOCUS
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_QUIRKY
+        additionalflags 0
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 186
         abilityslot 0
-        level 16
+        level 28
         pokemon SPECIES_KADABRA
-        move MOVE_TELEPORT
-        move MOVE_KINESIS
-        move MOVE_CONFUSION
-        move MOVE_NONE
+        item ITEM_FOCUS_SASH
+        move MOVE_PSYBEAM
+        move MOVE_SHADOW_BALL
+        move MOVE_DAZZLING_GLEAM
+        move MOVE_PROTECT
+        ability ABILITY_MAGIC_GUARD
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_TIMID
+        additionalflags 0
+        ballseal 0
+
+        // mon 3
+        ivs 186
+        abilityslot 0
+        level 28
+        pokemon SPECIES_GOTHORITA
+        item ITEM_EVIOLITE
+        move MOVE_FAKE_OUT
+        move MOVE_PSYBEAM
+        move MOVE_DARK_PULSE
+        move MOVE_THUNDER_WAVE
+        ability ABILITY_SHADOW_TAG
+        setivs 31, 31, 31, 31, 31, 31
+        setevs 0, 0, 0, 0, 0, 0
+        nature NATURE_RELAXED
+        additionalflags 0
         ballseal 0
     endparty
 
@@ -19101,7 +19849,7 @@ trainerdata 506, "Misty"
         abilityslot 0
         level 21
         pokemon SPECIES_PELIPPER
-        item ITEM_FOCUS_SASH
+        item ITEM_WACAN_BERRY
         move MOVE_AIR_CUTTER
         move MOVE_ICY_WIND
         move MOVE_WATER_PULSE
@@ -27975,4 +28723,4 @@ trainerdata 737, "Silver"
         move MOVE_SHADOW_BALL
         move MOVE_CONFUSE_RAY
         ballseal 0
-    endparty
+    endparty    

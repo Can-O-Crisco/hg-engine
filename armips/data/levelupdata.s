@@ -3858,6 +3858,7 @@ levelup SPECIES_LEDYBA
 
 
 levelup SPECIES_LEDIAN
+    learnset MOVE_FAKE_OUT, 1
     learnset MOVE_ICE_PUNCH, 1
     learnset MOVE_FIRE_PUNCH, 1
     learnset MOVE_THUNDER_PUNCH, 1
@@ -4104,9 +4105,6 @@ levelup SPECIES_TOGETIC
 
 
 levelup SPECIES_NATU
-    learnset MOVE_AIR_SLASH, 0
-    learnset MOVE_AIR_SLASH, 1
-    learnset MOVE_TAILWIND, 1
     learnset MOVE_PECK, 1
     learnset MOVE_LEER, 1
     learnset MOVE_STORED_POWER, 1
