@@ -19358,7 +19358,7 @@ mondata SPECIES_FALINKS, "Falinks"
 
 mondata SPECIES_PINCURCHIN, "Pincurchin"
     basestats 48, 101, 95, 15, 91, 85
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    types TYPE_ELECTRIC, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 0

@@ -17667,6 +17667,7 @@ levelup SPECIES_WISHIWASHI
 levelup SPECIES_MAREANIE
     learnset MOVE_POISON_STING, 1
     learnset MOVE_PECK, 1
+    learnset MOVE_BUBBLE, 1
     learnset MOVE_PECK, 5
     learnset MOVE_BITE, 9
     learnset MOVE_WIDE_GUARD, 10
@@ -17687,6 +17688,7 @@ levelup SPECIES_TOXAPEX
     learnset MOVE_BANEFUL_BUNKER, 1
     learnset MOVE_POISON_STING, 1
     learnset MOVE_PECK, 1
+    learnset MOVE_BUBBLE, 1
     learnset MOVE_WIDE_GUARD, 1
     learnset MOVE_BITE, 1
     learnset MOVE_TOXIC_SPIKES, 1
