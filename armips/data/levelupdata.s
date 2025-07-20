@@ -3858,6 +3858,7 @@ levelup SPECIES_LEDYBA
 
 
 levelup SPECIES_LEDIAN
+    learnset MOVE_FAKE_OUT, 1
     learnset MOVE_ICE_PUNCH, 1
     learnset MOVE_FIRE_PUNCH, 1
     learnset MOVE_THUNDER_PUNCH, 1
