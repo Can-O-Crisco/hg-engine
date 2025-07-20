@@ -118,9 +118,9 @@ void LONG_CALL AITypeCalc(struct BattleStruct *sp, u32 move, u32 type, int atkAb
 
 
 /*Returns the true move power of variable power moves like reversal or magnitude*/
-int AdjustUnusualMovePower(struct BattleSystem *bsys, u32 attacker, u32 defender, int moveEffect, int attackerPercentHP)
+int AdjustUnusualMovePower(struct BattleSystem* bsys UNUSED, u32 attacker UNUSED, u32 defender UNUSED, int moveEffect, int attackerPercentHP)
 {
-    struct BattleStruct *ctx = bsys->sp;
+    //struct BattleStruct *ctx = bsys->sp;
     switch(moveEffect){
         case MOVE_EFFECT_RANDOM_POWER_10_CASES:
             return 71; //average power
@@ -178,21 +178,19 @@ int LONG_CALL BattleAI_PostKOSwitchIn(struct BattleSystem *bsys, int attacker)
     int battleType = BattleTypeGet(bsys);
     struct PartyPokemon *mon;
     u8 speedCalc;
-    int work;
-    u32 temp = 0;
 	u32 defender = BATTLER_OPPONENT(attacker);   //default for singles -- updated in the doubles section
     u8 slot1, slot2;
     u16 move = 0;
     u16 monSpecies;
     u32 minRollMaxDamageDealt[6] = {0};
     u32 minRollMaxDamageReceived[6] = {0};
-    u32 monIsFaster[6] = {0};
     u16 switchInScore[6] = {0};
     int partySize = 0;
     u32 effectivenessFlag = 0;
     int picked = 6; // in Order
     u32 moveDamage = 0;
     u32 moveDamageMax = 0;
+    u32 moveDamageMin = 0;
 
     slot1 = attacker;
     slot2 = slot1;
@@ -234,6 +232,7 @@ int LONG_CALL BattleAI_PostKOSwitchIn(struct BattleSystem *bsys, int attacker)
             {
                 moveDamage = 0;
                 moveDamageMax = 0;
+                moveDamageMin = 0;
                 move = GetMonData(mon, MON_DATA_MOVE1 + j, NULL);
                 if (move != MOVE_NONE)
                 {
@@ -243,15 +242,21 @@ int LONG_CALL BattleAI_PostKOSwitchIn(struct BattleSystem *bsys, int attacker)
                     if(attackerMove.split != SPLIT_STATUS && attackerMove.power)
                     {
                         moveDamage = AI_CalcBaseDamage(bsys, ctx, move, ctx->side_condition[BATTLER_IS_ENEMY(attacker)], ctx->field_condition, moveDamage, attackerMove.type, defender, 0, 1, mon);
-                        moveDamage = BattleAI_ServerDoTypeCalcMod(bsys, ctx, move, attackerMove.type, defender, moveDamage, &effectivenessFlag, mon, 1);
                         moveDamageMax = moveDamage;
-                        moveDamage = moveDamage*92 / 100; //85% is min roll, ~8th roll
+                        moveDamageMin = moveDamage * 85 / 100; //85% is min roll
+                        moveDamage = moveDamage * 92 / 100; //~8th roll
+
+                        moveDamageMax = BattleAI_ServerDoTypeCalcMod(bsys, ctx, move, attackerMove.type, defender, moveDamageMax, &effectivenessFlag, mon, 1);
+                        moveDamageMin = BattleAI_ServerDoTypeCalcMod(bsys, ctx, move, attackerMove.type, defender, moveDamageMin, &effectivenessFlag, mon, 1);
+                        moveDamage = BattleAI_ServerDoTypeCalcMod(bsys, ctx, move, attackerMove.type, defender, moveDamage, &effectivenessFlag, mon, 1);
+
+                        moveDamageMax = AdjustUnusualMoveDamage(bsys, GetMonData(mon, MON_DATA_LEVEL, 0), attackerHP, defenderHP, moveDamageMax, attackerMove.effect, attackerAbility, attackerItem);
+                        moveDamageMin = AdjustUnusualMoveDamage(bsys, GetMonData(mon, MON_DATA_LEVEL, 0), attackerHP, defenderHP, moveDamageMin, attackerMove.effect, attackerAbility, attackerItem);
                         moveDamage = AdjustUnusualMoveDamage(bsys, GetMonData(mon, MON_DATA_LEVEL, 0), attackerHP, defenderHP, moveDamage, attackerMove.effect, attackerAbility, attackerItem);
                         if (moveDamage > minRollMaxDamageDealt[i])
                             minRollMaxDamageDealt[i] = moveDamage;
                     }
-
-                    debug_printf("Move %d (%d) deals %d - %d\n", j, move, moveDamage, AdjustUnusualMoveDamage(bsys, GetMonData(mon, MON_DATA_LEVEL, 0), attackerHP, defenderHP, moveDamageMax, attackerMove.effect, attackerAbility, attackerItem));
+                    debug_printf("move %d: %d deals [%d-%d], 8th roll %d > def.HP %d\n", j, move, moveDamageMin, moveDamageMax, moveDamage, defenderHP);
                 }
             }
 
@@ -259,6 +264,7 @@ int LONG_CALL BattleAI_PostKOSwitchIn(struct BattleSystem *bsys, int attacker)
             {
                 moveDamage = 0;
                 moveDamageMax = 0;
+                moveDamageMin = 0;
                 u32 defenderMoveCheck = ctx->battlemon[defender].move[k];
                 struct BattleMove defenderMove = ctx->moveTbl[defenderMoveCheck];
                 moveDamage = AdjustUnusualMovePower(bsys, defender, attacker, defenderMove.effect, defenderPercentHP);
@@ -266,16 +272,23 @@ int LONG_CALL BattleAI_PostKOSwitchIn(struct BattleSystem *bsys, int attacker)
                 if(defenderMove.split != SPLIT_STATUS && defenderMove.power)
                 {
                     moveDamage = AI_CalcBaseDamage(bsys, ctx, defenderMoveCheck, ctx->side_condition[BATTLER_IS_ENEMY(defender)], ctx->field_condition, moveDamage, defenderMove.type, defender, 0, 0, mon);
-                    moveDamage = BattleAI_ServerDoTypeCalcMod(bsys, ctx, defenderMoveCheck, defenderMove.type, defender, moveDamage, &effectivenessFlag, mon, 0);
                     moveDamageMax = moveDamage;
-                    moveDamage = moveDamage * 92 / 100; //85% is min roll.
-                    moveDamage = AdjustUnusualMoveDamage(bsys, ctx->battlemon[defender].level, defenderHP, attackerHP, moveDamage, defenderMove.effect, defenderAbility , defenderItem);
+                    moveDamageMin = moveDamage * 85 / 100; //85% is min roll
+                    moveDamage = moveDamage * 92 / 100; //~8th roll
+
+                    moveDamageMax = BattleAI_ServerDoTypeCalcMod(bsys, ctx, defenderMoveCheck, defenderMove.type, defender, moveDamageMax, &effectivenessFlag, mon, 0);
+                    moveDamageMin = BattleAI_ServerDoTypeCalcMod(bsys, ctx, defenderMoveCheck, defenderMove.type, defender, moveDamageMin, &effectivenessFlag, mon, 0);
+                    moveDamage = BattleAI_ServerDoTypeCalcMod(bsys, ctx, defenderMoveCheck, defenderMove.type, defender, moveDamage, &effectivenessFlag, mon, 0);
+
+                    moveDamageMax = AdjustUnusualMoveDamage(bsys, defenderLevel, defenderHP, attackerHP, moveDamageMax, defenderMove.effect, defenderAbility , defenderItem);
+                    moveDamageMin = AdjustUnusualMoveDamage(bsys, defenderLevel, defenderHP, attackerHP, moveDamageMin, defenderMove.effect, defenderAbility, defenderItem);
+                    moveDamage = AdjustUnusualMoveDamage(bsys, defenderLevel, defenderHP, attackerHP, moveDamage, defenderMove.effect, defenderAbility, defenderItem);
+
                     if (moveDamage > minRollMaxDamageReceived[i])
                         minRollMaxDamageReceived[i] = moveDamage;
-                        debug_printf("minDmg received %d\n", minRollMaxDamageReceived[i]);
+                        debug_printf("minRollMaxDamageReceived received %d\n", minRollMaxDamageReceived[i]);
                 }
-                
-                debug_printf("Receiving from Move %d (%d) is %d - %d\n", k, defenderMoveCheck, moveDamage, AdjustUnusualMoveDamage(bsys, ctx->battlemon[defender].level, defenderHP, attackerHP, moveDamageMax, defenderMove.effect, defenderAbility, defenderItem));
+                debug_printf("Receiving from move %d: %d is [%d-%d], 8th roll %d > att.HP %d\n", k, defenderMoveCheck, moveDamageMin, moveDamageMax, moveDamage, attackerHP);
             }
 
 			//TODO use canMoveKillBattler to determine if the mon can kill the defender in one hit.
@@ -344,7 +357,6 @@ u8 LONG_CALL BattleAI_CalcSpeed(void *bw, struct BattleStruct *sp, int client1, 
     int ability2;
     int stat_stage_spd1;
     int stat_stage_spd2;
-    u32 i;
 
     u32 speedModifier1 = UQ412__1_0;
     u32 speedModifier2 = UQ412__1_0;
@@ -806,7 +818,10 @@ int LONG_CALL BattleAI_ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct 
     move_type = GetAdjustedMoveTypeBasics(sp, move_no, ability_a, sp->moveTbl[move_no].type);
     base_power = sp->moveTbl[move_no].power;
 
-    if (((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_FLAT) == 0) && ((attacker_type_1 == move_type) || (attacker_type_2 == move_type)))
+    if (((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_FLAT) == 0) 
+        && ((attacker_type_1 == move_type) || (attacker_type_2 == move_type)
+        || ability_a == ABILITY_PROTEAN 
+        || ability_a == ABILITY_LIBERO))
     {
         if (ability_a == ABILITY_ADAPTABILITY)
         {
@@ -951,7 +966,7 @@ int LONG_CALL BattleAI_ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct 
 /*Adjusts the computed damage for attacks like multihit or flat damage moves.*/
 int LONG_CALL AdjustUnusualMoveDamage(struct BattleSystem* bsys, u32 attackerLevel, u32 attackerHP, u32 defenderHP, int damage, u32 moveEffect, u32 attackerAbility, u32 attackerItem)
 {
-    struct BattleStruct* ctx = bsys->sp;
+    //struct BattleStruct* ctx = bsys->sp;
     switch (moveEffect) {
     case MOVE_EFFECT_UP_TO_10_HITS:
         if (attackerAbility == ABILITY_SKILL_LINK)
@@ -972,7 +987,7 @@ int LONG_CALL AdjustUnusualMoveDamage(struct BattleSystem* bsys, u32 attackerLev
             return damage *= 4; //4-5
         return damage *= 3;
     case MOVE_EFFECT_LEVEL_DAMAGE_FLAT: //night shade, seismic toss
-    case MOVE_EFFECT_RANDOM_DAMAGE_1_TO_150_LEVEL: //psybeam
+    case MOVE_EFFECT_RANDOM_DAMAGE_1_TO_150_LEVEL: //psywave
         return attackerLevel;
     case MOVE_EFFECT_10_DAMAGE_FLAT: //sonic boom
         return 20;
@@ -1019,7 +1034,7 @@ BOOL LONG_CALL AI_IsContactBeingMade(struct BattleStruct *sp, u32 ability, u32 i
     if (ability == ABILITY_LONG_REACH)
             return FALSE;
 
-    if (itemHoldEffect == HOLD_EFFECT_PREVENT_CONTACT_EFFECTS || itemHoldEffect == HOLD_EFFECT_INCREASE_PUNCHING_MOVE_DMG && IsMovePunchingMove(moveno))
+    if (itemHoldEffect == HOLD_EFFECT_PREVENT_CONTACT_EFFECTS || (itemHoldEffect == HOLD_EFFECT_INCREASE_PUNCHING_MOVE_DMG && IsMovePunchingMove(moveno)))
         return FALSE;
 
     if (itemHoldEffect == HOLD_EFFECT_PREVENT_CONTACT_EFFECTS)
@@ -1328,8 +1343,23 @@ int LONG_CALL AI_CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u
             if (type == TYPE_GRASS)
                 return 0;
             break;
+        case ABILITY_LEVITATE:
         case ABILITY_EARTH_EATER:
             if (type == TYPE_GROUND)
+                return 0;
+            break;
+        case ABILITY_BULLETPROOF:
+            if(IsBallOrBombMove(moveno))
+                return 0;
+            break;
+        case ABILITY_DAZZLING:
+        case ABILITY_QUEENLY_MAJESTY:
+        case ABILITY_ARMOR_TAIL:
+            if (sp->moveTbl[moveno].priority > 0)
+                return 0;
+            break;
+        case ABILITY_SOUNDPROOF:
+            if (IsMoveSoundBased(moveno))
                 return 0;
             break;
         default:
