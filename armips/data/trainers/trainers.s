@@ -2386,7 +2386,7 @@ trainerdata 47, "Mikey"
         abilityslot 0
         level 10
         pokemon SPECIES_PATRAT
-        item ITEM_BRIGHT_POWDER
+        item ITEM_ORAN_BERRY
         move MOVE_TACKLE
         move MOVE_QUICK_ATTACK
         move MOVE_BULLET_SEED
@@ -4025,7 +4025,7 @@ trainerdata 75, "Elliot"
         move MOVE_BOUNCE
         move MOVE_AQUA_JET
         move MOVE_BELLY_DRUM
-        ability ABILITY_
+        ability ABILITY_HUGE_POWER
         setivs 31, 31, 31, 31, 31, 31
         setevs 0, 0, 0, 0, 0, 0
         nature NATURE_QUIRKY
