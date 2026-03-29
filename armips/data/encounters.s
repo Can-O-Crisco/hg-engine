@@ -10,6 +10,7 @@
 
 encounterdata   0   // New Bark Town
 
+
 walkrate 0
 surfrate 15
 rocksmashrate 0
@@ -18,47 +19,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -68,37 +69,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
+// Surf
+encounter SPECIES_TENTACOOL, 25, 30     // 60%
+encounter SPECIES_TENTACRUEL, 25, 30     // 30%
+encounter SPECIES_TENTACRUEL, 25, 30     // 5%
+encounter SPECIES_TENTACRUEL, 25, 30     // 4%
+encounter SPECIES_TENTACRUEL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_SHELLDER, 5, 10      // 30%
+encounter SPECIES_CHINCHOU, 5, 10      // 5%
+encounter SPECIES_CHINCHOU, 5, 10     // 4%
+encounter SPECIES_CHINCHOU, 5, 10      // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+// Good Rod
+encounter SPECIES_SHELLDER, 25, 30     // 40%
+encounter SPECIES_CHINCHOU, 25, 30    // 40%
+encounter SPECIES_CHINCHOU, 25, 30      // 15%
+encounter SPECIES_CHINCHOU, 25, 30     // 4%
+encounter SPECIES_CHINCHOU, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+// Super Rod
+encounter SPECIES_SHELLDER, 40, 40     // 40%
+encounter SPECIES_LANTURN, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 15%
+encounter SPECIES_GYARADOS, 40, 40     // 4%
+encounter SPECIES_GYARADOS, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -108,11 +109,11 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_SHELLDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata   1   // Route 29
+
 
 walkrate 25
 surfrate 0
@@ -120,49 +121,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 2, 3, 2, 3, 3, 3, 2, 2, 4, 4, 4, 4
+walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 
-// morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
+// Morning
+pokemon SPECIES_PIDGEY           // 20%
+pokemon SPECIES_SENTRET          // 20%
+pokemon SPECIES_STARLY           // 10%
+pokemon SPECIES_RATTATA          // 10%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_BIDOOF           // 10%
+pokemon SPECIES_HOPPIP           // 5%
+pokemon SPECIES_WURMPLE          // 5%
+pokemon SPECIES_HOPPIP           // 4%
+pokemon SPECIES_WURMPLE          // 4%
+pokemon SPECIES_HOPPIP           // 1%
+pokemon SPECIES_WURMPLE          // 1%
 
-// day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SENTRET
-pokemon SPECIES_SENTRET
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_PIDGEY
+// Daytime
+pokemon SPECIES_PIDGEY           // 20%
+pokemon SPECIES_SENTRET          // 20%
+pokemon SPECIES_STARLY           // 10%
+pokemon SPECIES_RATTATA          // 10%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_BIDOOF           // 10%
+pokemon SPECIES_HOPPIP           // 5%
+pokemon SPECIES_WURMPLE          // 5%
+pokemon SPECIES_HOPPIP           // 4%
+pokemon SPECIES_WURMPLE          // 4%
+pokemon SPECIES_HOPPIP           // 1%
+pokemon SPECIES_WURMPLE          // 1%
 
-// night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
+// Night
+pokemon SPECIES_HOOTHOOT         // 20%
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_POOCHYENA        // 10%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_BIDOOF           // 10%
+pokemon SPECIES_WURMPLE          // 10%
+pokemon SPECIES_POOCHYENA        // 5%
+pokemon SPECIES_ZIGZAGOON        // 5%
+pokemon SPECIES_BIDOOF           // 4%
+pokemon SPECIES_WURMPLE          // 4%
+pokemon SPECIES_BIDOOF           // 1%
+pokemon SPECIES_WURMPLE          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -172,37 +173,37 @@ pokemon SPECIES_MINUN
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_PIDGEY
@@ -212,11 +213,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata   2   // Cherrygrove City
+
 
 walkrate 0
 surfrate 15
@@ -226,47 +227,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -276,37 +277,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
+// Surf
+encounter SPECIES_MARILL, 25, 30     // 60%
+encounter SPECIES_AZUMARILL, 25, 30    // 30%
+encounter SPECIES_AZUMARILL, 25, 30     // 5%
+encounter SPECIES_AZUMARILL, 25, 30     // 4%
+encounter SPECIES_AZUMARILL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_KRABBY, 5, 10     // 30%
+encounter SPECIES_CORPHISH, 5, 10     // 5%
+encounter SPECIES_CORPHISH, 5, 10     // 4%
+encounter SPECIES_CORPHISH, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+// Good Rod
+encounter SPECIES_KRABBY, 25, 30     // 40%
+encounter SPECIES_FINNEON, 25, 30     // 40%
+encounter SPECIES_CORPHISH, 25, 30     // 15%
+encounter SPECIES_CORPHISH, 25, 30     // 4%
+encounter SPECIES_CORPHISH, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+// Super Rod
+encounter SPECIES_LUMINEON, 40, 40     // 40%
+encounter SPECIES_KINGLER, 40, 40     // 40%
+encounter SPECIES_CRAWDAUNT, 40, 40     // 15%
+encounter SPECIES_CRAWDAUNT, 40, 40     // 4%
+encounter SPECIES_CRAWDAUNT, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -316,61 +317,61 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_STARYU
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata   3   // Route 30
 
+
 walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 2, 3, 2, 3, 4, 4, 4, 4, 4, 4, 4, 4
+walklevels 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
 
-// morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
+// Morning
+pokemon SPECIES_LEDYBA           // 20%
+pokemon SPECIES_TAILLOW          // 20%
+pokemon SPECIES_LOTAD            // 10%
+pokemon SPECIES_SEEDOT           // 10%
+pokemon SPECIES_CATERPIE         // 10%
+pokemon SPECIES_WEEDLE           // 10%
+pokemon SPECIES_KRICKETOT        // 5%
+pokemon SPECIES_SURSKIT          // 5%
+pokemon SPECIES_RALTS            // 4%
+pokemon SPECIES_RALTS            // 4%
+pokemon SPECIES_KRICKETOT        // 1%
+pokemon SPECIES_SURSKIT          // 1%
 
-// day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
+// Daytime
+pokemon SPECIES_CATERPIE         // 20%
+pokemon SPECIES_WEEDLE           // 20%
+pokemon SPECIES_LOTAD            // 10%
+pokemon SPECIES_SEEDOT           // 10%
+pokemon SPECIES_LEDYBA           // 10%
+pokemon SPECIES_TAILLOW          // 10%
+pokemon SPECIES_KRICKETOT        // 5%
+pokemon SPECIES_SURSKIT          // 5%
+pokemon SPECIES_RALTS            // 4%
+pokemon SPECIES_RALTS            // 4%
+pokemon SPECIES_KRICKETOT        // 1%
+pokemon SPECIES_SURSKIT          // 1%
 
-// night encounter slots
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+// Night
+pokemon SPECIES_SPINARAK         // 20%
+pokemon SPECIES_HOOTHOOT         // 20%
+pokemon SPECIES_LOTAD            // 10%
+pokemon SPECIES_SEEDOT           // 10%
+pokemon SPECIES_CATERPIE         // 10%
+pokemon SPECIES_WEEDLE           // 10%
+pokemon SPECIES_KRICKETOT        // 5%
+pokemon SPECIES_SURSKIT          // 5%
+pokemon SPECIES_RALTS            // 4%
+pokemon SPECIES_RALTS            // 4%
+pokemon SPECIES_KRICKETOT        // 1%
+pokemon SPECIES_SURSKIT          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -380,37 +381,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWAG, 10, 20
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 32, 32
+// Surf
+encounter SPECIES_POLIWAG, 25, 30     // 60%
+encounter SPECIES_LOTAD, 25, 30     // 30%
+encounter SPECIES_POLIWHIRL, 25, 30     // 5%
+encounter SPECIES_LOMBRE, 25, 30     // 4%
+encounter SPECIES_LOMBRE, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_POLIWAG, 5, 10     // 60%
+encounter SPECIES_NONE, 8, 8     // 30%
+encounter SPECIES_PSYDUCK, 5, 10     // 5%
+encounter SPECIES_PSYDUCK, 5, 10     // 4%
+encounter SPECIES_PSYDUCK, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_PSYDUCK, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_POLIWHIRL, 25, 30     // 15%
+encounter SPECIES_POLIWHIRL, 25, 30     // 4%
+encounter SPECIES_POLIWHIRL, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_POLIWHIRL, 40, 40     // 40%
+encounter SPECIES_SEAKING, 40, 40     // 40%
+encounter SPECIES_GOLDUCK, 40, 40     // 15%
+encounter SPECIES_GOLDUCK, 40, 40     // 4%
+encounter SPECIES_GOLDUCK, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_PIDGEY
@@ -420,61 +421,61 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata   4   // Route 31
 
+
 walkrate 25
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 3, 4, 3, 4, 3, 3, 5, 5, 5, 5, 5, 5
+walklevels 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
 
-// morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
+// Morning
+pokemon SPECIES_LEDYBA           // 20%
+pokemon SPECIES_BELLSPROUT       // 20%
+pokemon SPECIES_BUIZEL           // 10%
+pokemon SPECIES_SHINX            // 10%
+pokemon SPECIES_ABRA             // 10%
+pokemon SPECIES_NATU             // 10%
+pokemon SPECIES_EXEGGCUTE        // 5%
+pokemon SPECIES_EXEGGCUTE        // 5%
+pokemon SPECIES_PSYDUCK          // 4%
+pokemon SPECIES_METAPOD          // 4%
+pokemon SPECIES_PSYDUCK          // 1%
+pokemon SPECIES_METAPOD          // 1%
 
-// day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
+// Daytime
+pokemon SPECIES_WURMPLE          // 20%
+pokemon SPECIES_BELLSPROUT       // 20%
+pokemon SPECIES_BUIZEL           // 10%
+pokemon SPECIES_SHINX            // 10%
+pokemon SPECIES_ABRA             // 10%
+pokemon SPECIES_NATU             // 10%
+pokemon SPECIES_BUDEW            // 5%
+pokemon SPECIES_BUDEW            // 5%
+pokemon SPECIES_PSYDUCK          // 4%
+pokemon SPECIES_SILCOON          // 4%
+pokemon SPECIES_PSYDUCK          // 1%
+pokemon SPECIES_SILCOON          // 1%
 
-// night encounter slots
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+// Night
+pokemon SPECIES_SPINARAK         // 20%
+pokemon SPECIES_BELLSPROUT       // 20%
+pokemon SPECIES_PSYDUCK          // 10%
+pokemon SPECIES_SHINX            // 10%
+pokemon SPECIES_ABRA             // 10%
+pokemon SPECIES_NATU             // 10%
+pokemon SPECIES_EXEGGCUTE        // 5%
+pokemon SPECIES_EXEGGCUTE        // 5%
+pokemon SPECIES_BUIZEL           // 4%
+pokemon SPECIES_METAPOD          // 4%
+pokemon SPECIES_BUIZEL           // 1%
+pokemon SPECIES_METAPOD          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -484,37 +485,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWAG, 10, 20
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 32, 32
+// Surf
+encounter SPECIES_MARILL, 25, 30     // 60%
+encounter SPECIES_SURSKIT, 25, 30     // 30%
+encounter SPECIES_MASQUERAIN, 25, 30     // 5%
+encounter SPECIES_MASQUERAIN, 25, 30     // 4%
+encounter SPECIES_MASQUERAIN, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_TENTACOOL, 5, 10     // 60%
+encounter SPECIES_SLOWPOKE, 5, 10     // 30%
+encounter SPECIES_FEEBAS, 5, 10     // 5%
+encounter SPECIES_FEEBAS, 5, 10     // 4%
+encounter SPECIES_FEEBAS, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_TENTACOOL, 25, 30     // 40%
+encounter SPECIES_SLOWPOKE, 25, 30     // 40%
+encounter SPECIES_FEEBAS, 25, 30     // 15%
+encounter SPECIES_FEEBAS, 25, 30     // 4%
+encounter SPECIES_FEEBAS, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_POLIWAG, 40, 40     // 40%
+encounter SPECIES_MAGIKARP, 40, 40     // 40%
+encounter SPECIES_MAGIKARP, 40, 40     // 15%
+encounter SPECIES_MAGIKARP, 40, 40     // 4%
+encounter SPECIES_MAGIKARP, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_PIDGEY
@@ -524,11 +525,11 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata   5   // Violet City
+
 
 walkrate 0
 surfrate 15
@@ -538,47 +539,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -588,37 +589,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWAG, 10, 20
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
+// Surf
+encounter SPECIES_POLIWAG, 25, 30     // 60%
+encounter SPECIES_POLIWAG, 25, 30     // 30%
+encounter SPECIES_POLIWHIRL, 25, 30     // 5%
+encounter SPECIES_POLIWHIRL, 25, 30     // 4%
+encounter SPECIES_POLIWHIRL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_POLIWAG, 5, 10     // 30%
+encounter SPECIES_STARYU, 5, 10     // 5%
+encounter SPECIES_STARYU, 5, 10     // 4%
+encounter SPECIES_STARYU, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_POLIWAG, 25, 30     // 40%
+encounter SPECIES_STARYU, 25, 30     // 40%
+encounter SPECIES_CHINCHOU, 25, 30    // 15%
+encounter SPECIES_CHINCHOU, 25, 30     // 4%
+encounter SPECIES_CHINCHOU, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_POLIWHIRL, 40, 40     // 40%
+encounter SPECIES_STARYU, 40, 40    // 40%
+encounter SPECIES_LANTURN, 40, 40     // 15%
+encounter SPECIES_LANTURN, 40, 40     // 4%
+encounter SPECIES_LANTURN, 40, 40    // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -628,61 +629,61 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_WHISCASH
-
 .close
 
 
 encounterdata   6   // Sprout Tower 2F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
+walklevels 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_RATTATA          // 10%
+pokemon SPECIES_PIDGEY           // 10%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_RATTATA          // 5%
+pokemon SPECIES_PIDGEY           // 5%
+pokemon SPECIES_RATTATA          // 4%
+pokemon SPECIES_PIDGEY           // 4%
+pokemon SPECIES_RATTATA          // 1%
+pokemon SPECIES_PIDGEY           // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_RATTATA          // 10%
+pokemon SPECIES_PIDGEY           // 10%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_RATTATA          // 5%
+pokemon SPECIES_PIDGEY           // 5%
+pokemon SPECIES_RATTATA          // 4%
+pokemon SPECIES_PIDGEY           // 4%
+pokemon SPECIES_RATTATA          // 1%
+pokemon SPECIES_PIDGEY           // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_GASTLY           // 20%
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_BELLSPROUT       // 10%
+pokemon SPECIES_BIDOOF           // 10%
+pokemon SPECIES_GLAMEOW          // 10%
+pokemon SPECIES_STUNKY           // 10%
+pokemon SPECIES_SPINDA           // 5%
+pokemon SPECIES_DRIFLOON         // 5%
+pokemon SPECIES_SPINDA           // 4%
+pokemon SPECIES_DRIFLOON         // 4%
+pokemon SPECIES_SPINDA           // 1%
+pokemon SPECIES_DRIFLOON         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -692,37 +693,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -732,61 +733,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata   7   // Sprout Tower 3F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 4, 3, 4, 5, 5, 3, 3, 6, 5, 6, 5
+walklevels 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_PIDGEY           // 10%
+pokemon SPECIES_PIDGEY           // 10%
+pokemon SPECIES_BIDOOF           // 10%
+pokemon SPECIES_STARLY           // 10%
+pokemon SPECIES_MEDITITE         // 5%
+pokemon SPECIES_MEDITITE         // 5%
+pokemon SPECIES_SPINDA           // 4%
+pokemon SPECIES_CHATOT           // 4%
+pokemon SPECIES_SPINDA           // 1%
+pokemon SPECIES_CHATOT           // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_PIDGEY           // 10%
+pokemon SPECIES_PIDGEY           // 10%
+pokemon SPECIES_BIDOOF           // 10%
+pokemon SPECIES_STARLY           // 10%
+pokemon SPECIES_MEDITITE         // 5%
+pokemon SPECIES_MEDITITE         // 5%
+pokemon SPECIES_SPINDA           // 4%
+pokemon SPECIES_CHATOT           // 4%
+pokemon SPECIES_SPINDA           // 1%
+pokemon SPECIES_CHATOT           // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_GASTLY           // 20%
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_BELLSPROUT       // 10%
+pokemon SPECIES_BELLSPROUT       // 10%
+pokemon SPECIES_BIDOOF           // 10%
+pokemon SPECIES_GLAMEOW          // 10%
+pokemon SPECIES_STUNKY           // 5%
+pokemon SPECIES_STUNKY           // 5%
+pokemon SPECIES_SPINDA           // 4%
+pokemon SPECIES_DRIFLOON         // 4%
+pokemon SPECIES_SPINDA           // 1%
+pokemon SPECIES_DRIFLOON         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -796,37 +797,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -836,11 +837,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata   8   // Route 32
+
 
 walkrate 25
 surfrate 15
@@ -848,49 +849,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 6, 4, 6, 4, 6, 6, 6, 6, 6, 4, 6, 4
+walklevels 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11
 
-// morning encounter slots
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
+// Morning
+pokemon SPECIES_MAREEP           // 20%
+pokemon SPECIES_BELLSPROUT       // 20%
+pokemon SPECIES_NINCADA          // 10%
+pokemon SPECIES_HOPPIP           // 10%
+pokemon SPECIES_MAGNEMITE        // 10%
+pokemon SPECIES_EKANS            // 10%
+pokemon SPECIES_PACHIRISU        // 5%
+pokemon SPECIES_PACHIRISU        // 5%
+pokemon SPECIES_NINCADA          // 4%
+pokemon SPECIES_HOPPIP           // 4%
+pokemon SPECIES_MAGNEMITE        // 1%
+pokemon SPECIES_EKANS            // 1%
 
-// day encounter slots
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_MAREEP           // 20%
+pokemon SPECIES_BELLSPROUT       // 20%
+pokemon SPECIES_NINCADA          // 10%
+pokemon SPECIES_HOPPIP           // 10%
+pokemon SPECIES_MAGNEMITE        // 10%
+pokemon SPECIES_EKANS            // 10%
+pokemon SPECIES_PACHIRISU        // 5%
+pokemon SPECIES_PACHIRISU        // 5%
+pokemon SPECIES_NINCADA          // 4%
+pokemon SPECIES_HOPPIP           // 4%
+pokemon SPECIES_MAGNEMITE        // 1%
+pokemon SPECIES_EKANS            // 1%
 
-// night encounter slots
-pokemon SPECIES_WOOPER
-pokemon SPECIES_RATTATA
-pokemon SPECIES_WOOPER
-pokemon SPECIES_RATTATA
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_WOOPER
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_WOOPER
-pokemon SPECIES_ZUBAT
+// Night
+pokemon SPECIES_MAREEP           // 20%
+pokemon SPECIES_BELLSPROUT       // 20%
+pokemon SPECIES_NINCADA          // 10%
+pokemon SPECIES_WOOPER           // 10%
+pokemon SPECIES_MAGNEMITE        // 10%
+pokemon SPECIES_EKANS            // 10%
+pokemon SPECIES_DRIFLOON         // 5%
+pokemon SPECIES_DRIFLOON         // 5%
+pokemon SPECIES_NINCADA          // 4%
+pokemon SPECIES_WOOPER           // 4%
+pokemon SPECIES_MAGNEMITE        // 1%
+pokemon SPECIES_EKANS            // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -900,37 +901,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 36, 36
+// Surf
+encounter SPECIES_WOOPER, 25, 30     // 60%
+encounter SPECIES_TENTACOOL, 25, 30     // 30%
+encounter SPECIES_QUAGSIRE, 25, 30     // 5%
+encounter SPECIES_TENTACRUEL, 25, 30     // 4%
+encounter SPECIES_TENTACRUEL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+// Old Rod
+encounter SPECIES_TENTACOOL, 5, 10     // 60%
+encounter SPECIES_PSYDUCK, 5, 10     // 30%
+encounter SPECIES_QWILFISH, 5, 10     // 5%
+encounter SPECIES_QWILFISH, 5, 10     // 4%
+encounter SPECIES_QWILFISH, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_QWILFISH, 20, 20
+// Good Rod
+encounter SPECIES_TENTACOOL, 25, 30     // 40%
+encounter SPECIES_PSYDUCK, 25, 30     // 40%
+encounter SPECIES_QWILFISH, 25, 30     // 15%
+encounter SPECIES_QWILFISH, 25, 30     // 4%
+encounter SPECIES_QWILFISH, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_TENTACOOL, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_QWILFISH, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_QWILFISH, 40, 40     // 40%
+encounter SPECIES_TENTACRUEL, 40, 40     // 40%
+encounter SPECIES_GOLDUCK, 40, 40     // 15%
+encounter SPECIES_GOLDUCK, 40, 40     // 4%
+encounter SPECIES_GOLDUCK, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_BELLSPROUT
@@ -940,11 +941,11 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_TENTACOOL
 // swarm super rod
 pokemon SPECIES_QWILFISH
-
 .close
 
 
 encounterdata   9   // Ruins of Alph (Outside)
+
 
 walkrate 10
 surfrate 10
@@ -952,49 +953,49 @@ rocksmashrate 20
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 20, 22, 20, 22, 18, 18, 24, 24, 20, 22, 20, 22
+walklevels 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11
 
-// morning encounter slots
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
+// Morning
+pokemon SPECIES_NATU             // 20%
+pokemon SPECIES_SMEARGLE         // 20%
+pokemon SPECIES_GIRAFARIG        // 10%
+pokemon SPECIES_GIRAFARIG        // 10%
+pokemon SPECIES_NATU             // 10%
+pokemon SPECIES_NATU             // 10%
+pokemon SPECIES_NATU             // 5%
+pokemon SPECIES_NATU             // 5%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_NATU             // 1%
+pokemon SPECIES_NATU             // 1%
 
-// day encounter slots
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
+// Daytime
+pokemon SPECIES_NATU             // 20%
+pokemon SPECIES_SMEARGLE         // 20%
+pokemon SPECIES_GIRAFARIG        // 10%
+pokemon SPECIES_GIRAFARIG        // 10%
+pokemon SPECIES_NATU             // 10%
+pokemon SPECIES_NATU             // 10%
+pokemon SPECIES_NATU             // 5%
+pokemon SPECIES_NATU             // 5%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_NATU             // 1%
+pokemon SPECIES_NATU             // 1%
 
-// night encounter slots
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_NATU
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
-pokemon SPECIES_SMEARGLE
+// Night
+pokemon SPECIES_NATU             // 20%
+pokemon SPECIES_SMEARGLE         // 20%
+pokemon SPECIES_GIRAFARIG        // 10%
+pokemon SPECIES_GIRAFARIG        // 10%
+pokemon SPECIES_NATU             // 10%
+pokemon SPECIES_NATU             // 10%
+pokemon SPECIES_NATU             // 5%
+pokemon SPECIES_NATU             // 5%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_NATU             // 1%
+pokemon SPECIES_NATU             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -1004,37 +1005,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_WOOPER, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
+// Surf
+encounter SPECIES_WOOPER, 25, 30     // 60%
+encounter SPECIES_QUAGSIRE, 25, 30     // 30%
+encounter SPECIES_QUAGSIRE, 25, 30     // 5%
+encounter SPECIES_QUAGSIRE, 25, 30     // 4%
+encounter SPECIES_QUAGSIRE, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_GEODUDE, 8, 14
-encounter SPECIES_GEODUDE, 3, 6
+// Rock Smash
+encounter SPECIES_GEODUDE, 10, 10     // 90%
+encounter SPECIES_NOSEPASS, 10, 10     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_REMORAID, 5, 10     // 30%
+encounter SPECIES_DRATINI, 5, 10     // 5%
+encounter SPECIES_DRATINI, 5, 10     // 4%
+encounter SPECIES_DRATINI, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_REMORAID, 25, 30     // 40%
+encounter SPECIES_DRATINI, 25, 30     // 15%
+encounter SPECIES_DRAGONAIR, 25, 30     // 4%
+encounter SPECIES_DRAGONAIR, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_RELICANTH, 40, 40     // 40%
+encounter SPECIES_DRAGONAIR, 40, 40     // 15%
+encounter SPECIES_OCTILLERY, 40, 40     // 4%
+encounter SPECIES_OCTILLERY, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NATU
@@ -1044,7 +1045,6 @@ pokemon SPECIES_WOOPER
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
@@ -1466,55 +1466,56 @@ pokemon SPECIES_NONE
 
 encounterdata  14   // Union Cave 1F
 
+
 walkrate 10
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 6, 6, 6, 6, 5, 5, 4, 4, 7, 6, 7, 6
+walklevels 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
 
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
+// Morning
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_SANDSHREW        // 20%
+pokemon SPECIES_GEODUDE          // 10%
+pokemon SPECIES_GEODUDE          // 10%
+pokemon SPECIES_WHISMUR          // 10%
+pokemon SPECIES_MAKUHITA         // 10%
+pokemon SPECIES_MACHOP           // 5%
+pokemon SPECIES_MACHOP           // 5%
+pokemon SPECIES_ARON             // 4%
+pokemon SPECIES_CUBONE           // 4%
+pokemon SPECIES_ARON             // 1%
+pokemon SPECIES_CUBONE           // 1%
 
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
+// Daytime
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_SANDSHREW        // 20%
+pokemon SPECIES_GEODUDE          // 10%
+pokemon SPECIES_GEODUDE          // 10%
+pokemon SPECIES_WHISMUR          // 10%
+pokemon SPECIES_MAKUHITA         // 10%
+pokemon SPECIES_MACHOP           // 5%
+pokemon SPECIES_MACHOP           // 5%
+pokemon SPECIES_ARON             // 4%
+pokemon SPECIES_CUBONE           // 4%
+pokemon SPECIES_ARON             // 1%
+pokemon SPECIES_CUBONE           // 1%
 
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
+// Night
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_SANDSHREW        // 20%
+pokemon SPECIES_GEODUDE          // 10%
+pokemon SPECIES_GEODUDE          // 10%
+pokemon SPECIES_WHISMUR          // 10%
+pokemon SPECIES_MAKUHITA         // 10%
+pokemon SPECIES_MACHOP           // 5%
+pokemon SPECIES_MACHOP           // 5%
+pokemon SPECIES_ARON             // 4%
+pokemon SPECIES_CUBONE           // 4%
+pokemon SPECIES_ARON             // 1%
+pokemon SPECIES_CUBONE           // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -1524,37 +1525,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_WOOPER, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
+// Surf
+encounter SPECIES_WOOPER, 25, 30     // 60%
+encounter SPECIES_SHELLOS, 25, 30     // 30%
+encounter SPECIES_QUAGSIRE, 25, 30     // 5%
+encounter SPECIES_GASTRODON, 25, 30     // 4%
+encounter SPECIES_GASTRODON, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_GOLDEEN, 5, 10     // 30%
+encounter SPECIES_BARBOACH, 5, 10     // 5%
+encounter SPECIES_BARBOACH, 5, 10     // 4%
+encounter SPECIES_BARBOACH, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_BARBOACH, 25, 30     // 15%
+encounter SPECIES_BARBOACH, 25, 30     // 4%
+encounter SPECIES_BARBOACH, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_SEAKING, 40, 40     // 40%
+encounter SPECIES_WHISCASH, 40, 40     // 15%
+encounter SPECIES_WHISCASH, 40, 40     // 4%
+encounter SPECIES_WHISCASH, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_GEODUDE
@@ -1564,61 +1565,61 @@ pokemon SPECIES_WOOPER
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  15   // Union Cave B1F
 
+
 walkrate 15
 surfrate 15
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 8, 8, 8, 8, 7, 7, 8, 8, 9, 6, 9, 6
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_SANDSHREW        // 20%
+pokemon SPECIES_GEODUDE          // 10%
+pokemon SPECIES_BRONZOR          // 10%
+pokemon SPECIES_ARON             // 10%
+pokemon SPECIES_ONIX             // 10%
+pokemon SPECIES_ZUBAT            // 5%
+pokemon SPECIES_SANDSHREW        // 5%
+pokemon SPECIES_BAGON            // 4%
+pokemon SPECIES_GIBLE            // 4%
+pokemon SPECIES_BAGON            // 1%
+pokemon SPECIES_GIBLE            // 1%
 
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_SANDSHREW        // 20%
+pokemon SPECIES_GEODUDE          // 10%
+pokemon SPECIES_BRONZOR          // 10%
+pokemon SPECIES_ARON             // 10%
+pokemon SPECIES_ONIX             // 10%
+pokemon SPECIES_ZUBAT            // 5%
+pokemon SPECIES_SANDSHREW        // 5%
+pokemon SPECIES_BAGON            // 4%
+pokemon SPECIES_GIBLE            // 4%
+pokemon SPECIES_BAGON            // 1%
+pokemon SPECIES_GIBLE            // 1%
 
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SANDSHREW
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_SANDSHREW        // 20%
+pokemon SPECIES_GEODUDE          // 10%
+pokemon SPECIES_BRONZOR          // 10%
+pokemon SPECIES_ARON             // 10%
+pokemon SPECIES_ONIX             // 10%
+pokemon SPECIES_ZUBAT            // 5%
+pokemon SPECIES_SANDSHREW        // 5%
+pokemon SPECIES_BAGON            // 4%
+pokemon SPECIES_GIBLE            // 4%
+pokemon SPECIES_BAGON            // 1%
+pokemon SPECIES_GIBLE            // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -1628,37 +1629,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_WOOPER, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
-encounter SPECIES_QUAGSIRE, 10, 20
+// Surf
+encounter SPECIES_WOOPER, 25, 30     // 60%
+encounter SPECIES_SHELLOS, 25, 30     // 30%
+encounter SPECIES_QUAGSIRE, 25, 30     // 5%
+encounter SPECIES_GASTRODON, 25, 30     // 4%
+encounter SPECIES_GASTRODON, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_GOLDEEN, 5, 10     // 30%
+encounter SPECIES_BARBOACH, 5, 10     // 5%
+encounter SPECIES_BARBOACH, 5, 10     // 4%
+encounter SPECIES_BARBOACH, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_BARBOACH, 25, 30     // 15%
+encounter SPECIES_BARBOACH, 25, 30     // 4%
+encounter SPECIES_BARBOACH, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_SEAKING, 40, 40     // 40%
+encounter SPECIES_WHISCASH, 40, 40     // 15%
+encounter SPECIES_WHISCASH, 40, 40     // 4%
+encounter SPECIES_WHISCASH, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_GEODUDE
@@ -1668,11 +1669,11 @@ pokemon SPECIES_WOOPER
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  16   // Union Cave B2F
+
 
 walkrate 15
 surfrate 15
@@ -1680,49 +1681,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 22, 22, 22, 22, 22, 22, 21, 21, 20, 23, 20, 23
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
+// Morning
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SANDSLASH        // 20%
+pokemon SPECIES_LOUDRED          // 10%
+pokemon SPECIES_GRAVELER         // 10%
+pokemon SPECIES_SABLEYE          // 10%
+pokemon SPECIES_MACHOKE          // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_LOUDRED          // 5%
+pokemon SPECIES_MAWILE           // 4%
+pokemon SPECIES_LICKITUNG        // 4%
+pokemon SPECIES_MAWILE           // 1%
+pokemon SPECIES_LICKITUNG        // 1%
 
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
+// Daytime
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SANDSLASH        // 20%
+pokemon SPECIES_LOUDRED          // 10%
+pokemon SPECIES_GRAVELER         // 10%
+pokemon SPECIES_SABLEYE          // 10%
+pokemon SPECIES_MACHOKE          // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_LOUDRED          // 5%
+pokemon SPECIES_MAWILE           // 4%
+pokemon SPECIES_LICKITUNG        // 4%
+pokemon SPECIES_MAWILE           // 1%
+pokemon SPECIES_LICKITUNG        // 1%
 
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ONIX
+// Night
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SANDSLASH        // 20%
+pokemon SPECIES_LOUDRED          // 10%
+pokemon SPECIES_GRAVELER         // 10%
+pokemon SPECIES_SABLEYE          // 10%
+pokemon SPECIES_MACHOKE          // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_LOUDRED          // 5%
+pokemon SPECIES_MAWILE           // 4%
+pokemon SPECIES_LICKITUNG        // 4%
+pokemon SPECIES_MAWILE           // 1%
+pokemon SPECIES_LICKITUNG        // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -1732,37 +1733,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_QUAGSIRE, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
+// Surf
+encounter SPECIES_WOOPER, 25, 30     // 60%
+encounter SPECIES_SHELLOS, 25, 30     // 30%
+encounter SPECIES_QUAGSIRE, 25, 30     // 5%
+encounter SPECIES_GASTRODON, 25, 30     // 4%
+encounter SPECIES_GASTRODON, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_GOLDEEN, 5, 10     // 30%
+encounter SPECIES_BARBOACH, 5, 10     // 5%
+encounter SPECIES_BARBOACH, 5, 10     // 4%
+encounter SPECIES_BARBOACH, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_BARBOACH, 25, 30     // 15%
+encounter SPECIES_BARBOACH, 25, 30     // 4%
+encounter SPECIES_BARBOACH, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+// Super Rod
+encounter SPECIES_KRABBY, 40, 40     // 40%
+encounter SPECIES_CORSOLA, 40, 40     // 40%
+encounter SPECIES_KINGLER, 40, 40     // 15%
+encounter SPECIES_KINGLER, 40, 40     // 4%
+encounter SPECIES_KINGLER, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_ZUBAT
@@ -1772,11 +1773,11 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_STARYU
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  17   // Route 33
+
 
 walkrate 25
 surfrate 0
@@ -1784,49 +1785,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 6, 7, 6, 7, 6, 6, 6, 6, 8, 4, 8, 4
+walklevels 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28
 
-// morning encounter slots
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_ZUBAT
+// Morning
+pokemon SPECIES_CROAGUNK         // 20%
+pokemon SPECIES_EKANS            // 20%
+pokemon SPECIES_SKORUPI          // 10%
+pokemon SPECIES_SLAKOTH          // 10%
+pokemon SPECIES_SWABLU           // 10%
+pokemon SPECIES_AIPOM            // 10%
+pokemon SPECIES_HOPPIP           // 5%
+pokemon SPECIES_HOPPIP           // 5%
+pokemon SPECIES_RHYHORN          // 4%
+pokemon SPECIES_RHYHORN          // 4%
+pokemon SPECIES_CROAGUNK         // 1%
+pokemon SPECIES_CROAGUNK         // 1%
 
-// day encounter slots
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_CROAGUNK         // 20%
+pokemon SPECIES_EKANS            // 20%
+pokemon SPECIES_SKORUPI          // 10%
+pokemon SPECIES_SLAKOTH          // 10%
+pokemon SPECIES_SWABLU           // 10%
+pokemon SPECIES_AIPOM            // 10%
+pokemon SPECIES_HOPPIP           // 5%
+pokemon SPECIES_HOPPIP           // 5%
+pokemon SPECIES_RHYHORN          // 4%
+pokemon SPECIES_RHYHORN          // 4%
+pokemon SPECIES_CROAGUNK         // 1%
+pokemon SPECIES_CROAGUNK         // 1%
 
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
+// Night
+pokemon SPECIES_CROAGUNK         // 20%
+pokemon SPECIES_EKANS            // 20%
+pokemon SPECIES_SKORUPI          // 10%
+pokemon SPECIES_SLAKOTH          // 10%
+pokemon SPECIES_SWABLU           // 10%
+pokemon SPECIES_AIPOM            // 10%
+pokemon SPECIES_MEOWTH           // 5%
+pokemon SPECIES_RHYHORN          // 5%
+pokemon SPECIES_MEOWTH           // 4%
+pokemon SPECIES_RHYHORN          // 4%
+pokemon SPECIES_MEOWTH           // 1%
+pokemon SPECIES_RHYHORN          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -1836,37 +1837,37 @@ pokemon SPECIES_MINUN
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_HOPPIP
@@ -1876,11 +1877,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  18   // Slowpoke Well 1F
+
 
 walkrate 5
 surfrate 10
@@ -1888,49 +1889,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 5, 6, 5, 6, 7, 7, 6, 6, 8, 8, 8, 8
+walklevels 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14
 
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
+// Morning
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_SLOWPOKE         // 20%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_SHELLOS          // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SWINUB           // 10%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_BRONZOR          // 5%
+pokemon SPECIES_SNORUNT          // 4%
+pokemon SPECIES_BRONZOR          // 4%
+pokemon SPECIES_SNORUNT          // 1%
+pokemon SPECIES_BRONZOR          // 1%
 
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
+// Daytime
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_SLOWPOKE         // 20%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_SHELLOS          // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SWINUB           // 10%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_BRONZOR          // 5%
+pokemon SPECIES_SNORUNT          // 4%
+pokemon SPECIES_BRONZOR          // 4%
+pokemon SPECIES_SNORUNT          // 1%
+pokemon SPECIES_BRONZOR          // 1%
 
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
+// Night
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_SLOWPOKE         // 20%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_SHELLOS          // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SWINUB           // 10%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_BRONZOR          // 5%
+pokemon SPECIES_SNORUNT          // 4%
+pokemon SPECIES_BRONZOR          // 4%
+pokemon SPECIES_SNORUNT          // 1%
+pokemon SPECIES_BRONZOR          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -1940,37 +1941,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_SLOWPOKE, 10, 20
-encounter SPECIES_SLOWPOKE, 15, 25
-encounter SPECIES_SLOWPOKE, 5, 15
-encounter SPECIES_SLOWPOKE, 5, 15
-encounter SPECIES_SLOWPOKE, 5, 15
+// Surf
+encounter SPECIES_SLOWPOKE, 25, 30     // 60%
+encounter SPECIES_SLOWBRO, 25, 30     // 30%
+encounter SPECIES_SLOWBRO, 25, 30     // 5%
+encounter SPECIES_SLOWBRO, 25, 30     // 4%
+encounter SPECIES_SLOWBRO, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_SLOWPOKE, 5, 10     // 30%
+encounter SPECIES_BARBOACH, 5, 10     // 5%
+encounter SPECIES_BARBOACH, 5, 10     // 4%
+encounter SPECIES_BARBOACH, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_BARBOACH, 25, 30     // 40%
+encounter SPECIES_SLOWPOKE, 25, 30     // 15%
+encounter SPECIES_SLOWPOKE, 25, 30     // 4%
+encounter SPECIES_SLOWPOKE, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_WHISCASH, 40, 40     // 40%
+encounter SPECIES_SLOWBRO, 40, 40     // 15%
+encounter SPECIES_SLOWBRO, 40, 40     // 4%
+encounter SPECIES_SLOWBRO, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_ZUBAT
@@ -1980,11 +1981,11 @@ pokemon SPECIES_SLOWPOKE
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  19   // Slowpoke Well B2F
+
 
 walkrate 15
 surfrate 10
@@ -1992,49 +1993,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 21, 23, 21, 23, 19, 19, 21, 21, 23, 23, 23, 23
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
+// Morning
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SLOWPOKE         // 20%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GASTRODON        // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_PILOSWINE        // 10%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_BRONZONG         // 5%
+pokemon SPECIES_SNORUNT          // 4%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_SNORUNT          // 1%
+pokemon SPECIES_BRONZONG         // 1%
 
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
+// Daytime
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SLOWPOKE         // 20%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GASTRODON        // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_PILOSWINE        // 10%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_BRONZONG         // 5%
+pokemon SPECIES_SNORUNT          // 4%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_SNORUNT          // 1%
+pokemon SPECIES_BRONZONG         // 1%
 
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
+// Night
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SLOWPOKE         // 20%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GASTRODON        // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_PILOSWINE        // 10%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_BRONZONG         // 5%
+pokemon SPECIES_SNORUNT          // 4%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_SNORUNT          // 1%
+pokemon SPECIES_BRONZONG         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -2044,37 +2045,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_SLOWPOKE, 10, 20
-encounter SPECIES_SLOWPOKE, 15, 25
-encounter SPECIES_SLOWBRO, 15, 25
-encounter SPECIES_SLOWBRO, 15, 25
-encounter SPECIES_SLOWBRO, 30, 30
+// Surf
+encounter SPECIES_SLOWPOKE, 25, 30     // 60%
+encounter SPECIES_SLOWBRO, 25, 30     // 30%
+encounter SPECIES_SLOWBRO, 25, 30     // 5%
+encounter SPECIES_SLOWBRO, 25, 30     // 4%
+encounter SPECIES_SLOWBRO, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_SLOWPOKE, 5, 10     // 30%
+encounter SPECIES_BARBOACH, 5, 10     // 5%
+encounter SPECIES_BARBOACH, 5, 10     // 4%
+encounter SPECIES_BARBOACH, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_BARBOACH, 25, 30     // 40%
+encounter SPECIES_SLOWPOKE, 25, 30     // 15%
+encounter SPECIES_SLOWPOKE, 25, 30     // 4%
+encounter SPECIES_SLOWPOKE, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_WHISCASH, 40, 40     // 40%
+encounter SPECIES_SLOWBRO, 40, 40     // 15%
+encounter SPECIES_SLOWBRO, 40, 40     // 4%
+encounter SPECIES_SLOWBRO, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_ZUBAT
@@ -2084,11 +2085,11 @@ pokemon SPECIES_SLOWPOKE
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  20   // Ilex Forest
+
 
 walkrate 5
 surfrate 15
@@ -2096,49 +2097,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 5, 6, 5, 6, 6, 6, 5, 5, 5, 6, 5, 6
+walklevels 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28, 28
 
-// morning encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
+// Morning
+pokemon SPECIES_SHROOMISH        // 20%
+pokemon SPECIES_LEDYBA           // 20%
+pokemon SPECIES_PINECO           // 10%
+pokemon SPECIES_EXEGGCUTE        // 10%
+pokemon SPECIES_BUNEARY          // 10%
+pokemon SPECIES_BUDEW            // 10%
+pokemon SPECIES_PIKACHU          // 5%
+pokemon SPECIES_BUTTERFREE       // 5%
+pokemon SPECIES_PIKACHU          // 4%
+pokemon SPECIES_BUTTERFREE       // 4%
+pokemon SPECIES_PIKACHU          // 1%
+pokemon SPECIES_BUTTERFREE       // 1%
 
-// day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_METAPOD
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
+// Daytime
+pokemon SPECIES_SHROOMISH        // 20%
+pokemon SPECIES_WURMPLE          // 20%
+pokemon SPECIES_PINECO           // 10%
+pokemon SPECIES_EXEGGCUTE        // 10%
+pokemon SPECIES_BUNEARY          // 10%
+pokemon SPECIES_BUDEW            // 10%
+pokemon SPECIES_PIKACHU          // 5%
+pokemon SPECIES_BEAUTIFLY        // 5%
+pokemon SPECIES_DUSTOX           // 4%
+pokemon SPECIES_ROSELIA          // 4%
+pokemon SPECIES_DUSTOX           // 1%
+pokemon SPECIES_ROSELIA          // 1%
 
-// night encounter slots
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ODDISH
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_PARAS
+// Night
+pokemon SPECIES_PARAS            // 20%
+pokemon SPECIES_SPINARAK         // 20%
+pokemon SPECIES_PINECO           // 10%
+pokemon SPECIES_ODDISH           // 10%
+pokemon SPECIES_BUNEARY          // 10%
+pokemon SPECIES_VENONAT          // 10%
+pokemon SPECIES_PIKACHU          // 5%
+pokemon SPECIES_MURKROW          // 5%
+pokemon SPECIES_MISDREAVUS       // 4%
+pokemon SPECIES_CARNIVINE        // 4%
+pokemon SPECIES_MISDREAVUS       // 1%
+pokemon SPECIES_CARNIVINE        // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_SPOINK
@@ -2148,37 +2149,37 @@ pokemon SPECIES_NUMEL
 pokemon SPECIES_BUDEW
 pokemon SPECIES_CARNIVINE
 
-// surf encounters
-encounter SPECIES_PSYDUCK, 10, 20
-encounter SPECIES_PSYDUCK, 5, 15
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 10, 20
+// Surf
+encounter SPECIES_PSYDUCK, 25, 30     // 60%
+encounter SPECIES_GOLDUCK, 25, 30     // 30%
+encounter SPECIES_GOLDUCK, 25, 30     // 5%
+encounter SPECIES_GOLDUCK, 25, 30     // 4%
+encounter SPECIES_GOLDUCK, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_POLIWAG, 5, 10     // 30%
+encounter SPECIES_POLIWAG, 5, 10     // 5%
+encounter SPECIES_POLIWAG, 5, 10     // 4%
+encounter SPECIES_POLIWAG, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_POLIWHIRL, 25, 30     // 40%
+encounter SPECIES_GYARADOS, 25, 30     // 40%
+encounter SPECIES_GYARADOS, 25, 30     // 15%
+encounter SPECIES_GYARADOS, 25, 30     // 4%
+encounter SPECIES_GYARADOS, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_POLIWHIRL, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_POLIWRATH, 40, 40     // 15%
+encounter SPECIES_POLITOED, 40, 40     // 4%
+encounter SPECIES_POLITOED, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_CATERPIE
@@ -2188,11 +2189,11 @@ pokemon SPECIES_PSYDUCK
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  21   // Route 34
+
 
 walkrate 25
 surfrate 15
@@ -2200,49 +2201,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 10, 11, 10, 11, 12, 12, 10, 10, 13, 10, 13, 10
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
-// morning encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
+// Morning
+pokemon SPECIES_DROWZEE          // 20%
+pokemon SPECIES_GULPIN           // 20%
+pokemon SPECIES_ELECTRIKE        // 10%
+pokemon SPECIES_BONSLY           // 10%
+pokemon SPECIES_MIMEJR           // 10%
+pokemon SPECIES_ABRA             // 10%
+pokemon SPECIES_DITTO            // 5%
+pokemon SPECIES_SNUBBULL         // 5%
+pokemon SPECIES_KADABRA          // 4%
+pokemon SPECIES_KADABRA          // 4%
+pokemon SPECIES_DROWZEE          // 1%
+pokemon SPECIES_DROWZEE          // 1%
 
-// day encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
+// Daytime
+pokemon SPECIES_DROWZEE          // 20%
+pokemon SPECIES_GULPIN           // 20%
+pokemon SPECIES_ELECTRIKE        // 10%
+pokemon SPECIES_BONSLY           // 10%
+pokemon SPECIES_MIMEJR           // 10%
+pokemon SPECIES_ABRA             // 10%
+pokemon SPECIES_DITTO            // 5%
+pokemon SPECIES_SNUBBULL         // 5%
+pokemon SPECIES_KADABRA          // 4%
+pokemon SPECIES_KADABRA          // 4%
+pokemon SPECIES_DROWZEE          // 1%
+pokemon SPECIES_DROWZEE          // 1%
 
-// night encounter slots
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
-pokemon SPECIES_RATTATA
-pokemon SPECIES_DITTO
+// Night
+pokemon SPECIES_DROWZEE          // 20%
+pokemon SPECIES_GULPIN           // 20%
+pokemon SPECIES_ELECTRIKE        // 10%
+pokemon SPECIES_BONSLY           // 10%
+pokemon SPECIES_MIMEJR           // 10%
+pokemon SPECIES_ABRA             // 10%
+pokemon SPECIES_DITTO            // 5%
+pokemon SPECIES_SNUBBULL         // 5%
+pokemon SPECIES_KADABRA          // 4%
+pokemon SPECIES_KADABRA          // 4%
+pokemon SPECIES_DROWZEE          // 1%
+pokemon SPECIES_DROWZEE          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -2252,37 +2253,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 29, 29
+// Surf
+encounter SPECIES_TENTACOOL, 25, 30     // 60%
+encounter SPECIES_TENTACRUEL, 25, 30     // 30%
+encounter SPECIES_TENTACRUEL, 25, 30     // 5%
+encounter SPECIES_TENTACRUEL, 25, 30     // 4%
+encounter SPECIES_TENTACRUEL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+// Old Rod
+encounter SPECIES_GOLDEEN, 5, 10     // 60%
+encounter SPECIES_CHINCHOU, 5, 10     // 30%
+encounter SPECIES_STARYU, 5, 10     // 5%
+encounter SPECIES_STARYU, 5, 10     // 4%
+encounter SPECIES_STARYU, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+// Good Rod
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_CHINCHOU, 25, 30     // 40%
+encounter SPECIES_STARYU, 25, 30     // 15%
+encounter SPECIES_STARYU, 25, 30     // 4%
+encounter SPECIES_STARYU, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+// Super Rod
+encounter SPECIES_SEAKING, 40, 40     // 40%
+encounter SPECIES_STARYU, 40, 40     // 40%
+encounter SPECIES_LANTURN, 40, 40     // 15%
+encounter SPECIES_STARMIE, 40, 40     // 4%
+encounter SPECIES_STARMIE, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_RALTS
@@ -2292,11 +2293,11 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_STARYU
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  22   // Route 35
+
 
 walkrate 25
 surfrate 15
@@ -2304,49 +2305,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 12, 12, 12, 12, 14, 14, 10, 10, 14, 10, 14, 12
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
-// morning encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_DITTO
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_YANMA
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_PIDGEOTTO        // 10%
+pokemon SPECIES_STUNKY           // 10%
+pokemon SPECIES_GLAMEOW          // 10%
+pokemon SPECIES_STARAVIA         // 10%
+pokemon SPECIES_ILLUMISE         // 5%
+pokemon SPECIES_VOLBEAT          // 5%
+pokemon SPECIES_ILLUMISE         // 4%
+pokemon SPECIES_VOLBEAT          // 4%
+pokemon SPECIES_DITTO            // 1%
+pokemon SPECIES_DITTO            // 1%
 
-// day encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_DITTO
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_YANMA
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_PIDGEOTTO        // 10%
+pokemon SPECIES_STUNKY           // 10%
+pokemon SPECIES_GLAMEOW          // 10%
+pokemon SPECIES_STARAVIA         // 10%
+pokemon SPECIES_ILLUMISE         // 5%
+pokemon SPECIES_VOLBEAT          // 5%
+pokemon SPECIES_ILLUMISE         // 4%
+pokemon SPECIES_VOLBEAT          // 4%
+pokemon SPECIES_DITTO            // 1%
+pokemon SPECIES_DITTO            // 1%
 
-// night encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_DROWZEE
-pokemon SPECIES_ABRA
-pokemon SPECIES_ABRA
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_DITTO
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_YANMA
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_MEOWTH           // 10%
+pokemon SPECIES_STUNKY           // 10%
+pokemon SPECIES_GLAMEOW          // 10%
+pokemon SPECIES_NOCTOWL          // 10%
+pokemon SPECIES_ILLUMISE         // 5%
+pokemon SPECIES_VOLBEAT          // 5%
+pokemon SPECIES_DITTO            // 4%
+pokemon SPECIES_YANMA            // 4%
+pokemon SPECIES_DITTO            // 1%
+pokemon SPECIES_YANMA            // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -2356,37 +2357,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_PSYDUCK, 15, 25
-encounter SPECIES_PSYDUCK, 10, 20
-encounter SPECIES_GOLDUCK, 15, 25
-encounter SPECIES_GOLDUCK, 15, 25
-encounter SPECIES_GOLDUCK, 31, 31
+// Surf
+encounter SPECIES_PSYDUCK, 25, 30     // 60%
+encounter SPECIES_GOLDUCK, 25, 30     // 30%
+encounter SPECIES_GOLDUCK, 25, 30     // 5%
+encounter SPECIES_GOLDUCK, 25, 30     // 4%
+encounter SPECIES_GOLDUCK, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_PSYDUCK, 5, 10     // 30%
+encounter SPECIES_PSYDUCK, 5, 10     // 5%
+encounter SPECIES_PSYDUCK, 5, 10     // 4%
+encounter SPECIES_PSYDUCK, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_LUVDISC, 25, 30     // 40%
+encounter SPECIES_PSYDUCK, 25, 30     // 15%
+encounter SPECIES_PSYDUCK, 25, 30     // 4%
+encounter SPECIES_PSYDUCK, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_LUVDISC, 40, 40     // 40%
+encounter SPECIES_PSYDUCK, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 15%
+encounter SPECIES_GYARADOS, 40, 40     // 4%
+encounter SPECIES_GYARADOS, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_YANMA
@@ -2396,11 +2397,11 @@ pokemon SPECIES_PSYDUCK
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  23   // National Park
+
 
 walkrate 25
 surfrate 0
@@ -2408,49 +2409,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 10, 10, 10, 10, 12, 12, 12, 12, 10, 14, 10, 14
+walklevels 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17
 
-// morning encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
+// Morning
+pokemon SPECIES_METAPOD          // 20%
+pokemon SPECIES_KAKUNA           // 20%
+pokemon SPECIES_COMBEE           // 10%
+pokemon SPECIES_TAILLOW          // 10%
+pokemon SPECIES_NINCADA          // 10%
+pokemon SPECIES_BURMY            // 10%
+pokemon SPECIES_SCYTHER          // 5%
+pokemon SPECIES_PINSIR           // 5%
+pokemon SPECIES_HERACROSS        // 4%
+pokemon SPECIES_KRICKETUNE       // 4%
+pokemon SPECIES_HERACROSS        // 1%
+pokemon SPECIES_KRICKETUNE       // 1%
 
-// day encounter slots
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_CATERPIE
-pokemon SPECIES_METAPOD
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_SUNKERN
-pokemon SPECIES_PIDGEY
+// Daytime
+pokemon SPECIES_METAPOD          // 20%
+pokemon SPECIES_KAKUNA           // 20%
+pokemon SPECIES_COMBEE           // 10%
+pokemon SPECIES_TAILLOW          // 10%
+pokemon SPECIES_SUNKERN          // 10%
+pokemon SPECIES_BURMY            // 10%
+pokemon SPECIES_SCYTHER          // 5%
+pokemon SPECIES_PINSIR           // 5%
+pokemon SPECIES_HERACROSS        // 4%
+pokemon SPECIES_KRICKETUNE       // 4%
+pokemon SPECIES_HERACROSS        // 1%
+pokemon SPECIES_KRICKETUNE       // 1%
 
-// night encounter slots
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
+// Night
+pokemon SPECIES_METAPOD          // 20%
+pokemon SPECIES_KAKUNA           // 20%
+pokemon SPECIES_COMBEE           // 10%
+pokemon SPECIES_POOCHYENA        // 10%
+pokemon SPECIES_NINCADA          // 10%
+pokemon SPECIES_BURMY            // 10%
+pokemon SPECIES_SCYTHER          // 5%
+pokemon SPECIES_PINSIR           // 5%
+pokemon SPECIES_HERACROSS        // 4%
+pokemon SPECIES_KRICKETUNE       // 4%
+pokemon SPECIES_HERACROSS        // 1%
+pokemon SPECIES_KRICKETUNE       // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -2460,37 +2461,37 @@ pokemon SPECIES_MINUN
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_CATERPIE
@@ -2500,7 +2501,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
@@ -2610,55 +2610,56 @@ pokemon SPECIES_NONE
 
 encounterdata  25   // Route 36
 
+
 walkrate 25
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 12, 12, 12, 12, 13, 13, 13, 13, 13, 15, 13, 15
+walklevels 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17
 
-// morning encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
+// Morning
+pokemon SPECIES_GROWLITHE        // 20%
+pokemon SPECIES_VULPIX           // 20%
+pokemon SPECIES_COMBEE           // 10%
+pokemon SPECIES_PLUSLE           // 10%
+pokemon SPECIES_MINUN            // 10%
+pokemon SPECIES_NIDORINO         // 10%
+pokemon SPECIES_NIDORINA         // 5%
+pokemon SPECIES_STARAVIA         // 5%
+pokemon SPECIES_STANTLER         // 4%
+pokemon SPECIES_STANTLER         // 4%
+pokemon SPECIES_GROWLITHE        // 1%
+pokemon SPECIES_GROWLITHE        // 1%
 
-// day encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_STANTLER
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_STANTLER
-pokemon SPECIES_GROWLITHE
+// Daytime
+pokemon SPECIES_GROWLITHE        // 20%
+pokemon SPECIES_VULPIX           // 20%
+pokemon SPECIES_COMBEE           // 10%
+pokemon SPECIES_PLUSLE           // 10%
+pokemon SPECIES_MINUN            // 10%
+pokemon SPECIES_NIDORINO         // 10%
+pokemon SPECIES_NIDORINA         // 5%
+pokemon SPECIES_STARAVIA         // 5%
+pokemon SPECIES_STANTLER         // 4%
+pokemon SPECIES_STANTLER         // 4%
+pokemon SPECIES_GROWLITHE        // 1%
+pokemon SPECIES_GROWLITHE        // 1%
 
-// night encounter slots
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_NIDORAN_M
-pokemon SPECIES_NIDORAN_F
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_STANTLER
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_STANTLER
-pokemon SPECIES_HOOTHOOT
+// Night
+pokemon SPECIES_GROWLITHE        // 20%
+pokemon SPECIES_VULPIX           // 20%
+pokemon SPECIES_COMBEE           // 10%
+pokemon SPECIES_PLUSLE           // 10%
+pokemon SPECIES_MINUN            // 10%
+pokemon SPECIES_NIDORINO         // 10%
+pokemon SPECIES_NIDORINA         // 5%
+pokemon SPECIES_NOCTOWL          // 5%
+pokemon SPECIES_STANTLER         // 4%
+pokemon SPECIES_STANTLER         // 4%
+pokemon SPECIES_GROWLITHE        // 1%
+pokemon SPECIES_GROWLITHE        // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -2668,37 +2669,37 @@ pokemon SPECIES_MINUN
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_NIDORAN_M
@@ -2708,61 +2709,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  26   // Route 37
 
+
 walkrate 25
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 13, 15, 13, 15, 15, 15, 14, 14, 15, 15, 15, 15
+walklevels 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17
 
-// morning encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
+// Morning
+pokemon SPECIES_GROWLITHE        // 20%
+pokemon SPECIES_VULPIX           // 20%
+pokemon SPECIES_STANTLER         // 10%
+pokemon SPECIES_LEDIAN           // 10%
+pokemon SPECIES_PIDGEOTTO        // 10%
+pokemon SPECIES_NIDORINO         // 10%
+pokemon SPECIES_NIDORINA         // 5%
+pokemon SPECIES_NIDORINA         // 5%
+pokemon SPECIES_ZANGOOSE         // 4%
+pokemon SPECIES_SEVIPER          // 4%
+pokemon SPECIES_ZANGOOSE         // 1%
+pokemon SPECIES_SEVIPER          // 1%
 
-// day encounter slots
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_STANTLER
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_PIDGEY
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_GROWLITHE
+// Daytime
+pokemon SPECIES_GROWLITHE        // 20%
+pokemon SPECIES_VULPIX           // 20%
+pokemon SPECIES_STANTLER         // 10%
+pokemon SPECIES_LEDIAN           // 10%
+pokemon SPECIES_PIDGEOTTO        // 10%
+pokemon SPECIES_NIDORINO         // 10%
+pokemon SPECIES_NIDORINA         // 5%
+pokemon SPECIES_NIDORINA         // 5%
+pokemon SPECIES_ZANGOOSE         // 4%
+pokemon SPECIES_SEVIPER          // 4%
+pokemon SPECIES_ZANGOOSE         // 1%
+pokemon SPECIES_SEVIPER          // 1%
 
-// night encounter slots
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_STANTLER
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_STANTLER
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_HOOTHOOT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_SPINARAK
-pokemon SPECIES_SPINARAK
+// Night
+pokemon SPECIES_GROWLITHE        // 20%
+pokemon SPECIES_VULPIX           // 20%
+pokemon SPECIES_STANTLER         // 10%
+pokemon SPECIES_ARIADOS          // 10%
+pokemon SPECIES_NOCTOWL          // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_LINOONE          // 5%
+pokemon SPECIES_LINOONE          // 5%
+pokemon SPECIES_ZANGOOSE         // 4%
+pokemon SPECIES_SEVIPER          // 4%
+pokemon SPECIES_ZANGOOSE         // 1%
+pokemon SPECIES_SEVIPER          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -2772,37 +2773,37 @@ pokemon SPECIES_MINUN
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_PIDGEY
@@ -2812,12 +2813,12 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  27   // Ecruteak City
 
+
 walkrate 0
 surfrate 15
 rocksmashrate 0
@@ -2826,47 +2827,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -2876,37 +2877,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWAG, 10, 20
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
-encounter SPECIES_POLIWHIRL, 15, 25
+// Surf
+encounter SPECIES_POLIWAG, 25, 30     // 60%
+encounter SPECIES_POLIWHIRL, 25, 30     // 30%
+encounter SPECIES_POLIWHIRL, 25, 30     // 5%
+encounter SPECIES_POLIWHIRL, 25, 30     // 4%
+encounter SPECIES_POLIWHIRL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_MAGIKARP, 5, 10     // 30%
+encounter SPECIES_MAGIKARP, 5, 10     // 5%
+encounter SPECIES_MAGIKARP, 5, 10     // 4%
+encounter SPECIES_MAGIKARP, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_POLIWAG, 25, 30     // 40%
+encounter SPECIES_POLIWAG, 25, 30     // 15%
+encounter SPECIES_POLIWAG, 25, 30     // 4%
+encounter SPECIES_POLIWAG, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_POLIWHIRL, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 15%
+encounter SPECIES_GYARADOS, 40, 40     // 4%
+encounter SPECIES_GYARADOS, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -2916,61 +2917,61 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  28   // Burned Tower 1F
 
+
 walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 13, 14, 13, 14, 15, 15, 14, 14, 16, 15, 16, 15
+walklevels 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
+// Morning
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_KOFFING          // 20%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_CUBONE           // 10%
+pokemon SPECIES_MAGBY            // 10%
+pokemon SPECIES_GRIMER           // 10%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_SHUPPET          // 5%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 1%
+pokemon SPECIES_SHUPPET          // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
+// Daytime
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_KOFFING          // 20%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_CUBONE           // 10%
+pokemon SPECIES_MAGBY            // 10%
+pokemon SPECIES_GRIMER           // 10%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_SHUPPET          // 5%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 1%
+pokemon SPECIES_SHUPPET          // 1%
 
-// night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATICATE
+// Night
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_KOFFING          // 20%
+pokemon SPECIES_ZIGZAGOON        // 10%
+pokemon SPECIES_CUBONE           // 10%
+pokemon SPECIES_MAGBY            // 10%
+pokemon SPECIES_GRIMER           // 10%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_SHUPPET          // 5%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 1%
+pokemon SPECIES_SHUPPET          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -2980,37 +2981,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3020,61 +3021,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  29   // Burned Tower B1F
 
+
 walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 14, 14, 14, 14, 16, 16, 16, 16, 15, 14, 15, 14
+walklevels 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_KOFFING          // 20%
+pokemon SPECIES_LINOONE          // 10%
+pokemon SPECIES_CUBONE           // 10%
+pokemon SPECIES_MAGBY            // 10%
+pokemon SPECIES_GRIMER           // 10%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_SHUPPET          // 5%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 1%
+pokemon SPECIES_SHUPPET          // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_KOFFING          // 20%
+pokemon SPECIES_LINOONE          // 10%
+pokemon SPECIES_CUBONE           // 10%
+pokemon SPECIES_MAGBY            // 10%
+pokemon SPECIES_GRIMER           // 10%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_SHUPPET          // 5%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 1%
+pokemon SPECIES_SHUPPET          // 1%
 
-// night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_KOFFING
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MAGMAR
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_KOFFING          // 20%
+pokemon SPECIES_LINOONE          // 10%
+pokemon SPECIES_CUBONE           // 10%
+pokemon SPECIES_MAGBY            // 10%
+pokemon SPECIES_GRIMER           // 10%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_SHUPPET          // 5%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 1%
+pokemon SPECIES_SHUPPET          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -3084,37 +3085,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3124,61 +3125,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  30   // Bell Tower 2F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walklevels 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -3188,37 +3189,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3228,61 +3229,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  31   // Bell Tower 3F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walklevels 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47, 47
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_RATTATA          // 20%
+pokemon SPECIES_ZIGZAGOON        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_GASTLY           // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_DUSKULL          // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -3292,37 +3293,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3332,61 +3333,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  32   // Bell Tower 4F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walklevels 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_LINOONE          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_HAUNTER          // 5%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_LINOONE          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_HAUNTER          // 5%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_LINOONE          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_HAUNTER          // 5%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -3396,37 +3397,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3436,61 +3437,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  33   // Bell Tower 5F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walklevels 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_LINOONE          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_HAUNTER          // 5%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_LINOONE          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_HAUNTER          // 5%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_LINOONE          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_HAUNTER          // 5%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -3500,37 +3501,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3540,61 +3541,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  34   // Bell Tower 6F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walklevels 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_LINOONE          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_HAUNTER          // 5%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_LINOONE          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_HAUNTER          // 5%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_LINOONE          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_HAUNTER          // 5%
+pokemon SPECIES_SHUPPET          // 4%
+pokemon SPECIES_DUSKULL          // 4%
+pokemon SPECIES_SHUPPET          // 1%
+pokemon SPECIES_DUSKULL          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -3604,37 +3605,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3644,61 +3645,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  35   // Bell Tower 7F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walklevels 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_HAUNTER          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 5%
+pokemon SPECIES_BANETTE          // 5%
+pokemon SPECIES_SWABLU           // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_SWABLU           // 1%
+pokemon SPECIES_NATU             // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_HAUNTER          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 5%
+pokemon SPECIES_BANETTE          // 5%
+pokemon SPECIES_SWABLU           // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_SWABLU           // 1%
+pokemon SPECIES_NATU             // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_HAUNTER          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 5%
+pokemon SPECIES_BANETTE          // 5%
+pokemon SPECIES_SWABLU           // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_SWABLU           // 1%
+pokemon SPECIES_NATU             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -3708,37 +3709,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3748,61 +3749,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  36   // Bell Tower 8F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walklevels 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_HAUNTER          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 5%
+pokemon SPECIES_BANETTE          // 5%
+pokemon SPECIES_SWABLU           // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_SWABLU           // 1%
+pokemon SPECIES_NATU             // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_HAUNTER          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 5%
+pokemon SPECIES_BANETTE          // 5%
+pokemon SPECIES_SWABLU           // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_SWABLU           // 1%
+pokemon SPECIES_NATU             // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_HAUNTER          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 5%
+pokemon SPECIES_BANETTE          // 5%
+pokemon SPECIES_SWABLU           // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_SWABLU           // 1%
+pokemon SPECIES_NATU             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -3812,37 +3813,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3852,61 +3853,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  37   // Bell Tower 9F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walklevels 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_HAUNTER          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 5%
+pokemon SPECIES_BANETTE          // 5%
+pokemon SPECIES_SWABLU           // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_SWABLU           // 1%
+pokemon SPECIES_NATU             // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_HAUNTER          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 5%
+pokemon SPECIES_BANETTE          // 5%
+pokemon SPECIES_SWABLU           // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_SWABLU           // 1%
+pokemon SPECIES_NATU             // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_HAUNTER          // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 10%
+pokemon SPECIES_RATICATE         // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_DUSCLOPS         // 5%
+pokemon SPECIES_BANETTE          // 5%
+pokemon SPECIES_SWABLU           // 4%
+pokemon SPECIES_NATU             // 4%
+pokemon SPECIES_SWABLU           // 1%
+pokemon SPECIES_NATU             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -3916,37 +3917,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -3956,61 +3957,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  38   // Route 38
 
+
 walkrate 25
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 16, 16, 16, 16, 16, 16, 16, 16, 13, 13, 13, 13
+walklevels 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
+// Morning
+pokemon SPECIES_DODUO            // 20%
+pokemon SPECIES_LUXIO            // 20%
+pokemon SPECIES_MAGNEMITE        // 10%
+pokemon SPECIES_MANKEY           // 10%
+pokemon SPECIES_VOLTORB          // 10%
+pokemon SPECIES_MAGNEMITE        // 10%
+pokemon SPECIES_MANKEY           // 5%
+pokemon SPECIES_MANKEY           // 5%
+pokemon SPECIES_VOLTORB          // 4%
+pokemon SPECIES_ELEKID           // 4%
+pokemon SPECIES_VOLTORB          // 1%
+pokemon SPECIES_ELEKID           // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
+// Daytime
+pokemon SPECIES_DODUO            // 20%
+pokemon SPECIES_LUXIO            // 20%
+pokemon SPECIES_MAGNEMITE        // 10%
+pokemon SPECIES_MANKEY           // 10%
+pokemon SPECIES_VOLTORB          // 10%
+pokemon SPECIES_MAGNEMITE        // 10%
+pokemon SPECIES_MANKEY           // 5%
+pokemon SPECIES_MANKEY           // 5%
+pokemon SPECIES_VOLTORB          // 4%
+pokemon SPECIES_ELEKID           // 4%
+pokemon SPECIES_VOLTORB          // 1%
+pokemon SPECIES_ELEKID           // 1%
 
-// night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_SNUBBULL
+// Night
+pokemon SPECIES_MEOWTH           // 20%
+pokemon SPECIES_LUXIO            // 20%
+pokemon SPECIES_MAGNEMITE        // 10%
+pokemon SPECIES_MANKEY           // 10%
+pokemon SPECIES_VOLTORB          // 10%
+pokemon SPECIES_ELEKID           // 10%
+pokemon SPECIES_FARFETCHD        // 5%
+pokemon SPECIES_MILTANK          // 5%
+pokemon SPECIES_TAUROS           // 4%
+pokemon SPECIES_SKITTY           // 4%
+pokemon SPECIES_TAUROS           // 1%
+pokemon SPECIES_SKITTY           // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -4020,37 +4021,37 @@ pokemon SPECIES_MINUN
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_SNUBBULL
@@ -4060,61 +4061,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  39   // Route 39
 
+
 walkrate 25
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 16, 17, 16, 17, 16, 16, 16, 16, 15, 15, 15, 15
+walklevels 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26, 26
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_PONYTA           // 20%
+pokemon SPECIES_ELEKID           // 10%
+pokemon SPECIES_MANKEY           // 10%
+pokemon SPECIES_VOLTORB          // 10%
+pokemon SPECIES_CHERUBI          // 10%
+pokemon SPECIES_FARFETCHD        // 5%
+pokemon SPECIES_MILTANK          // 5%
+pokemon SPECIES_TAUROS           // 4%
+pokemon SPECIES_PIDGEOTTO        // 4%
+pokemon SPECIES_TAUROS           // 1%
+pokemon SPECIES_PIDGEOTTO        // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_PONYTA           // 20%
+pokemon SPECIES_ELEKID           // 10%
+pokemon SPECIES_MANKEY           // 10%
+pokemon SPECIES_VOLTORB          // 10%
+pokemon SPECIES_CHERUBI          // 10%
+pokemon SPECIES_FARFETCHD        // 5%
+pokemon SPECIES_MILTANK          // 5%
+pokemon SPECIES_TAUROS           // 4%
+pokemon SPECIES_PIDGEOTTO        // 4%
+pokemon SPECIES_TAUROS           // 1%
+pokemon SPECIES_PIDGEOTTO        // 1%
 
-// night encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
-pokemon SPECIES_MILTANK
-pokemon SPECIES_TAUROS
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_PONYTA           // 20%
+pokemon SPECIES_ELEKID           // 10%
+pokemon SPECIES_MANKEY           // 10%
+pokemon SPECIES_VOLTORB          // 10%
+pokemon SPECIES_MEOWTH           // 10%
+pokemon SPECIES_FARFETCHD        // 5%
+pokemon SPECIES_MILTANK          // 5%
+pokemon SPECIES_TAUROS           // 4%
+pokemon SPECIES_SKITTY           // 4%
+pokemon SPECIES_TAUROS           // 1%
+pokemon SPECIES_SKITTY           // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -4124,37 +4125,37 @@ pokemon SPECIES_MINUN
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -4164,11 +4165,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  40   // Olivine City
+
 
 walkrate 0
 surfrate 15
@@ -4178,47 +4179,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -4228,37 +4229,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
+// Surf
+encounter SPECIES_TENTACOOL, 25, 30     // 60%
+encounter SPECIES_WINGULL, 25, 30     // 30%
+encounter SPECIES_TENTACRUEL, 25, 30     // 5%
+encounter SPECIES_TENTACRUEL, 25, 30     // 4%
+encounter SPECIES_TENTACRUEL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_STARYU, 5, 10     // 30%
+encounter SPECIES_STARYU, 5, 10     // 5%
+encounter SPECIES_STARYU, 5, 10     // 4%
+encounter SPECIES_STARYU, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_STARYU, 25, 30     // 40%
+encounter SPECIES_CHINCHOU, 25, 30     // 15%
+encounter SPECIES_CHINCHOU, 25, 30     // 4%
+encounter SPECIES_CHINCHOU, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+// Super Rod
+encounter SPECIES_STARYU, 40, 40     // 40%
+encounter SPECIES_CHINCHOU, 40, 40     // 40%
+encounter SPECIES_LANTURN, 40, 40     // 15%
+encounter SPECIES_GYARADOS, 40, 40     // 4%
+encounter SPECIES_GYARADOS, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4268,12 +4269,12 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_STARYU
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  41   // Route 40
 
+
 walkrate 0
 surfrate 10
 rocksmashrate 0
@@ -4282,47 +4283,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -4332,37 +4333,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
+// Surf
+encounter SPECIES_WINGULL, 25, 30     // 60%
+encounter SPECIES_TENTACOOL, 25, 30     // 30%
+encounter SPECIES_PELIPPER, 25, 30     // 5%
+encounter SPECIES_TENTACRUEL, 25, 30     // 4%
+encounter SPECIES_PHIONE, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_TENTACOOL, 5, 10     // 30%
+encounter SPECIES_TENTACOOL, 5, 10     // 5%
+encounter SPECIES_TENTACOOL, 5, 10     // 4%
+encounter SPECIES_TENTACOOL, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+// Good Rod
+encounter SPECIES_STARYU, 25, 30     // 40%
+encounter SPECIES_FINNEON, 25, 30     // 40%
+encounter SPECIES_CORSOLA, 25, 30     // 15%
+encounter SPECIES_CORSOLA, 25, 30     // 4%
+encounter SPECIES_CORSOLA, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+// Super Rod
+encounter SPECIES_KRABBY, 40, 40     // 40%
+encounter SPECIES_CORSOLA, 40, 40     // 40%
+encounter SPECIES_KINGLER, 40, 40     // 15%
+encounter SPECIES_KINGLER, 40, 40     // 4%
+encounter SPECIES_KINGLER, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4372,11 +4373,11 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_STARYU
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  42   // Route 41
+
 
 walkrate 0
 surfrate 10
@@ -4386,47 +4387,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -4436,37 +4437,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_MANTINE, 15, 25
-encounter SPECIES_MANTINE, 15, 25
-encounter SPECIES_MANTINE, 15, 25
+// Surf
+encounter SPECIES_WINGULL, 25, 30     // 60%
+encounter SPECIES_MANTYKE, 25, 30     // 30%
+encounter SPECIES_MANTINE, 25, 30     // 5%
+encounter SPECIES_TENTACRUEL, 25, 30     // 4%
+encounter SPECIES_PHIONE, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_TENTACOOL, 5, 10     // 30%
+encounter SPECIES_HORSEA, 5, 10     // 5%
+encounter SPECIES_HORSEA, 5, 10     // 4%
+encounter SPECIES_HORSEA, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+// Good Rod
+encounter SPECIES_HORSEA, 25, 30     // 40%
+encounter SPECIES_WAILMER, 25, 30     // 40%
+encounter SPECIES_CHINCHOU, 25, 30     // 15%
+encounter SPECIES_CORSOLA, 25, 30     // 4%
+encounter SPECIES_CORSOLA, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+// Super Rod
+encounter SPECIES_SEADRA, 40, 40     // 40%
+encounter SPECIES_CORSOLA, 40, 40     // 40%
+encounter SPECIES_LANTURN, 40, 40     // 15%
+encounter SPECIES_WAILORD, 40, 40     // 4%
+encounter SPECIES_WAILORD, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -4476,11 +4477,11 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_SHELLDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  43   // Whirl Islands 1F
+
 
 walkrate 5
 surfrate 10
@@ -4488,49 +4489,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
+walklevels 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35
 
-// morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Morning
+pokemon SPECIES_KRABBY           // 20%
+pokemon SPECIES_SEEL             // 20%
+pokemon SPECIES_PSYDUCK          // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_PSYDUCK          // 5%
+pokemon SPECIES_SPHEAL           // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_SHELLDER         // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_SHELLDER         // 1%
 
-// day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Daytime
+pokemon SPECIES_KRABBY           // 20%
+pokemon SPECIES_SEEL             // 20%
+pokemon SPECIES_PSYDUCK          // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_PSYDUCK          // 5%
+pokemon SPECIES_SPHEAL           // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_SHELLDER         // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_SHELLDER         // 1%
 
-// night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Night
+pokemon SPECIES_KRABBY           // 20%
+pokemon SPECIES_SEEL             // 20%
+pokemon SPECIES_PSYDUCK          // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_PSYDUCK          // 5%
+pokemon SPECIES_SPHEAL           // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_SHELLDER         // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_SHELLDER         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -4540,37 +4541,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_HORSEA, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
+// Surf
+encounter SPECIES_HORSEA, 25, 30     // 60%
+encounter SPECIES_SEADRA, 25, 30     // 30%
+encounter SPECIES_SEADRA, 25, 30     // 5%
+encounter SPECIES_SEADRA, 25, 30     // 4%
+encounter SPECIES_SEADRA, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+// Old Rod
+encounter SPECIES_HORSEA, 5, 10     // 60%
+encounter SPECIES_HORSEA, 5, 10     // 30%
+encounter SPECIES_HORSEA, 5, 10     // 5%
+encounter SPECIES_HORSEA, 5, 10     // 4%
+encounter SPECIES_HORSEA, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_HORSEA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+// Good Rod
+encounter SPECIES_HORSEA, 25, 30     // 40%
+encounter SPECIES_HORSEA, 25, 30     // 40%
+encounter SPECIES_HORSEA, 25, 30     // 15%
+encounter SPECIES_HORSEA, 25, 30     // 4%
+encounter SPECIES_HORSEA, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_HORSEA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_SEADRA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
+// Super Rod
+encounter SPECIES_HORSEA, 40, 40     // 40%
+encounter SPECIES_SEADRA, 40, 40     // 40%
+encounter SPECIES_SEADRA, 40, 40     // 15%
+encounter SPECIES_SEADRA, 40, 40     // 4%
+encounter SPECIES_SEADRA, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_KRABBY
@@ -4580,11 +4581,11 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_HORSEA
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  44   // Whirl Islands B1F
+
 
 walkrate 5
 surfrate 0
@@ -4592,49 +4593,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
+walklevels 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34, 34
 
-// morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Morning
+pokemon SPECIES_KRABBY           // 20%
+pokemon SPECIES_SEEL             // 20%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLDUCK          // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_GOLDUCK          // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_GOLDUCK          // 1%
 
-// day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Daytime
+pokemon SPECIES_KRABBY           // 20%
+pokemon SPECIES_SEEL             // 20%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLDUCK          // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_GOLDUCK          // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_GOLDUCK          // 1%
 
-// night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Night
+pokemon SPECIES_KRABBY           // 20%
+pokemon SPECIES_SEEL             // 20%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLDUCK          // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_GOLDUCK          // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_GOLDUCK          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -4644,37 +4645,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_KRABBY
@@ -4684,7 +4685,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
@@ -4794,55 +4794,56 @@ pokemon SPECIES_NONE
 
 encounterdata  46   // Whirl Islands B2F
 
+
 walkrate 5
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
+walklevels 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35
 
-// morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Morning
+pokemon SPECIES_KRABBY           // 20%
+pokemon SPECIES_SEEL             // 20%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLDUCK          // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_GOLDUCK          // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_GOLDUCK          // 1%
 
-// day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Daytime
+pokemon SPECIES_KRABBY           // 20%
+pokemon SPECIES_SEEL             // 20%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLDUCK          // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_GOLDUCK          // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_GOLDUCK          // 1%
 
-// night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Night
+pokemon SPECIES_KRABBY           // 20%
+pokemon SPECIES_SEEL             // 20%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLDUCK          // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_GOLDUCK          // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_GOLDUCK          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -4852,37 +4853,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_HORSEA, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_SEADRA, 15, 25
-encounter SPECIES_SEADRA, 15, 25
-encounter SPECIES_SEADRA, 30, 30
+// Surf
+encounter SPECIES_HORSEA, 25, 30     // 60%
+encounter SPECIES_SEADRA, 25, 30     // 30%
+encounter SPECIES_SEADRA, 25, 30     // 5%
+encounter SPECIES_SEADRA, 25, 30     // 4%
+encounter SPECIES_SEADRA, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+// Old Rod
+encounter SPECIES_HORSEA, 5, 10     // 60%
+encounter SPECIES_HORSEA, 5, 10     // 30%
+encounter SPECIES_HORSEA, 5, 10     // 5%
+encounter SPECIES_HORSEA, 5, 10     // 4%
+encounter SPECIES_HORSEA, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_HORSEA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+// Good Rod
+encounter SPECIES_HORSEA, 25, 30     // 40%
+encounter SPECIES_HORSEA, 25, 30     // 40%
+encounter SPECIES_HORSEA, 25, 30     // 15%
+encounter SPECIES_HORSEA, 25, 30     // 4%
+encounter SPECIES_HORSEA, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_HORSEA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_SEADRA, 40, 40
-encounter SPECIES_KINGLER, 40, 40
+// Super Rod
+encounter SPECIES_HORSEA, 40, 40     // 40%
+encounter SPECIES_SEADRA, 40, 40     // 40%
+encounter SPECIES_KINGDRA, 40, 40     // 15%
+encounter SPECIES_KINGDRA, 40, 40     // 4%
+encounter SPECIES_KINGDRA, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_KRABBY
@@ -4892,7 +4893,6 @@ pokemon SPECIES_HORSEA
 pokemon SPECIES_HORSEA
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
@@ -5002,55 +5002,56 @@ pokemon SPECIES_NONE
 
 encounterdata  48   // Whirl Islands B3F (Ledge overlooking Lugia room)
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 23, 24, 23, 24, 25, 25, 23, 23, 24, 25, 24, 25
+walklevels 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37
 
-// morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Morning
+pokemon SPECIES_KINGLER          // 20%
+pokemon SPECIES_DEWGONG          // 20%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLDUCK          // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_GOLDUCK          // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_GOLDUCK          // 1%
 
-// day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Daytime
+pokemon SPECIES_KINGLER          // 20%
+pokemon SPECIES_DEWGONG          // 20%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLDUCK          // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_GOLDUCK          // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_GOLDUCK          // 1%
 
-// night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+// Night
+pokemon SPECIES_KINGLER          // 20%
+pokemon SPECIES_DEWGONG          // 20%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_SHELLDER         // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLDUCK          // 5%
+pokemon SPECIES_GOLBAT           // 4%
+pokemon SPECIES_GOLDUCK          // 4%
+pokemon SPECIES_GOLBAT           // 1%
+pokemon SPECIES_GOLDUCK          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -5060,37 +5061,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_KRABBY
@@ -5100,7 +5101,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
@@ -5314,6 +5314,7 @@ pokemon SPECIES_NONE
 
 encounterdata  51   // Cianwood City
 
+
 walkrate 0
 surfrate 15
 rocksmashrate 30
@@ -5322,47 +5323,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -5372,37 +5373,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_TENTACOOL, 10, 20
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
-encounter SPECIES_TENTACRUEL, 15, 25
+// Surf
+encounter SPECIES_WINGULL, 25, 30     // 60%
+encounter SPECIES_TENTACOOL, 25, 30     // 30%
+encounter SPECIES_PELIPPER, 25, 30     // 5%
+encounter SPECIES_TENTACRUEL, 25, 30     // 4%
+encounter SPECIES_TENTACRUEL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_KRABBY, 15, 24
-encounter SPECIES_SHUCKLE, 23, 28
+// Rock Smash
+encounter SPECIES_SHUCKLE, 10, 10     // 90%
+encounter SPECIES_KINGLER, 10, 10     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_CARVANHA, 5, 10     // 30%
+encounter SPECIES_CARVANHA, 5, 10     // 5%
+encounter SPECIES_CARVANHA, 5, 10     // 4%
+encounter SPECIES_CARVANHA, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+// Good Rod
+encounter SPECIES_CARVANHA, 25, 30     // 40%
+encounter SPECIES_CLAMPERL, 25, 30     // 40%
+encounter SPECIES_CLAMPERL, 25, 30     // 15%
+encounter SPECIES_CLAMPERL, 25, 30     // 4%
+encounter SPECIES_CLAMPERL, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_CORSOLA, 40, 40
-encounter SPECIES_KRABBY, 40, 40
-encounter SPECIES_KINGLER, 40, 40
-encounter SPECIES_KRABBY, 40, 40
+// Super Rod
+encounter SPECIES_CARVANHA, 40, 40     // 40%
+encounter SPECIES_CLAMPERL, 40, 40     // 40%
+encounter SPECIES_SHARPEDO, 40, 40     // 15%
+encounter SPECIES_SHARPEDO, 40, 40     // 4%
+encounter SPECIES_SHARPEDO, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -5412,11 +5413,11 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_STARYU
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  52   // Route 42
+
 
 walkrate 25
 surfrate 10
@@ -5424,49 +5425,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 15, 13, 15, 13, 14, 14, 16, 16, 15, 17, 15, 17
+walklevels 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
 
-// morning encounter slots
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_FEAROW           // 20%
+pokemon SPECIES_HIPPOPOTAS       // 10%
+pokemon SPECIES_CACNEA           // 10%
+pokemon SPECIES_ARBOK            // 10%
+pokemon SPECIES_SANDSLASH        // 10%
+pokemon SPECIES_MUNCHLAX         // 5%
+pokemon SPECIES_TRAPINCH         // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_FEAROW           // 20%
+pokemon SPECIES_HIPPOPOTAS       // 10%
+pokemon SPECIES_CACNEA           // 10%
+pokemon SPECIES_ARBOK            // 10%
+pokemon SPECIES_SANDSLASH        // 10%
+pokemon SPECIES_MUNCHLAX         // 5%
+pokemon SPECIES_TRAPINCH         // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MANKEY
-pokemon SPECIES_MAREEP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_HIPPOPOTAS       // 10%
+pokemon SPECIES_CACNEA           // 10%
+pokemon SPECIES_ARBOK            // 10%
+pokemon SPECIES_SANDSLASH        // 10%
+pokemon SPECIES_MUNCHLAX         // 5%
+pokemon SPECIES_TRAPINCH         // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -5476,37 +5477,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
+// Surf
+encounter SPECIES_GOLDEEN, 25, 30     // 60%
+encounter SPECIES_SEAKING, 25, 30     // 30%
+encounter SPECIES_SEAKING, 25, 30     // 5%
+encounter SPECIES_SEAKING, 25, 30     // 4%
+encounter SPECIES_SEAKING, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_GOLDEEN, 5, 10     // 60%
+encounter SPECIES_GOLDEEN, 5, 10     // 30%
+encounter SPECIES_GOLDEEN, 5, 10     // 5%
+encounter SPECIES_GOLDEEN, 5, 10     // 4%
+encounter SPECIES_GOLDEEN, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_CARVANHA, 25, 30     // 40%
+encounter SPECIES_CARVANHA, 25, 30     // 15%
+encounter SPECIES_CARVANHA, 25, 30     // 4%
+encounter SPECIES_CARVANHA, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GOLDEEN, 40, 40     // 40%
+encounter SPECIES_CARVANHA, 40, 40     // 40%
+encounter SPECIES_SEAKING, 40, 40     // 15%
+encounter SPECIES_SHARPEDO, 40, 40     // 4%
+encounter SPECIES_SHARPEDO, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_MANKEY
@@ -5516,11 +5517,11 @@ pokemon SPECIES_GOLDEEN
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  53   // Mt. Mortar (Waterfall room)
+
 
 walkrate 10
 surfrate 10
@@ -5528,49 +5529,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 13, 15, 13, 15, 14, 14, 14, 14, 14, 16, 14, 15
+walklevels 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
 
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MARILL
+// Morning
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MEDITITE         // 10%
+pokemon SPECIES_MARILL           // 10%
+pokemon SPECIES_GRAVELER         // 5%
+pokemon SPECIES_GRAVELER         // 5%
+pokemon SPECIES_GOLBAT         // 4%
+pokemon SPECIES_GOLBAT         // 4%
+pokemon SPECIES_GOLBAT         // 1%
+pokemon SPECIES_GOLBAT        // 1%
 
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MARILL
+// Daytime
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MEDITITE         // 10%
+pokemon SPECIES_MARILL           // 10%
+pokemon SPECIES_GRAVELER         // 5%
+pokemon SPECIES_GRAVELER         // 5%
+pokemon SPECIES_GOLBAT         // 4%
+pokemon SPECIES_GOLBAT         // 4%
+pokemon SPECIES_GOLBAT         // 1%
+pokemon SPECIES_GOLBAT        // 1%
 
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MARILL
+// Night
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MEDITITE         // 10%
+pokemon SPECIES_MARILL           // 10%
+pokemon SPECIES_GRAVELER         // 5%
+pokemon SPECIES_GRAVELER         // 5%
+pokemon SPECIES_GOLBAT         // 4%
+pokemon SPECIES_GOLBAT         // 4%
+pokemon SPECIES_GOLBAT         // 1%
+pokemon SPECIES_GOLBAT        // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -5580,37 +5581,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
+// Surf
+encounter SPECIES_MARILL, 25, 30     // 60%
+encounter SPECIES_AZUMARILL, 25, 30     // 30%
+encounter SPECIES_AZUMARILL, 25, 30     // 5%
+encounter SPECIES_AZUMARILL, 25, 30     // 4%
+encounter SPECIES_AZUMARILL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_GOLDEEN, 5, 10     // 60%
+encounter SPECIES_GOLDEEN, 5, 10     // 30%
+encounter SPECIES_GOLDEEN, 5, 10     // 5%
+encounter SPECIES_GOLDEEN, 5, 10     // 4%
+encounter SPECIES_GOLDEEN, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_BARBOACH, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 15%
+encounter SPECIES_GOLDEEN, 25, 30     // 4%
+encounter SPECIES_GOLDEEN, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GOLDEEN, 40, 40     // 40%
+encounter SPECIES_BARBOACH, 40, 40     // 40%
+encounter SPECIES_SEAKING, 40, 40     // 15%
+encounter SPECIES_WHISCASH, 40, 40     // 4%
+encounter SPECIES_WHISCASH, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_MARILL
@@ -5620,11 +5621,11 @@ pokemon SPECIES_GOLDEEN
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  54   // Mt. Mortar (Central room)
+
 
 walkrate 10
 surfrate 0
@@ -5632,49 +5633,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 13, 13, 13, 13, 15, 15, 14, 14, 15, 14, 15, 14
+walklevels 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31, 31
 
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
+// Morning
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MEDITITE         // 10%
+pokemon SPECIES_MARILL           // 10%
+pokemon SPECIES_CLEFAIRY         // 5%
+pokemon SPECIES_MEDICHAM         // 5%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_LUNATONE         // 1%
+pokemon SPECIES_LUNATONE         // 1%
 
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
+// Daytime
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MEDITITE         // 10%
+pokemon SPECIES_MARILL           // 10%
+pokemon SPECIES_CLEFAIRY         // 5%
+pokemon SPECIES_MEDICHAM         // 5%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_LUNATONE         // 1%
+pokemon SPECIES_LUNATONE         // 1%
 
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ZUBAT
+// Night
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MEDITITE         // 10%
+pokemon SPECIES_MARILL           // 10%
+pokemon SPECIES_CLEFAIRY         // 5%
+pokemon SPECIES_MEDICHAM         // 5%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_LUNATONE         // 1%
+pokemon SPECIES_LUNATONE         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -5684,37 +5685,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_GEODUDE
@@ -5724,61 +5725,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  55   // Mt. Mortar (Room above waterfall)
 
+
 walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 31, 32, 31, 32, 31, 31, 30, 30, 28, 30, 28, 30
+walklevels 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
 
-// morning encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
+// Morning
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MEDITITE         // 10%
+pokemon SPECIES_MARILL           // 10%
+pokemon SPECIES_CLEFAIRY         // 5%
+pokemon SPECIES_MEDICHAM         // 5%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_LUNATONE         // 1%
+pokemon SPECIES_LUNATONE         // 1%
 
-// day encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
+// Daytime
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MEDITITE         // 10%
+pokemon SPECIES_MARILL           // 10%
+pokemon SPECIES_CLEFAIRY         // 5%
+pokemon SPECIES_MEDICHAM         // 5%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_LUNATONE         // 1%
+pokemon SPECIES_LUNATONE         // 1%
 
-// night encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GOLBAT
+// Night
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MEDITITE         // 10%
+pokemon SPECIES_MARILL           // 10%
+pokemon SPECIES_CLEFAIRY         // 5%
+pokemon SPECIES_MEDICHAM         // 5%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_SOLROCK         // 4%
+pokemon SPECIES_LUNATONE         // 1%
+pokemon SPECIES_LUNATONE         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -5788,37 +5789,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 20, 30
-encounter SPECIES_SEAKING, 20, 30
-encounter SPECIES_SEAKING, 20, 30
-encounter SPECIES_SEAKING, 20, 30
+// Surf
+encounter SPECIES_MARILL, 25, 30     // 60%
+encounter SPECIES_AZUMARILL, 25, 30     // 30%
+encounter SPECIES_AZUMARILL, 25, 30     // 5%
+encounter SPECIES_AZUMARILL, 25, 30     // 4%
+encounter SPECIES_AZUMARILL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_GOLDEEN, 5, 10     // 60%
+encounter SPECIES_GOLDEEN, 5, 10     // 30%
+encounter SPECIES_GOLDEEN, 5, 10     // 5%
+encounter SPECIES_GOLDEEN, 5, 10     // 4%
+encounter SPECIES_GOLDEEN, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_BARBOACH, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 15%
+encounter SPECIES_GOLDEEN, 25, 30     // 4%
+encounter SPECIES_GOLDEEN, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GOLDEEN, 40, 40     // 40%
+encounter SPECIES_BARBOACH, 40, 40     // 40%
+encounter SPECIES_SEAKING, 40, 40     // 15%
+encounter SPECIES_WHISCASH, 40, 40     // 4%
+encounter SPECIES_WHISCASH, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_GRAVELER
@@ -5828,61 +5829,61 @@ pokemon SPECIES_GOLDEEN
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  56   // Mt. Mortar B1F
 
+
 walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 15, 17, 15, 17, 16, 16, 16, 16, 16, 16, 16, 16
+walklevels 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
 
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
+// Morning
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MACHOKE          // 10%
+pokemon SPECIES_HARIYAMA         // 10%
+pokemon SPECIES_CLEFAIRY         // 5%
+pokemon SPECIES_MARILL           // 5%
+pokemon SPECIES_METANG           // 4%
+pokemon SPECIES_PUPITAR          // 4%
+pokemon SPECIES_METANG           // 1%
+pokemon SPECIES_PUPITAR          // 1%
 
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
+// Daytime
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MACHOKE          // 10%
+pokemon SPECIES_HARIYAMA         // 10%
+pokemon SPECIES_CLEFAIRY         // 5%
+pokemon SPECIES_MARILL           // 5%
+pokemon SPECIES_METANG           // 4%
+pokemon SPECIES_PUPITAR          // 4%
+pokemon SPECIES_METANG           // 1%
+pokemon SPECIES_PUPITAR          // 1%
 
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_MACHOP
-pokemon SPECIES_MACHOP
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATICATE
+// Night
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_RHYHORN          // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MACHOKE          // 10%
+pokemon SPECIES_HARIYAMA         // 10%
+pokemon SPECIES_CLEFAIRY         // 5%
+pokemon SPECIES_MARILL           // 5%
+pokemon SPECIES_METANG           // 4%
+pokemon SPECIES_PUPITAR          // 4%
+pokemon SPECIES_METANG           // 1%
+pokemon SPECIES_PUPITAR          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -5892,37 +5893,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_GOLDEEN, 15, 25
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
-encounter SPECIES_SEAKING, 15, 25
+// Surf
+encounter SPECIES_MARILL, 25, 30     // 60%
+encounter SPECIES_AZUMARILL, 25, 30     // 30%
+encounter SPECIES_AZUMARILL, 25, 30     // 5%
+encounter SPECIES_AZUMARILL, 25, 30     // 4%
+encounter SPECIES_AZUMARILL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_GOLDEEN, 5, 10     // 60%
+encounter SPECIES_GOLDEEN, 5, 10     // 30%
+encounter SPECIES_GOLDEEN, 5, 10     // 5%
+encounter SPECIES_GOLDEEN, 5, 10     // 4%
+encounter SPECIES_GOLDEEN, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_BARBOACH, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 15%
+encounter SPECIES_GOLDEEN, 25, 30     // 4%
+encounter SPECIES_GOLDEEN, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GOLDEEN, 40, 40     // 40%
+encounter SPECIES_BARBOACH, 40, 40     // 40%
+encounter SPECIES_SEAKING, 40, 40     // 15%
+encounter SPECIES_WHISCASH, 40, 40     // 4%
+encounter SPECIES_WHISCASH, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_ZUBAT
@@ -5932,11 +5933,11 @@ pokemon SPECIES_GOLDEEN
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  57   // Route 43
+
 
 walkrate 20
 surfrate 10
@@ -5944,49 +5945,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 15, 15, 15, 15, 17, 17, 15, 15, 16, 17, 16, 17
+walklevels 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33
 
-// morning encounter slots
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_VENONAT
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_VENONAT
-pokemon SPECIES_PIDGEOTTO
+// Morning
+pokemon SPECIES_PIDGEOTTO        // 20%
+pokemon SPECIES_GIRAFARIG        // 20%
+pokemon SPECIES_EXEGGCUTE        // 10%
+pokemon SPECIES_KIRLIA           // 10%
+pokemon SPECIES_SWABLU           // 10%
+pokemon SPECIES_BIBAREL          // 10%
+pokemon SPECIES_LINOONE          // 5%
+pokemon SPECIES_LINOONE        // 5%
+pokemon SPECIES_MANECTRIC         // 4%
+pokemon SPECIES_MANECTRIC         // 4%
+pokemon SPECIES_MANECTRIC         // 1%
+pokemon SPECIES_MANECTRIC         // 1%
 
-// day encounter slots
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_PIDGEOTTO
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_FLAAFFY
+// Daytime
+pokemon SPECIES_PIDGEOTTO        // 20%
+pokemon SPECIES_GIRAFARIG        // 20%
+pokemon SPECIES_EXEGGCUTE        // 10%
+pokemon SPECIES_KIRLIA           // 10%
+pokemon SPECIES_SWABLU           // 10%
+pokemon SPECIES_BIBAREL          // 10%
+pokemon SPECIES_LINOONE          // 5%
+pokemon SPECIES_LINOONE        // 5%
+pokemon SPECIES_MANECTRIC         // 4%
+pokemon SPECIES_MANECTRIC         // 4%
+pokemon SPECIES_MANECTRIC         // 1%
+pokemon SPECIES_MANECTRIC         // 1%
 
-// night encounter slots
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_FLAAFFY
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_VENONAT
-pokemon SPECIES_VENONAT
-pokemon SPECIES_MAREEP
-pokemon SPECIES_VENONAT
-pokemon SPECIES_MAREEP
-pokemon SPECIES_VENONAT
+// Night
+pokemon SPECIES_VENOMOTH         // 20%
+pokemon SPECIES_GIRAFARIG        // 20%
+pokemon SPECIES_EXEGGCUTE        // 10%
+pokemon SPECIES_KIRLIA           // 10%
+pokemon SPECIES_SWABLU           // 10%
+pokemon SPECIES_BIBAREL          // 10%
+pokemon SPECIES_LINOONE          // 5%
+pokemon SPECIES_MANECTRIC        // 5%
+pokemon SPECIES_LINOONE          // 4%
+pokemon SPECIES_MANECTRIC        // 4%
+pokemon SPECIES_LINOONE          // 1%
+pokemon SPECIES_MANECTRIC        // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -5996,37 +5997,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_MAGIKARP, 15, 25
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 50, 50
+// Surf
+encounter SPECIES_SLOWPOKE, 25, 30     // 60%
+encounter SPECIES_SLOWPOKE, 25, 30     // 30%
+encounter SPECIES_SLOWPOKE, 25, 30     // 5%
+encounter SPECIES_SLOWPOKE, 25, 30     // 4%
+encounter SPECIES_SLOWPOKE, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_MAGIKARP, 5, 10     // 30%
+encounter SPECIES_MAGIKARP, 5, 10     // 5%
+encounter SPECIES_MAGIKARP, 5, 10     // 4%
+encounter SPECIES_MAGIKARP, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_MAGIKARP, 25, 30     // 15%
+encounter SPECIES_MAGIKARP, 25, 30     // 4%
+encounter SPECIES_MAGIKARP, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 15%
+encounter SPECIES_GYARADOS, 40, 40     // 4%
+encounter SPECIES_GYARADOS, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_FLAAFFY
@@ -6036,11 +6037,11 @@ pokemon SPECIES_MAGIKARP
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  58   // Lake of Rage
+
 
 walkrate 0
 surfrate 10
@@ -6050,47 +6051,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -6100,37 +6101,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_GYARADOS, 10, 20
-encounter SPECIES_GYARADOS, 10, 20
-encounter SPECIES_GYARADOS, 10, 20
+// Surf
+encounter SPECIES_MAGIKARP, 25, 30     // 60%
+encounter SPECIES_MAGIKARP, 25, 30     // 30%
+encounter SPECIES_MAGIKARP, 25, 30     // 5%
+encounter SPECIES_MAGIKARP, 25, 30     // 4%
+encounter SPECIES_MAGIKARP, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_FEEBAS, 5, 10     // 30%
+encounter SPECIES_FEEBAS, 5, 10     // 5%
+encounter SPECIES_FEEBAS, 5, 10     // 4%
+encounter SPECIES_FEEBAS, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GYARADOS, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_GYARADOS, 25, 30     // 40%
+encounter SPECIES_FEEBAS, 25, 30     // 15%
+encounter SPECIES_FEEBAS, 25, 30     // 4%
+encounter SPECIES_FEEBAS, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_GYARADOS, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_MAGIKARP, 40, 40     // 40%
+encounter SPECIES_FEEBAS, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 15%
+encounter SPECIES_MILOTIC, 40, 40     // 4%
+encounter SPECIES_MILOTIC, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6140,11 +6141,11 @@ pokemon SPECIES_MAGIKARP
 pokemon SPECIES_GYARADOS
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  59   // Route 44
+
 
 walkrate 25
 surfrate 10
@@ -6152,49 +6153,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 23, 22, 23, 22, 22, 22, 24, 24, 24, 26, 24, 26
+walklevels 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43
 
-// morning encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
+// Morning
+pokemon SPECIES_TANGELA          // 20%
+pokemon SPECIES_LICKITUNG        // 20%
+pokemon SPECIES_BUTTERFREE       // 10%
+pokemon SPECIES_BEEDRILL         // 10%
+pokemon SPECIES_BEAUTIFLY        // 10%
+pokemon SPECIES_SKIPLOOM         // 10%
+pokemon SPECIES_NUZLEAF          // 5%
+pokemon SPECIES_CHERRIM          // 5%
+pokemon SPECIES_ALTARIA          // 4%
+pokemon SPECIES_VESPIQUEN        // 4%
+pokemon SPECIES_ALTARIA          // 1%
+pokemon SPECIES_VESPIQUEN        // 1%
 
-// day encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
+// Daytime
+pokemon SPECIES_TANGELA          // 20%
+pokemon SPECIES_LICKITUNG        // 20%
+pokemon SPECIES_BUTTERFREE       // 10%
+pokemon SPECIES_BEEDRILL         // 10%
+pokemon SPECIES_BEAUTIFLY        // 10%
+pokemon SPECIES_SKIPLOOM         // 10%
+pokemon SPECIES_NUZLEAF          // 5%
+pokemon SPECIES_CHERRIM          // 5%
+pokemon SPECIES_ALTARIA          // 4%
+pokemon SPECIES_VESPIQUEN        // 4%
+pokemon SPECIES_ALTARIA          // 1%
+pokemon SPECIES_VESPIQUEN        // 1%
 
-// night encounter slots
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_TANGELA
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_BELLSPROUT
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_LICKITUNG
+// Night
+pokemon SPECIES_TANGELA          // 20%
+pokemon SPECIES_LICKITUNG        // 20%
+pokemon SPECIES_BUTTERFREE       // 10%
+pokemon SPECIES_BEEDRILL         // 10%
+pokemon SPECIES_DUSTOX           // 10%
+pokemon SPECIES_VENOMOTH         // 10%
+pokemon SPECIES_NUZLEAF          // 5%
+pokemon SPECIES_SNOVER           // 5%
+pokemon SPECIES_ALTARIA          // 4%
+pokemon SPECIES_VESPIQUEN        // 4%
+pokemon SPECIES_ALTARIA          // 1%
+pokemon SPECIES_VESPIQUEN        // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -6204,37 +6205,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_POLIWAG, 20, 30
-encounter SPECIES_POLIWAG, 15, 25
-encounter SPECIES_POLIWHIRL, 20, 30
-encounter SPECIES_POLIWHIRL, 20, 30
-encounter SPECIES_POLIWHIRL, 20, 30
+// Surf
+encounter SPECIES_LOTAD, 25, 30     // 60%
+encounter SPECIES_POLIWAG, 25, 30     // 30%
+encounter SPECIES_POLIWHIRL, 25, 30     // 5%
+encounter SPECIES_LOMBRE, 25, 30     // 4%
+encounter SPECIES_LOMBRE, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_REMORAID, 5, 10     // 30%
+encounter SPECIES_REMORAID, 5, 10     // 5%
+encounter SPECIES_REMORAID, 5, 10     // 4%
+encounter SPECIES_REMORAID, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_REMORAID, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_REMORAID, 25, 30     // 40%
+encounter SPECIES_REMORAID, 25, 30     // 15%
+encounter SPECIES_REMORAID, 25, 30     // 4%
+encounter SPECIES_REMORAID, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_REMORAID, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_MAGIKARP, 40, 40     // 40%
+encounter SPECIES_REMORAID, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 15%
+encounter SPECIES_OCTILLERY, 40, 40     // 4%
+encounter SPECIES_OCTILLERY, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_TANGELA
@@ -6244,61 +6245,61 @@ pokemon SPECIES_POLIWAG
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_REMORAID
-
 .close
 
 
 encounterdata  60   // Ice Path 1F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
+walklevels 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38
 
-// morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+// Morning
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SWINUB           // 20%
+pokemon SPECIES_SNOVER           // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SEEL             // 10%
+pokemon SPECIES_SMOOCHUM         // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_SWINUB           // 4%
+pokemon SPECIES_SWINUB           // 4%
+pokemon SPECIES_SWINUB           // 1%
+pokemon SPECIES_SWINUB           // 1%
 
-// day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+// Daytime
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SWINUB           // 20%
+pokemon SPECIES_SNOVER           // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SEEL             // 10%
+pokemon SPECIES_SMOOCHUM         // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_SWINUB           // 4%
+pokemon SPECIES_SWINUB           // 4%
+pokemon SPECIES_SWINUB           // 1%
+pokemon SPECIES_SWINUB           // 1%
 
-// night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+// Night
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SWINUB           // 20%
+pokemon SPECIES_SNOVER           // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SEEL             // 10%
+pokemon SPECIES_SMOOCHUM         // 10%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_GOLBAT           // 5%
+pokemon SPECIES_SWINUB           // 4%
+pokemon SPECIES_SWINUB           // 4%
+pokemon SPECIES_SWINUB           // 1%
+pokemon SPECIES_SWINUB           // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6308,37 +6309,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_SWINUB
@@ -6348,61 +6349,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  61   // Ice Path B1F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 21, 22, 21, 22, 22, 22, 23, 23, 22, 22, 22, 22
+walklevels 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37, 37
 
-// morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+// Morning
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SWINUB           // 20%
+pokemon SPECIES_GOLBAT         // 10%
+pokemon SPECIES_SWINUB           // 10%
+pokemon SPECIES_SNOVER           // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SNOVER           // 5%
+pokemon SPECIES_SEEL         // 5%
+pokemon SPECIES_SEEL             // 4%
+pokemon SPECIES_SMOOCHUM         // 4%
+pokemon SPECIES_SEEL             // 1%
+pokemon SPECIES_SMOOCHUM         // 1%
 
-// day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+// Daytime
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SWINUB           // 20%
+pokemon SPECIES_GOLBAT         // 10%
+pokemon SPECIES_SWINUB           // 10%
+pokemon SPECIES_SNOVER           // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SNOVER           // 5%
+pokemon SPECIES_SEEL         // 5%
+pokemon SPECIES_SEEL             // 4%
+pokemon SPECIES_SMOOCHUM         // 4%
+pokemon SPECIES_SEEL             // 1%
+pokemon SPECIES_SMOOCHUM         // 1%
 
-// night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+// Night
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_SWINUB           // 20%
+pokemon SPECIES_GOLBAT         // 10%
+pokemon SPECIES_SWINUB           // 10%
+pokemon SPECIES_SNOVER           // 10%
+pokemon SPECIES_SPHEAL           // 10%
+pokemon SPECIES_SNOVER           // 5%
+pokemon SPECIES_SEEL         // 5%
+pokemon SPECIES_SEEL             // 4%
+pokemon SPECIES_SMOOCHUM         // 4%
+pokemon SPECIES_SEEL             // 1%
+pokemon SPECIES_SMOOCHUM         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6412,37 +6413,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_SWINUB
@@ -6452,61 +6453,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  62   // Ice Path B2F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
+walklevels 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38, 38
 
-// morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+// Morning
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_PILOSWINE        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_PILOSWINE        // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_DEWGONG          // 10%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_JYNX             // 4%
+pokemon SPECIES_DELIBIRD         // 4%
+pokemon SPECIES_JYNX             // 1%
+pokemon SPECIES_DELIBIRD         // 1%
 
-// day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+// Daytime
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_PILOSWINE        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_PILOSWINE        // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_DEWGONG          // 10%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_JYNX             // 4%
+pokemon SPECIES_DELIBIRD         // 4%
+pokemon SPECIES_JYNX             // 1%
+pokemon SPECIES_DELIBIRD         // 1%
 
-// night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+// Night
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_PILOSWINE        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_PILOSWINE        // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_DEWGONG          // 10%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_SNORUNT          // 5%
+pokemon SPECIES_JYNX             // 4%
+pokemon SPECIES_DELIBIRD         // 4%
+pokemon SPECIES_JYNX             // 1%
+pokemon SPECIES_DELIBIRD         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6516,37 +6517,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_SWINUB
@@ -6556,61 +6557,61 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  63   // Ice Path B3F
 
+
 walkrate 5
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
+walklevels 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40
 
-// morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+// Morning
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_PILOSWINE        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_PILOSWINE        // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_DEWGONG          // 10%
+pokemon SPECIES_GLALIE           // 5%
+pokemon SPECIES_GLALIE           // 5%
+pokemon SPECIES_JYNX             // 4%
+pokemon SPECIES_SNEASEL          // 4%
+pokemon SPECIES_JYNX             // 1%
+pokemon SPECIES_SNEASEL          // 1%
 
-// day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
+// Daytime
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_PILOSWINE        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_PILOSWINE        // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_DEWGONG          // 10%
+pokemon SPECIES_GLALIE           // 5%
+pokemon SPECIES_GLALIE           // 5%
+pokemon SPECIES_JYNX             // 4%
+pokemon SPECIES_SNEASEL          // 4%
+pokemon SPECIES_JYNX             // 1%
+pokemon SPECIES_SNEASEL          // 1%
 
-// night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
+// Night
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_PILOSWINE        // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_PILOSWINE        // 10%
+pokemon SPECIES_SEALEO           // 10%
+pokemon SPECIES_DEWGONG          // 10%
+pokemon SPECIES_GLALIE           // 5%
+pokemon SPECIES_GLALIE           // 5%
+pokemon SPECIES_JYNX             // 4%
+pokemon SPECIES_SNEASEL          // 4%
+pokemon SPECIES_JYNX             // 1%
+pokemon SPECIES_SNEASEL          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -6620,37 +6621,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_SWINUB
@@ -6660,7 +6661,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
@@ -6770,6 +6770,7 @@ pokemon SPECIES_NONE
 
 encounterdata  65   // Blackthorn City
 
+
 walkrate 0
 surfrate 10
 rocksmashrate 0
@@ -6778,47 +6779,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -6828,37 +6829,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
+// Surf
+encounter SPECIES_MAGIKARP, 25, 30     // 60%
+encounter SPECIES_MAGIKARP, 25, 30     // 30%
+encounter SPECIES_MAGIKARP, 25, 30     // 5%
+encounter SPECIES_MAGIKARP, 25, 30     // 4%
+encounter SPECIES_MAGIKARP, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_DRATINI, 5, 10     // 30%
+encounter SPECIES_DRATINI, 5, 10     // 5%
+encounter SPECIES_DRATINI, 5, 10     // 4%
+encounter SPECIES_DRATINI, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_DRATINI, 25, 30     // 40%
+encounter SPECIES_DRATINI, 25, 30     // 15%
+encounter SPECIES_DRATINI, 25, 30     // 4%
+encounter SPECIES_DRATINI, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_MAGIKARP, 40, 40     // 40%
+encounter SPECIES_DRATINI, 40, 40     // 40%
+encounter SPECIES_DRATINI, 40, 40     // 15%
+encounter SPECIES_DRATINI, 40, 40     // 4%
+encounter SPECIES_DRATINI, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6868,11 +6869,11 @@ pokemon SPECIES_MAGIKARP
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  66   // Dragons Den
+
 
 walkrate 0
 surfrate 10
@@ -6882,47 +6883,47 @@ goodrodrate 50
 superrodrate 75
 walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 
-// morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Morning
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Daytime
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
-// night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+// Night
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 20%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 10%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 5%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 4%
+pokemon SPECIES_NONE             // 1%
+pokemon SPECIES_NONE             // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -6932,37 +6933,37 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_DRATINI, 5, 15
-encounter SPECIES_DRATINI, 5, 15
-encounter SPECIES_DRATINI, 5, 15
+// Surf
+encounter SPECIES_MAGIKARP, 25, 30     // 60%
+encounter SPECIES_DRATINI, 25, 30     // 30%
+encounter SPECIES_GYARADOS, 25, 30     // 5%
+encounter SPECIES_GYARADOS, 25, 30     // 4%
+encounter SPECIES_GYARADOS, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_DRATINI, 5, 10     // 30%
+encounter SPECIES_DRATINI, 5, 10     // 5%
+encounter SPECIES_DRATINI, 5, 10     // 4%
+encounter SPECIES_DRATINI, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_DRATINI, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_DRATINI, 25, 30     // 40%
+encounter SPECIES_GYARADOS, 25, 30     // 15%
+encounter SPECIES_GYARADOS, 25, 30     // 4%
+encounter SPECIES_GYARADOS, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_DRATINI, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_DRAGONAIR, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_MAGIKARP, 40, 40     // 40%
+encounter SPECIES_DRATINI, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 15%
+encounter SPECIES_DRAGONAIR, 40, 40     // 4%
+encounter SPECIES_DRAGONAIR, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_NONE
@@ -6972,11 +6973,11 @@ pokemon SPECIES_MAGIKARP
 pokemon SPECIES_DRATINI
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  67   // Route 45
+
 
 walkrate 25
 surfrate 10
@@ -6984,49 +6985,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 23, 23, 23, 23, 24, 24, 20, 20, 25, 27, 25, 27
+walklevels 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42
 
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_PHANPY
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
+// Morning
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GRUMPIG          // 20%
+pokemon SPECIES_DONPHAN          // 10%
+pokemon SPECIES_CAMERUPT         // 10%
+pokemon SPECIES_TORKOAL          // 10%
+pokemon SPECIES_GLIGAR           // 10%
+pokemon SPECIES_VIBRAVA          // 5%
+pokemon SPECIES_SKARMORY         // 5%
+pokemon SPECIES_VIBRAVA          // 4%
+pokemon SPECIES_SKARMORY         // 4%
+pokemon SPECIES_VIBRAVA          // 1%
+pokemon SPECIES_SKARMORY         // 1%
 
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_PHANPY
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
+// Daytime
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GRUMPIG          // 20%
+pokemon SPECIES_DONPHAN          // 10%
+pokemon SPECIES_CAMERUPT         // 10%
+pokemon SPECIES_TORKOAL          // 10%
+pokemon SPECIES_GLIGAR           // 10%
+pokemon SPECIES_VIBRAVA          // 5%
+pokemon SPECIES_SKARMORY         // 5%
+pokemon SPECIES_VIBRAVA          // 4%
+pokemon SPECIES_SKARMORY         // 4%
+pokemon SPECIES_VIBRAVA          // 1%
+pokemon SPECIES_SKARMORY         // 1%
 
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_PHANPY
-pokemon SPECIES_PHANPY
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
+// Night
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GRUMPIG          // 20%
+pokemon SPECIES_DONPHAN          // 10%
+pokemon SPECIES_CAMERUPT         // 10%
+pokemon SPECIES_TORKOAL          // 10%
+pokemon SPECIES_GLIGAR           // 10%
+pokemon SPECIES_VIBRAVA          // 5%
+pokemon SPECIES_SKARMORY         // 5%
+pokemon SPECIES_VIBRAVA          // 4%
+pokemon SPECIES_SKARMORY         // 4%
+pokemon SPECIES_VIBRAVA          // 1%
+pokemon SPECIES_SKARMORY         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -7036,37 +7037,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_MAGIKARP, 15, 25
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
+// Surf
+encounter SPECIES_MAGIKARP, 25, 30     // 60%
+encounter SPECIES_MAGIKARP, 25, 30     // 30%
+encounter SPECIES_MAGIKARP, 25, 30     // 5%
+encounter SPECIES_MAGIKARP, 25, 30     // 4%
+encounter SPECIES_MAGIKARP, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_DRATINI, 5, 10     // 30%
+encounter SPECIES_DRATINI, 5, 10     // 5%
+encounter SPECIES_DRATINI, 5, 10     // 4%
+encounter SPECIES_DRATINI, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_DRATINI, 25, 30     // 40%
+encounter SPECIES_DRATINI, 25, 30     // 15%
+encounter SPECIES_DRATINI, 25, 30     // 4%
+encounter SPECIES_DRATINI, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_MAGIKARP, 40, 40     // 40%
+encounter SPECIES_DRATINI, 40, 40     // 40%
+encounter SPECIES_DRATINI, 40, 40     // 15%
+encounter SPECIES_DRATINI, 40, 40     // 4%
+encounter SPECIES_DRATINI, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_SWABLU
@@ -7076,11 +7077,11 @@ pokemon SPECIES_MAGIKARP
 pokemon SPECIES_POLIWAG
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  68   // Route 46
+
 
 walkrate 25
 surfrate 0
@@ -7088,49 +7089,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 3, 2, 3, 2, 2, 2, 2, 2, 3, 4, 3, 4
+walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
 
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_GEODUDE          // 20%
+pokemon SPECIES_SPEAROW          // 20%
+pokemon SPECIES_SPOINK           // 10%
+pokemon SPECIES_SWABLU           // 10%
+pokemon SPECIES_RATTATA          // 10%
+pokemon SPECIES_NUMEL            // 10%
+pokemon SPECIES_SPOINK           // 5%
+pokemon SPECIES_SWABLU           // 5%
+pokemon SPECIES_JIGGLYPUFF       // 4%
+pokemon SPECIES_PHANPY           // 4%
+pokemon SPECIES_JIGGLYPUFF       // 1%
+pokemon SPECIES_PHANPY           // 1%
 
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_GEODUDE          // 20%
+pokemon SPECIES_SPEAROW          // 20%
+pokemon SPECIES_SPOINK           // 10%
+pokemon SPECIES_SWABLU           // 10%
+pokemon SPECIES_RATTATA          // 10%
+pokemon SPECIES_NUMEL            // 10%
+pokemon SPECIES_SPOINK           // 5%
+pokemon SPECIES_SWABLU           // 5%
+pokemon SPECIES_JIGGLYPUFF       // 4%
+pokemon SPECIES_PHANPY           // 4%
+pokemon SPECIES_JIGGLYPUFF       // 1%
+pokemon SPECIES_PHANPY           // 1%
 
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_GEODUDE          // 20%
+pokemon SPECIES_NUMEL            // 20%
+pokemon SPECIES_SPOINK           // 10%
+pokemon SPECIES_RATTATA          // 10%
+pokemon SPECIES_CLEFAIRY         // 10%
+pokemon SPECIES_JIGGLYPUFF       // 10%
+pokemon SPECIES_SPOINK           // 5%
+pokemon SPECIES_RATTATA          // 5%
+pokemon SPECIES_CLEFAIRY         // 4%
+pokemon SPECIES_JIGGLYPUFF       // 4%
+pokemon SPECIES_CLEFAIRY         // 1%
+pokemon SPECIES_JIGGLYPUFF       // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -7140,37 +7141,37 @@ pokemon SPECIES_MINUN
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_GEODUDE
@@ -7180,11 +7181,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  69   // Dark Cave (Route 31 entrance)
+
 
 walkrate 10
 surfrate 10
@@ -7192,49 +7193,49 @@ rocksmashrate 50
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 3, 2, 3, 2, 2, 2, 4, 4, 3, 4, 3, 4
+walklevels 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8
 
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_DUNSPARCE
+// Morning
+pokemon SPECIES_GEODUDE          // 20%
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_BRONZOR          // 10%
+pokemon SPECIES_MAKUHITA         // 10%
+pokemon SPECIES_SANDSHREW        // 10%
+pokemon SPECIES_TEDDIURSA        // 10%
+pokemon SPECIES_SLUGMA           // 5%
+pokemon SPECIES_SLUGMA        // 5%
+pokemon SPECIES_DUNSPARCE        // 4%
+pokemon SPECIES_LARVITAR        // 4%
+pokemon SPECIES_CHINGLING          // 1%
+pokemon SPECIES_CHINGLING         // 1%
 
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_DUNSPARCE
+// Daytime
+pokemon SPECIES_GEODUDE          // 20%
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_BRONZOR          // 10%
+pokemon SPECIES_MAKUHITA         // 10%
+pokemon SPECIES_SANDSHREW        // 10%
+pokemon SPECIES_TEDDIURSA        // 10%
+pokemon SPECIES_SLUGMA           // 5%
+pokemon SPECIES_SLUGMA        // 5%
+pokemon SPECIES_DUNSPARCE        // 4%
+pokemon SPECIES_LARVITAR        // 4%
+pokemon SPECIES_CHINGLING          // 1%
+pokemon SPECIES_CHINGLING         // 1%
 
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_DUNSPARCE
+// Night
+pokemon SPECIES_GEODUDE          // 20%
+pokemon SPECIES_ZUBAT            // 20%
+pokemon SPECIES_BRONZOR          // 10%
+pokemon SPECIES_MAKUHITA         // 10%
+pokemon SPECIES_SANDSHREW        // 10%
+pokemon SPECIES_WYNAUT       // 10%
+pokemon SPECIES_SLUGMA           // 5%
+pokemon SPECIES_SLUGMA        // 5%
+pokemon SPECIES_DUNSPARCE        // 4%
+pokemon SPECIES_LARVITAR        // 4%
+pokemon SPECIES_CHINGLING          // 1%
+pokemon SPECIES_CHINGLING         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -7244,37 +7245,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
+// Surf
+encounter SPECIES_SHELLOS, 25, 30     // 60%
+encounter SPECIES_WOOPER, 25, 30     // 30%
+encounter SPECIES_GASTRODON, 25, 30     // 5%
+encounter SPECIES_GASTRODON, 25, 30     // 4%
+encounter SPECIES_GASTRODON, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_DUNSPARCE, 4, 8
-encounter SPECIES_GEODUDE, 8, 14
+// Rock Smash
+encounter SPECIES_DUNSPARCE, 10, 10     // 90%
+encounter SPECIES_NOSEPASS, 10, 10     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_GOLDEEN, 5, 10     // 60%
+encounter SPECIES_BARBOACH, 5, 10     // 30%
+encounter SPECIES_WOOPER, 5, 10     // 5%
+encounter SPECIES_WOOPER, 5, 10     // 4%
+encounter SPECIES_WOOPER, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_BARBOACH, 25, 30     // 40%
+encounter SPECIES_QUAGSIRE, 25, 30     // 15%
+encounter SPECIES_QUAGSIRE, 25, 30     // 4%
+encounter SPECIES_QUAGSIRE, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_SEAKING, 40, 40     // 40%
+encounter SPECIES_WHISCASH, 40, 40     // 40%
+encounter SPECIES_QUAGSIRE, 40, 40     // 15%
+encounter SPECIES_QUAGSIRE, 40, 40     // 4%
+encounter SPECIES_QUAGSIRE, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_DUNSPARCE
@@ -7284,11 +7285,11 @@ pokemon SPECIES_MAGIKARP
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  70   // Dark Cave (Route 45 entrance)
+
 
 walkrate 10
 surfrate 10
@@ -7296,49 +7297,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 23, 23, 23, 23, 25, 25, 20, 20, 25, 23, 25, 23
+walklevels 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23
 
-// morning encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
+// Morning
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_TEDDIURSA        // 10%
+pokemon SPECIES_TEDDIURSA           // 10%
+pokemon SPECIES_WOBBUFFET        // 10%
+pokemon SPECIES_SLUGMA         // 10%
+pokemon SPECIES_SLUGMA         // 5%
+pokemon SPECIES_SLUGMA         // 5%
+pokemon SPECIES_WOBBUFFET         // 4%
+pokemon SPECIES_URSARING        // 4%
+pokemon SPECIES_WOBBUFFET        // 1%
+pokemon SPECIES_URSARING         // 1%
 
-// day encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
+// Daytime
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_TEDDIURSA        // 10%
+pokemon SPECIES_TEDDIURSA           // 10%
+pokemon SPECIES_WOBBUFFET        // 10%
+pokemon SPECIES_SLUGMA         // 10%
+pokemon SPECIES_SLUGMA         // 5%
+pokemon SPECIES_SLUGMA         // 5%
+pokemon SPECIES_WOBBUFFET         // 4%
+pokemon SPECIES_URSARING        // 4%
+pokemon SPECIES_WOBBUFFET        // 1%
+pokemon SPECIES_URSARING         // 1%
 
-// night encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_WOBBUFFET
-pokemon SPECIES_GOLBAT
+// Night
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_TEDDIURSA        // 10%
+pokemon SPECIES_TEDDIURSA           // 10%
+pokemon SPECIES_WOBBUFFET        // 10%
+pokemon SPECIES_SLUGMA         // 10%
+pokemon SPECIES_SLUGMA         // 5%
+pokemon SPECIES_SLUGMA         // 5%
+pokemon SPECIES_WOBBUFFET         // 4%
+pokemon SPECIES_URSARING        // 4%
+pokemon SPECIES_WOBBUFFET        // 1%
+pokemon SPECIES_URSARING         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -7348,37 +7349,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
-encounter SPECIES_MAGIKARP, 2, 10
+// Surf
+encounter SPECIES_SHELLOS, 25, 30     // 60%
+encounter SPECIES_WOOPER, 25, 30     // 30%
+encounter SPECIES_GASTRODON, 25, 30     // 5%
+encounter SPECIES_GASTRODON, 25, 30     // 4%
+encounter SPECIES_GASTRODON, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_GOLDEEN, 5, 10     // 60%
+encounter SPECIES_BARBOACH, 5, 10     // 30%
+encounter SPECIES_WOOPER, 5, 10     // 5%
+encounter SPECIES_WOOPER, 5, 10     // 4%
+encounter SPECIES_WOOPER, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_BARBOACH, 25, 30     // 40%
+encounter SPECIES_QUAGSIRE, 25, 30     // 15%
+encounter SPECIES_QUAGSIRE, 25, 30     // 4%
+encounter SPECIES_QUAGSIRE, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_SEAKING, 40, 40     // 40%
+encounter SPECIES_WHISCASH, 40, 40     // 40%
+encounter SPECIES_QUAGSIRE, 40, 40     // 15%
+encounter SPECIES_QUAGSIRE, 40, 40     // 4%
+encounter SPECIES_QUAGSIRE, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_GEODUDE
@@ -7388,11 +7389,11 @@ pokemon SPECIES_MAGIKARP
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata  71   // Route 47
+
 
 walkrate 25
 surfrate 15
@@ -7400,49 +7401,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 35, 35, 34, 33, 32, 31, 32, 31, 34, 31, 33, 40
+walklevels 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42
 
-// morning encounter slots
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_GLOOM
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DITTO
+// Morning
+pokemon SPECIES_FARFETCHD        // 20%
+pokemon SPECIES_DITTO            // 20%
+pokemon SPECIES_MILTANK          // 10%
+pokemon SPECIES_GLOOM            // 10%
+pokemon SPECIES_WEEPINBELL       // 10%
+pokemon SPECIES_FEAROW           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_SWELLOW          // 5%
+pokemon SPECIES_RATICATE         // 4%
+pokemon SPECIES_SWELLOW          // 4%
+pokemon SPECIES_RATICATE         // 1%
+pokemon SPECIES_SWELLOW          // 1%
 
-// day encounter slots
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_MILTANK
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_GLOOM
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DITTO
+// Daytime
+pokemon SPECIES_FARFETCHD        // 20%
+pokemon SPECIES_DITTO            // 20%
+pokemon SPECIES_MILTANK          // 10%
+pokemon SPECIES_GLOOM            // 10%
+pokemon SPECIES_WEEPINBELL       // 10%
+pokemon SPECIES_FEAROW           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_SWELLOW          // 5%
+pokemon SPECIES_RATICATE         // 4%
+pokemon SPECIES_SWELLOW          // 4%
+pokemon SPECIES_RATICATE         // 1%
+pokemon SPECIES_SWELLOW          // 1%
 
-// night encounter slots
-pokemon SPECIES_NOCTOWL
-pokemon SPECIES_MILTANK
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
-pokemon SPECIES_GLOOM
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_FEAROW
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DITTO
+// Night
+pokemon SPECIES_VENOMOTH         // 20%
+pokemon SPECIES_DITTO            // 20%
+pokemon SPECIES_MILTANK          // 10%
+pokemon SPECIES_GLOOM            // 10%
+pokemon SPECIES_WEEPINBELL       // 10%
+pokemon SPECIES_FEAROW           // 10%
+pokemon SPECIES_RATICATE         // 5%
+pokemon SPECIES_NOCTOWL          // 5%
+pokemon SPECIES_RATICATE         // 4%
+pokemon SPECIES_NOCTOWL          // 4%
+pokemon SPECIES_RATICATE         // 1%
+pokemon SPECIES_NOCTOWL          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -7452,37 +7453,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 15, 25
-encounter SPECIES_SEEL, 10, 20
-encounter SPECIES_STARYU, 15, 25
-encounter SPECIES_STARYU, 15, 25
-encounter SPECIES_STARYU, 15, 25
+// Surf
+encounter SPECIES_WINGULL, 25, 30     // 60%
+encounter SPECIES_SEEL, 25, 30     // 30%
+encounter SPECIES_SPHEAL, 25, 30     // 5%
+encounter SPECIES_STARYU, 25, 30     // 4%
+encounter SPECIES_STARYU, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_TENTACOOL, 5, 10     // 30%
+encounter SPECIES_TENTACOOL, 5, 10     // 5%
+encounter SPECIES_TENTACOOL, 5, 10     // 4%
+encounter SPECIES_TENTACOOL, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+// Good Rod
+encounter SPECIES_SHELLDER, 25, 30     // 40%
+encounter SPECIES_TENTACOOL, 25, 30     // 40%
+encounter SPECIES_CHINCHOU, 25, 30     // 15%
+encounter SPECIES_CHINCHOU, 25, 30     // 4%
+encounter SPECIES_CHINCHOU, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+// Super Rod
+encounter SPECIES_SHELLDER, 40, 40     // 40%
+encounter SPECIES_TENTACOOL, 40, 40     // 40%
+encounter SPECIES_TENTACRUEL, 40, 40     // 15%
+encounter SPECIES_LANTURN, 40, 40     // 4%
+encounter SPECIES_LANTURN, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_DITTO
@@ -7492,7 +7493,6 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_SHELLDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
@@ -7557,29 +7557,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_MAGIKARP, 30, 30
-encounter SPECIES_MAGIKARP, 35, 35
-encounter SPECIES_MAGIKARP, 35, 35
-encounter SPECIES_MAGIKARP, 35, 35
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -7661,29 +7661,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_POLIWAG, 30, 30
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_POLIWAG, 35, 35
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
 
 // good rod encounters
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -8181,29 +8181,29 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_SEEL, 30, 40
-encounter SPECIES_HORSEA, 30, 40
-encounter SPECIES_SLOWBRO, 35, 45
-encounter SPECIES_SLOWBRO, 50, 50
-encounter SPECIES_SLOWBRO, 35, 45
+encounter SPECIES_SEEL, 25, 30
+encounter SPECIES_HORSEA, 25, 30
+encounter SPECIES_SLOWBRO, 25, 30
+encounter SPECIES_SLOWBRO, 25, 30
+encounter SPECIES_SLOWBRO, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_KRABBY, 5, 10
+encounter SPECIES_KRABBY, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_PSYDUCK, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_HORSEA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_PSYDUCK, 25, 30
+encounter SPECIES_KRABBY, 25, 30
+encounter SPECIES_HORSEA, 25, 30
+encounter SPECIES_KRABBY, 25, 30
 
 // super rod encounters
 encounter SPECIES_GYARADOS, 40, 40
@@ -8285,29 +8285,29 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -8389,29 +8389,29 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -8493,29 +8493,29 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -8597,29 +8597,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_WOOPER, 20, 30
-encounter SPECIES_WOOPER, 20, 30
-encounter SPECIES_QUAGSIRE, 30, 40
-encounter SPECIES_QUAGSIRE, 30, 40
-encounter SPECIES_QUAGSIRE, 30, 40
+encounter SPECIES_WOOPER, 25, 30
+encounter SPECIES_WOOPER, 25, 30
+encounter SPECIES_QUAGSIRE, 25, 30
+encounter SPECIES_QUAGSIRE, 25, 30
+encounter SPECIES_QUAGSIRE, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_MAGIKARP, 40, 40
@@ -8642,55 +8642,58 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata  83   // Cliff Cave
 
+
 walkrate 10
 surfrate 0
 rocksmashrate 30
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 19, 20, 22, 19, 20, 18, 20, 20, 22, 23, 23
+walklevels 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41, 41
 
-// morning encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KINGLER
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ONIX
-pokemon SPECIES_WOOPER
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_STEELIX
-pokemon SPECIES_STEELIX
+// Morning
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_BALTOY           // 10%
+pokemon SPECIES_MACHOKE          // 10%
+pokemon SPECIES_TRAPINCH         // 10%
+pokemon SPECIES_KINGLER          // 10%
+pokemon SPECIES_QUAGSIRE         // 5%
+pokemon SPECIES_QUAGSIRE       // 5%
+pokemon SPECIES_HIPPOPOTAS         // 4%
+pokemon SPECIES_HIPPOPOTAS       // 4%
+pokemon SPECIES_STEELIX         // 1%
+pokemon SPECIES_STEELIX       // 1%
 
-// day encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KINGLER
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ONIX
-pokemon SPECIES_WOOPER
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_STEELIX
-pokemon SPECIES_STEELIX
+// Daytime
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_BALTOY           // 10%
+pokemon SPECIES_MACHOKE          // 10%
+pokemon SPECIES_TRAPINCH         // 10%
+pokemon SPECIES_KINGLER          // 10%
+pokemon SPECIES_QUAGSIRE         // 5%
+pokemon SPECIES_QUAGSIRE       // 5%
+pokemon SPECIES_HIPPOPOTAS         // 4%
+pokemon SPECIES_HIPPOPOTAS       // 4%
+pokemon SPECIES_STEELIX         // 1%
+pokemon SPECIES_STEELIX       // 1%
 
-// night encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KINGLER
-pokemon SPECIES_MACHOP
-pokemon SPECIES_ONIX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_MACHOKE
-pokemon SPECIES_STEELIX
-pokemon SPECIES_STEELIX
+
+// Night
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_BALTOY           // 10%
+pokemon SPECIES_MACHOKE          // 10%
+pokemon SPECIES_TRAPINCH         // 10%
+pokemon SPECIES_KINGLER          // 10%
+pokemon SPECIES_QUAGSIRE         // 5%
+pokemon SPECIES_QUAGSIRE       // 5%
+pokemon SPECIES_HIPPOPOTAS         // 4%
+pokemon SPECIES_HIPPOPOTAS       // 4%
+pokemon SPECIES_STEELIX         // 1%
+pokemon SPECIES_STEELIX       // 1%
+
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -8700,37 +8703,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_KRABBY, 20, 26
-encounter SPECIES_KINGLER, 28, 31
+// Rock Smash
+encounter SPECIES_KRABBY, 10, 10     // 90%
+encounter SPECIES_GRAVELER, 10, 10     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_GOLBAT
@@ -8740,11 +8743,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata  84   // Bell Tower 10F
+
 
 walkrate 5
 surfrate 0
@@ -8752,49 +8755,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 20, 21, 20, 21, 22, 22, 22, 22, 23, 24, 23, 24
+walklevels 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43
 
-// morning encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_DITTO            // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_ALTARIA          // 10%
+pokemon SPECIES_XATU             // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_LUNATONE          // 5%
+pokemon SPECIES_CLAYDOL          // 5%
+pokemon SPECIES_SOLROCK          // 4%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_SOLROCK          // 1%
+pokemon SPECIES_BRONZONG         // 1%
 
-// day encounter slots
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_DITTO            // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_ALTARIA          // 10%
+pokemon SPECIES_XATU             // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_LUNATONE          // 5%
+pokemon SPECIES_CLAYDOL          // 5%
+pokemon SPECIES_SOLROCK          // 4%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_SOLROCK          // 1%
+pokemon SPECIES_BRONZONG         // 1%
 
-// night encounter slots
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_GASTLY
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
-pokemon SPECIES_RATTATA
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_DITTO            // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_ALTARIA          // 10%
+pokemon SPECIES_XATU             // 10%
+pokemon SPECIES_HAUNTER          // 10%
+pokemon SPECIES_LUNATONE          // 5%
+pokemon SPECIES_CLAYDOL          // 5%
+pokemon SPECIES_SOLROCK          // 4%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_SOLROCK          // 1%
+pokemon SPECIES_BRONZONG         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ZIGZAGOON
@@ -8804,37 +8807,37 @@ pokemon SPECIES_SPINDA
 pokemon SPECIES_CHATOT
 pokemon SPECIES_MEDITITE
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -8844,7 +8847,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
@@ -8909,29 +8911,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_POLIWHIRL, 30, 40
-encounter SPECIES_POLIWHIRL, 35, 45
-encounter SPECIES_POLIWAG, 30, 40
-encounter SPECIES_POLIWAG, 30, 40
-encounter SPECIES_POLIWHIRL, 48, 48
+encounter SPECIES_POLIWHIRL, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -9013,29 +9015,29 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_SEAKING, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_SEAKING, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_SEAKING, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_SEAKING, 25, 30
 
 // super rod encounters
 encounter SPECIES_GYARADOS, 40, 40
@@ -9325,29 +9327,29 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_SEAKING, 30, 40
-encounter SPECIES_SEAKING, 35, 45
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
-encounter SPECIES_GOLDEEN, 30, 40
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -9533,36 +9535,36 @@ pokemon SPECIES_BIDOOF
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 10, 20
-encounter SPECIES_MAGIKARP, 10, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
-encounter SPECIES_GOLDEEN, 10, 20
+encounter SPECIES_GOLDEEN, 40, 40
+encounter SPECIES_GOLDEEN, 40, 40
+encounter SPECIES_GOLDEEN, 40, 40
+encounter SPECIES_GOLDEEN, 40, 40
+encounter SPECIES_GOLDEEN, 40, 40
 
 // swarm grass
 pokemon SPECIES_RATTATA
@@ -9637,29 +9639,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_QUAGSIRE, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_QUAGSIRE, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
 
 // super rod encounters
 encounter SPECIES_TENTACOOL, 40, 40
@@ -9741,29 +9743,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
 
 // rock smash encounters
-encounter SPECIES_KINGLER, 28, 31
-encounter SPECIES_KRABBY, 24, 27
+encounter SPECIES_KINGLER, 10, 10
+encounter SPECIES_KRABBY, 10, 10
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_KRABBY, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_KRABBY, 5, 10
+encounter SPECIES_KRABBY, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_KRABBY, 20, 20
-encounter SPECIES_CORSOLA, 20, 20
-encounter SPECIES_KRABBY, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_KRABBY, 25, 30
+encounter SPECIES_KRABBY, 25, 30
+encounter SPECIES_CORSOLA, 25, 30
+encounter SPECIES_KRABBY, 25, 30
 
 // super rod encounters
 encounter SPECIES_KRABBY, 40, 40
@@ -9845,29 +9847,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
+encounter SPECIES_SHELLDER, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
@@ -9949,29 +9951,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
+encounter SPECIES_SHELLDER, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
@@ -10053,29 +10055,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 5, 5
-encounter SPECIES_POLIWHIRL, 10, 10
-encounter SPECIES_POLIWHIRL, 10, 10
-encounter SPECIES_POLIWHIRL, 10, 10
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -10157,29 +10159,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 5, 5
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -10261,29 +10263,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
 
 // rock smash encounters
-encounter SPECIES_DIGLETT, 24, 37
-encounter SPECIES_SHUCKLE, 32, 35
+encounter SPECIES_DIGLETT, 10, 10
+encounter SPECIES_SHUCKLE, 10, 10
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
+encounter SPECIES_SHELLDER, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
@@ -10365,11 +10367,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_GRIMER, 20, 20
-encounter SPECIES_GRIMER, 15, 15
-encounter SPECIES_MUK, 15, 15
-encounter SPECIES_MUK, 15, 15
-encounter SPECIES_MUK, 15, 15
+encounter SPECIES_GRIMER, 25, 30
+encounter SPECIES_GRIMER, 25, 30
+encounter SPECIES_MUK, 25, 30
+encounter SPECIES_MUK, 25, 30
+encounter SPECIES_MUK, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -10469,29 +10471,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 15, 15
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GYARADOS, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GYARADOS, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
 
 // super rod encounters
 encounter SPECIES_MAGIKARP, 40, 40
@@ -10573,29 +10575,29 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
+encounter SPECIES_SHELLDER, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
@@ -10618,55 +10620,56 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata 102   // Route 48
 
+
 walkrate 25
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 25, 20, 20, 21, 22, 24, 21, 20, 20, 22, 22, 24
+walklevels 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30
 
-// morning encounter slots
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_TAUROS
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_TAUROS
+// Morning
+pokemon SPECIES_FARFETCHD        // 20%
+pokemon SPECIES_TANGELA          // 20%
+pokemon SPECIES_DIGLETT          // 10%
+pokemon SPECIES_GLOOM            // 10%
+pokemon SPECIES_WEEPINBELL       // 10%
+pokemon SPECIES_GIRAFARIG        // 10%
+pokemon SPECIES_KECLEON          // 5%
+pokemon SPECIES_CHANSEY          // 5%
+pokemon SPECIES_ABSOL         // 4%
+pokemon SPECIES_TROPIUS          // 4%
+pokemon SPECIES_ABSOL            // 1%
+pokemon SPECIES_TROPIUS          // 1%
 
-// day encounter slots
-pokemon SPECIES_FARFETCHD
-pokemon SPECIES_TAUROS
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_TAUROS
+// Daytime
+pokemon SPECIES_FARFETCHD        // 20%
+pokemon SPECIES_TANGELA          // 20%
+pokemon SPECIES_DIGLETT          // 10%
+pokemon SPECIES_GLOOM            // 10%
+pokemon SPECIES_WEEPINBELL       // 10%
+pokemon SPECIES_GIRAFARIG        // 10%
+pokemon SPECIES_KECLEON          // 5%
+pokemon SPECIES_CHANSEY          // 5%
+pokemon SPECIES_ABSOL         // 4%
+pokemon SPECIES_TROPIUS          // 4%
+pokemon SPECIES_ABSOL            // 1%
+pokemon SPECIES_TROPIUS          // 1%
 
-// night encounter slots
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_TAUROS
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_FEAROW
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GLOOM
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_DIGLETT
-pokemon SPECIES_GROWLITHE
-pokemon SPECIES_HOPPIP
-pokemon SPECIES_TAUROS
+// Night
+pokemon SPECIES_HOUNDOUR         // 20%
+pokemon SPECIES_TANGELA          // 20%
+pokemon SPECIES_DIGLETT          // 10%
+pokemon SPECIES_GLOOM            // 10%
+pokemon SPECIES_WEEPINBELL       // 10%
+pokemon SPECIES_GIRAFARIG        // 10%
+pokemon SPECIES_KECLEON          // 5%
+pokemon SPECIES_CHANSEY          // 5%
+pokemon SPECIES_ABSOL            // 4%
+pokemon SPECIES_TROPIUS          // 4%
+pokemon SPECIES_ABSOL            // 1%
+pokemon SPECIES_TROPIUS          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_PLUSLE
@@ -10676,37 +10679,37 @@ pokemon SPECIES_MINUN
 pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_TAUROS
@@ -10716,11 +10719,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata 103   // Route 26
+
 
 walkrate 25
 surfrate 10
@@ -10728,49 +10731,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 28, 28, 28, 28, 32, 32, 30, 30, 30, 30, 30, 30
+walklevels 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42, 42
 
-// morning encounter slots
-pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODRIO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODRIO
+// Morning
+pokemon SPECIES_DODRIO           // 20%
+pokemon SPECIES_SKIPLOOM         // 20%
+pokemon SPECIES_RAPIDASH         // 10%
+pokemon SPECIES_RAPIDASH         // 10%
+pokemon SPECIES_MAGNETON         // 10%
+pokemon SPECIES_KANGASKHAN       // 10%
+pokemon SPECIES_SANDSLASH        // 5%
+pokemon SPECIES_ARBOK            // 5%
+pokemon SPECIES_SANDSLASH        // 4%
+pokemon SPECIES_ARBOK            // 4%
+pokemon SPECIES_SANDSLASH        // 1%
+pokemon SPECIES_ARBOK            // 1%
 
-// day encounter slots
-pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_DODUO
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODRIO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODRIO
+// Daytime
+pokemon SPECIES_DODRIO           // 20%
+pokemon SPECIES_SKIPLOOM         // 20%
+pokemon SPECIES_RAPIDASH         // 10%
+pokemon SPECIES_RAPIDASH         // 10%
+pokemon SPECIES_MAGNETON         // 10%
+pokemon SPECIES_KANGASKHAN       // 10%
+pokemon SPECIES_SANDSLASH        // 5%
+pokemon SPECIES_ARBOK            // 5%
+pokemon SPECIES_SANDSLASH        // 4%
+pokemon SPECIES_ARBOK            // 4%
+pokemon SPECIES_SANDSLASH        // 1%
+pokemon SPECIES_ARBOK            // 1%
 
-// night encounter slots
-pokemon SPECIES_RATICATE
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_RATICATE
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_PONYTA
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
+// Night
+pokemon SPECIES_QUAGSIRE         // 20%
+pokemon SPECIES_HOUNDOOM         // 20%
+pokemon SPECIES_RAPIDASH         // 10%
+pokemon SPECIES_RAPIDASH         // 10%
+pokemon SPECIES_MAGNETON         // 10%
+pokemon SPECIES_KANGASKHAN       // 10%
+pokemon SPECIES_SANDSLASH        // 5%
+pokemon SPECIES_ARBOK            // 5%
+pokemon SPECIES_SANDSLASH        // 4%
+pokemon SPECIES_ARBOK            // 4%
+pokemon SPECIES_SANDSLASH        // 1%
+pokemon SPECIES_ARBOK            // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -10780,37 +10783,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACRUEL, 30, 30
-encounter SPECIES_TENTACRUEL, 30, 30
-encounter SPECIES_TENTACRUEL, 30, 30
+// Surf
+encounter SPECIES_BUIZEL, 25, 30     // 60%
+encounter SPECIES_FLOATZEL, 25, 30     // 30%
+encounter SPECIES_FLOATZEL, 25, 30     // 5%
+encounter SPECIES_FLOATZEL, 25, 30     // 4%
+encounter SPECIES_FLOATZEL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+// Old Rod
+encounter SPECIES_LUVDISC, 5, 10     // 60%
+encounter SPECIES_LUVDISC, 5, 10     // 30%
+encounter SPECIES_LUVDISC, 5, 10     // 5%
+encounter SPECIES_LUVDISC, 5, 10     // 4%
+encounter SPECIES_LUVDISC, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+// Good Rod
+encounter SPECIES_LUVDISC, 25, 30     // 40%
+encounter SPECIES_LUVDISC, 25, 30     // 40%
+encounter SPECIES_LUVDISC, 25, 30     // 15%
+encounter SPECIES_LUVDISC, 25, 30     // 4%
+encounter SPECIES_LUVDISC, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+// Super Rod
+encounter SPECIES_LUVDISC, 40, 40     // 40%
+encounter SPECIES_LANTURN, 40, 40     // 40%
+encounter SPECIES_TENTACRUEL, 40, 40     // 15%
+encounter SPECIES_TENTACRUEL, 40, 40     // 4%
+encounter SPECIES_TENTACRUEL, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_DODUO
@@ -10820,11 +10823,11 @@ pokemon SPECIES_TENTACOOL
 pokemon SPECIES_SHELLDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
 encounterdata 104   // Route 27
+
 
 walkrate 25
 surfrate 10
@@ -10832,49 +10835,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 28, 28, 28, 28, 30, 30, 30, 30, 32, 30, 32, 30
+walklevels 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43
 
-// morning encounter slots
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
+// Morning
+pokemon SPECIES_DODUO            // 20%
+pokemon SPECIES_SKIPLOOM         // 20%
+pokemon SPECIES_PONYTA           // 10%
+pokemon SPECIES_PONYTA           // 10%
+pokemon SPECIES_DODRIO           // 10%
+pokemon SPECIES_RAPIDASH         // 10%
+pokemon SPECIES_SANDSLASH        // 5%
+pokemon SPECIES_ARBOK            // 5%
+pokemon SPECIES_SANDSLASH        // 4%
+pokemon SPECIES_ARBOK            // 4%
+pokemon SPECIES_SANDSLASH        // 1%
+pokemon SPECIES_ARBOK            // 1%
 
-// day encounter slots
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_DODUO
-pokemon SPECIES_DODUO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
+// Daytime
+pokemon SPECIES_DODUO            // 20%
+pokemon SPECIES_SKIPLOOM         // 20%
+pokemon SPECIES_PONYTA           // 10%
+pokemon SPECIES_PONYTA           // 10%
+pokemon SPECIES_DODRIO           // 10%
+pokemon SPECIES_RAPIDASH         // 10%
+pokemon SPECIES_SANDSLASH        // 5%
+pokemon SPECIES_ARBOK            // 5%
+pokemon SPECIES_SANDSLASH        // 4%
+pokemon SPECIES_ARBOK            // 4%
+pokemon SPECIES_SANDSLASH        // 1%
+pokemon SPECIES_ARBOK            // 1%
 
-// night encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_PONYTA
-pokemon SPECIES_SANDSLASH
+// Night
+pokemon SPECIES_WOOPER           // 20%
+pokemon SPECIES_HOUNDOUR         // 20%
+pokemon SPECIES_PONYTA           // 10%
+pokemon SPECIES_QUAGSIRE         // 10%
+pokemon SPECIES_RAPIDASH         // 10%
+pokemon SPECIES_SANDSLASH        // 10%
+pokemon SPECIES_ARBOK            // 5%
+pokemon SPECIES_ARBOK            // 5%
+pokemon SPECIES_PONYTA           // 4%
+pokemon SPECIES_QUAGSIRE         // 4%
+pokemon SPECIES_RAPIDASH         // 1%
+pokemon SPECIES_SANDSLASH        // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_WHISMUR
@@ -10884,37 +10887,37 @@ pokemon SPECIES_LINOONE
 pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
-// surf encounters
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 15, 15
-encounter SPECIES_TENTACRUEL, 20, 20
-encounter SPECIES_TENTACRUEL, 20, 20
-encounter SPECIES_TENTACRUEL, 20, 20
+// Surf
+encounter SPECIES_BUIZEL, 25, 30     // 60%
+encounter SPECIES_FLOATZEL, 25, 30     // 30%
+encounter SPECIES_FLOATZEL, 25, 30     // 5%
+encounter SPECIES_FLOATZEL, 25, 30     // 4%
+encounter SPECIES_FLOATZEL, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+// Old Rod
+encounter SPECIES_LUVDISC, 5, 10     // 60%
+encounter SPECIES_LUVDISC, 5, 10     // 30%
+encounter SPECIES_LUVDISC, 5, 10     // 5%
+encounter SPECIES_LUVDISC, 5, 10     // 4%
+encounter SPECIES_LUVDISC, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+// Good Rod
+encounter SPECIES_LUVDISC, 25, 30     // 40%
+encounter SPECIES_LUVDISC, 25, 30     // 40%
+encounter SPECIES_LUVDISC, 25, 30     // 15%
+encounter SPECIES_LUVDISC, 25, 30     // 4%
+encounter SPECIES_LUVDISC, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_CHINCHOU, 40, 40
-encounter SPECIES_SHELLDER, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
-encounter SPECIES_LANTURN, 40, 40
-encounter SPECIES_TENTACRUEL, 40, 40
+// Super Rod
+encounter SPECIES_LUVDISC, 40, 40     // 40%
+encounter SPECIES_LUVDISC, 40, 40     // 40%
+encounter SPECIES_LUVDISC, 40, 40     // 15%
+encounter SPECIES_LUVDISC, 40, 40     // 4%
+encounter SPECIES_LUVDISC, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_DODUO
@@ -10924,7 +10927,6 @@ pokemon SPECIES_LUVDISC
 pokemon SPECIES_SHELLDER
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
@@ -10989,29 +10991,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_POLIWAG, 40, 40
-encounter SPECIES_POLIWAG, 35, 35
-encounter SPECIES_POLIWHIRL, 40, 40
-encounter SPECIES_POLIWHIRL, 40, 40
-encounter SPECIES_POLIWHIRL, 40, 40
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -11412,8 +11414,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 12, 16
-encounter SPECIES_GEODUDE, 17, 21
+encounter SPECIES_GEODUDE, 10, 10
+encounter SPECIES_GEODUDE, 10, 10
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -11450,55 +11452,56 @@ pokemon SPECIES_NONE
 
 encounterdata 110   // Victory Road 1F
 
+
 walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
+walklevels 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44
 
-// morning encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
+// Morning
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_RHYDON           // 10%
+pokemon SPECIES_URSARING           // 10%
+pokemon SPECIES_DONPHAN         // 10%
+pokemon SPECIES_MAROWAK          // 10%
+pokemon SPECIES_BRONZONG          // 5%
+pokemon SPECIES_STEELIX          // 5%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_STEELIX          // 4%
+pokemon SPECIES_BRONZONG         // 1%
+pokemon SPECIES_STEELIX          // 1%
 
-// day encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
+// Daytime
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_RHYDON           // 10%
+pokemon SPECIES_URSARING           // 10%
+pokemon SPECIES_DONPHAN         // 10%
+pokemon SPECIES_MAROWAK          // 10%
+pokemon SPECIES_BRONZONG          // 5%
+pokemon SPECIES_STEELIX          // 5%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_STEELIX          // 4%
+pokemon SPECIES_BRONZONG         // 1%
+pokemon SPECIES_STEELIX          // 1%
 
-// night encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
+// Night
+pokemon SPECIES_GOLBAT           // 20%
+pokemon SPECIES_GRAVELER         // 20%
+pokemon SPECIES_RHYDON           // 10%
+pokemon SPECIES_URSARING           // 10%
+pokemon SPECIES_DONPHAN         // 10%
+pokemon SPECIES_MAROWAK          // 10%
+pokemon SPECIES_BRONZONG          // 5%
+pokemon SPECIES_STEELIX          // 5%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_STEELIX          // 4%
+pokemon SPECIES_BRONZONG         // 1%
+pokemon SPECIES_STEELIX          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -11508,37 +11511,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_GRAVELER
@@ -11548,7 +11551,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
@@ -11925,29 +11927,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 5, 5
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -12133,29 +12135,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 10, 10
-encounter SPECIES_PSYDUCK, 5, 5
-encounter SPECIES_GOLDUCK, 10, 10
-encounter SPECIES_GOLDUCK, 10, 10
-encounter SPECIES_GOLDUCK, 10, 10
+encounter SPECIES_PSYDUCK, 25, 30
+encounter SPECIES_PSYDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -12445,29 +12447,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 15, 15
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_SEAKING, 15, 15
-encounter SPECIES_SEAKING, 15, 15
-encounter SPECIES_SEAKING, 15, 15
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -12549,29 +12551,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 15, 15
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_SEAKING, 15, 15
-encounter SPECIES_SEAKING, 15, 15
-encounter SPECIES_SEAKING, 15, 15
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -12757,29 +12759,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_QUAGSIRE, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
-encounter SPECIES_TENTACRUEL, 25, 25
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_QUAGSIRE, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
 
 // super rod encounters
 encounter SPECIES_TENTACOOL, 40, 40
@@ -13381,29 +13383,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 35, 35
-encounter SPECIES_TENTACOOL, 30, 30
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
-encounter SPECIES_TENTACRUEL, 35, 35
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
+encounter SPECIES_TENTACRUEL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_TENTACOOL, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
+encounter SPECIES_TENTACOOL, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_TENTACOOL, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
-encounter SPECIES_SHELLDER, 20, 20
-encounter SPECIES_CHINCHOU, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_TENTACOOL, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
+encounter SPECIES_SHELLDER, 25, 30
+encounter SPECIES_CHINCHOU, 25, 30
 
 // super rod encounters
 encounter SPECIES_CHINCHOU, 40, 40
@@ -13485,29 +13487,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 5, 5
-encounter SPECIES_POLIWHIRL, 10, 10
-encounter SPECIES_POLIWHIRL, 10, 10
-encounter SPECIES_POLIWHIRL, 10, 10
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
+encounter SPECIES_POLIWHIRL, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
+encounter SPECIES_POLIWAG, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -13589,29 +13591,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 5, 5
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -13693,29 +13695,29 @@ pokemon SPECIES_BUIZEL
 pokemon SPECIES_BIDOOF
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 5, 5
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
-encounter SPECIES_SEAKING, 10, 10
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
+encounter SPECIES_SEAKING, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
+encounter SPECIES_GOLDEEN, 5, 10
 
 // good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
 
 // super rod encounters
 encounter SPECIES_GOLDEEN, 40, 40
@@ -13738,55 +13740,56 @@ pokemon SPECIES_MAGIKARP
 
 encounterdata 132   // Tohjo Falls
 
+
 walkrate 15
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 22, 22, 22, 22, 22, 22, 21, 21, 20, 23, 20, 23
+walklevels 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43, 43
 
-// morning encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
+// Morning
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_AZUMARILL        // 20%
+pokemon SPECIES_SLOWBRO          // 10%
+pokemon SPECIES_DEWGONG          // 10%
+pokemon SPECIES_SLOWBRO          // 10%
+pokemon SPECIES_GOLBAT          // 10%
+pokemon SPECIES_QUAGSIRE         // 5%
+pokemon SPECIES_QUAGSIRE         // 5%
+pokemon SPECIES_BRONZONG          // 4%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_BRONZONG          // 1%
+pokemon SPECIES_BRONZONG         // 1%
 
-// day encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
+// Daytime
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_AZUMARILL        // 20%
+pokemon SPECIES_SLOWBRO          // 10%
+pokemon SPECIES_DEWGONG          // 10%
+pokemon SPECIES_SLOWBRO          // 10%
+pokemon SPECIES_GOLBAT          // 10%
+pokemon SPECIES_QUAGSIRE         // 5%
+pokemon SPECIES_QUAGSIRE         // 5%
+pokemon SPECIES_BRONZONG          // 4%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_BRONZONG          // 1%
+pokemon SPECIES_BRONZONG         // 1%
 
-// night encounter slots
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_RATICATE
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_RATTATA
-pokemon SPECIES_SLOWPOKE
+// Night
+pokemon SPECIES_RATICATE         // 20%
+pokemon SPECIES_AZUMARILL        // 20%
+pokemon SPECIES_SLOWBRO          // 10%
+pokemon SPECIES_DEWGONG          // 10%
+pokemon SPECIES_SLOWBRO          // 10%
+pokemon SPECIES_GOLBAT          // 10%
+pokemon SPECIES_QUAGSIRE         // 5%
+pokemon SPECIES_QUAGSIRE         // 5%
+pokemon SPECIES_BRONZONG          // 4%
+pokemon SPECIES_BRONZONG         // 4%
+pokemon SPECIES_BRONZONG          // 1%
+pokemon SPECIES_BRONZONG         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -13796,37 +13799,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_SLOWPOKE, 20, 20
-encounter SPECIES_SEAKING, 20, 20
-encounter SPECIES_SEAKING, 20, 20
-encounter SPECIES_SEAKING, 20, 20
+// Surf
+encounter SPECIES_GOLDEEN, 25, 30     // 60%
+encounter SPECIES_SLOWPOKE, 25, 30     // 30%
+encounter SPECIES_SEAKING, 25, 30     // 5%
+encounter SPECIES_SEAKING, 25, 30     // 4%
+encounter SPECIES_SEAKING, 25, 30     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
+// Old Rod
+encounter SPECIES_MAGIKARP, 5, 10     // 60%
+encounter SPECIES_GOLDEEN, 5, 10     // 30%
+encounter SPECIES_GOLDEEN, 5, 10     // 5%
+encounter SPECIES_GOLDEEN, 5, 10     // 4%
+encounter SPECIES_GOLDEEN, 5, 10     // 1%
 
-// good rod encounters
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
+// Good Rod
+encounter SPECIES_MAGIKARP, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 40%
+encounter SPECIES_GOLDEEN, 25, 30     // 15%
+encounter SPECIES_GOLDEEN, 25, 30     // 4%
+encounter SPECIES_GOLDEEN, 25, 30     // 1%
 
-// super rod encounters
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_GOLDEEN, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
-encounter SPECIES_SEAKING, 40, 40
-encounter SPECIES_MAGIKARP, 40, 40
+// Super Rod
+encounter SPECIES_GOLDEEN, 40, 40     // 40%
+encounter SPECIES_GYARADOS, 40, 40     // 40%
+encounter SPECIES_SEAKING, 40, 40     // 15%
+encounter SPECIES_SEAKING, 40, 40     // 4%
+encounter SPECIES_SEAKING, 40, 40     // 1%
 
 // swarm grass
 pokemon SPECIES_ZUBAT
@@ -13836,7 +13839,6 @@ pokemon SPECIES_GOLDEEN
 pokemon SPECIES_GOLDEEN
 // swarm super rod
 pokemon SPECIES_MAGIKARP
-
 .close
 
 
@@ -13946,55 +13948,56 @@ pokemon SPECIES_NONE
 
 encounterdata 134   // Victory Road 2F
 
+
 walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
+walklevels 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44
 
-// morning encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
+// Morning
+pokemon SPECIES_MACHOKE          // 20%
+pokemon SPECIES_HARIYAMA         // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_LOUDRED          // 10%
+pokemon SPECIES_GRAVELER         // 10%
+pokemon SPECIES_MEDICHAM         // 5%
+pokemon SPECIES_MAGNETON         // 5%
+pokemon SPECIES_VENOMOTH         // 4%
+pokemon SPECIES_KADABRA         // 4%
+pokemon SPECIES_VENOMOTH         // 1%
+pokemon SPECIES_KADABRA         // 1%
 
-// day encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
+// Daytime
+pokemon SPECIES_MACHOKE          // 20%
+pokemon SPECIES_HARIYAMA         // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_LOUDRED          // 10%
+pokemon SPECIES_GRAVELER         // 10%
+pokemon SPECIES_MEDICHAM         // 5%
+pokemon SPECIES_MAGNETON         // 5%
+pokemon SPECIES_VENOMOTH         // 4%
+pokemon SPECIES_KADABRA         // 4%
+pokemon SPECIES_VENOMOTH         // 1%
+pokemon SPECIES_KADABRA         // 1%
 
-// night encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
+// Night
+pokemon SPECIES_MACHOKE          // 20%
+pokemon SPECIES_HARIYAMA         // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_LOUDRED          // 10%
+pokemon SPECIES_GRAVELER         // 10%
+pokemon SPECIES_MEDICHAM         // 5%
+pokemon SPECIES_MAGNETON         // 5%
+pokemon SPECIES_VENOMOTH         // 4%
+pokemon SPECIES_KADABRA         // 4%
+pokemon SPECIES_VENOMOTH         // 1%
+pokemon SPECIES_KADABRA         // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -14004,37 +14007,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Rock Smash
+encounter SPECIES_NONE, 0, 0     // 90%
+encounter SPECIES_NONE, 0, 0     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_GRAVELER
@@ -14044,11 +14047,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
 encounterdata 135   // Victory Road 3F
+
 
 walkrate 10
 surfrate 0
@@ -14056,49 +14059,49 @@ rocksmashrate 40
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
+walklevels 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44, 44
 
-// morning encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
+// Morning
+pokemon SPECIES_DONPHAN          // 20%
+pokemon SPECIES_URSARING         // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MAWILE           // 10%
+pokemon SPECIES_SABLEYE          // 10%
+pokemon SPECIES_GABITE           // 5%
+pokemon SPECIES_MAGNETON         // 5%
+pokemon SPECIES_METANG           // 4%
+pokemon SPECIES_KADABRA          // 4%
+pokemon SPECIES_METANG           // 1%
+pokemon SPECIES_KADABRA          // 1%
 
-// day encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
+// Daytime
+pokemon SPECIES_DONPHAN          // 20%
+pokemon SPECIES_URSARING         // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MAWILE           // 10%
+pokemon SPECIES_SABLEYE          // 10%
+pokemon SPECIES_GABITE           // 5%
+pokemon SPECIES_MAGNETON         // 5%
+pokemon SPECIES_METANG           // 4%
+pokemon SPECIES_KADABRA          // 4%
+pokemon SPECIES_METANG           // 1%
+pokemon SPECIES_KADABRA          // 1%
 
-// night encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
+// Night
+pokemon SPECIES_DONPHAN          // 20%
+pokemon SPECIES_URSARING         // 20%
+pokemon SPECIES_GOLBAT           // 10%
+pokemon SPECIES_LAIRON           // 10%
+pokemon SPECIES_MAWILE           // 10%
+pokemon SPECIES_SABLEYE          // 10%
+pokemon SPECIES_GABITE           // 5%
+pokemon SPECIES_MAGNETON         // 5%
+pokemon SPECIES_METANG           // 4%
+pokemon SPECIES_KADABRA          // 4%
+pokemon SPECIES_METANG           // 1%
+pokemon SPECIES_KADABRA          // 1%
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -14108,37 +14111,37 @@ pokemon SPECIES_MAKUHITA
 pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Surf
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// rock smash encounters
-encounter SPECIES_GEODUDE, 24, 32
-encounter SPECIES_GRAVELER, 30, 33
+// Rock Smash
+encounter SPECIES_GRAVELER, 10, 10     // 90%
+encounter SPECIES_NOSEPASS, 10, 10     // 10%
 
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Old Rod
+encounter SPECIES_NONE, 0, 0     // 60%
+encounter SPECIES_NONE, 0, 0     // 30%
+encounter SPECIES_NONE, 0, 0     // 5%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Good Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+// Super Rod
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 40%
+encounter SPECIES_NONE, 0, 0     // 15%
+encounter SPECIES_NONE, 0, 0     // 4%
+encounter SPECIES_NONE, 0, 0     // 1%
 
 // swarm grass
 pokemon SPECIES_GRAVELER
@@ -14148,7 +14151,6 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 // swarm super rod
 pokemon SPECIES_NONE
-
 .close
 
 
@@ -14525,29 +14527,29 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 40, 40
-encounter SPECIES_PSYDUCK, 35, 35
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
+encounter SPECIES_PSYDUCK, 25, 30
+encounter SPECIES_PSYDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 22, 24
-encounter SPECIES_GRAVELER, 26, 30
+encounter SPECIES_GEODUDE, 10, 10
+encounter SPECIES_GRAVELER, 10, 10
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
 
 // good rod encounters
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -14629,29 +14631,29 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 40, 40
-encounter SPECIES_PSYDUCK, 35, 35
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
+encounter SPECIES_PSYDUCK, 25, 30
+encounter SPECIES_PSYDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
 
 // good rod encounters
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
@@ -14733,29 +14735,29 @@ pokemon SPECIES_BRONZOR
 pokemon SPECIES_CHINGLING
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 40, 40
-encounter SPECIES_PSYDUCK, 35, 35
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
-encounter SPECIES_GOLDUCK, 40, 40
+encounter SPECIES_PSYDUCK, 25, 30
+encounter SPECIES_PSYDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
+encounter SPECIES_GOLDUCK, 25, 30
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 22, 24
-encounter SPECIES_GRAVELER, 26, 30
+encounter SPECIES_GEODUDE, 10, 10
+encounter SPECIES_GRAVELER, 10, 10
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
 
 // good rod encounters
-encounter SPECIES_POLIWAG, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_MAGIKARP, 20, 20
-encounter SPECIES_GOLDEEN, 20, 20
-encounter SPECIES_POLIWAG, 20, 20
+encounter SPECIES_POLIWAG, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_MAGIKARP, 25, 30
+encounter SPECIES_GOLDEEN, 25, 30
+encounter SPECIES_POLIWAG, 25, 30
 
 // super rod encounters
 encounter SPECIES_POLIWAG, 40, 40
