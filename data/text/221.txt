@@ -1,1 +1,3 @@
-Custom item description
+A candy that never goes away. Increases Pokémon level by 1.
+A vial that fully heals a Pokémon. Restoring HP, PP, Status Conditions, and reviving from fainted.
+A repel that never fully runs out. Repels weaker Pokémon for 250 steps.

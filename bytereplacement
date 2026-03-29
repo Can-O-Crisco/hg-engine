@@ -498,3 +498,7 @@ arm9 02000E54 24 00 00 00 04 5C 1E 02
 # nop out rock smash table limiter compare
 0001 02204D1A C0 46 C0 46 C0 46 C0 46 C0 46 C0 46 C0 46 C0 46
 
+# sacred ash works on whole party regardless of HP
+arm9 020903D6 C0 46
+arm9 02081802 C0 46
+arm9 020819CA 3C D8

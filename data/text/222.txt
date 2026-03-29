@@ -2556,3 +2556,7 @@ Meteorite
 Scarlet Book
 Violet Book
 Briar’s Book
+Infinite Candy
+Poké Vial
+Infinite Repel
+
